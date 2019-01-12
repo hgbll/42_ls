@@ -17,6 +17,9 @@ SRCSDIR   			=	.
 SRCS				:=	$(SRCSDIR)/ft_list_dir.c			\
 						$(SRCSDIR)/main.c
 
+INCLUDES			=	-I libft/includes					\
+						-I includes
+
 OBJSDIR   			=	objs
 
 OBJS				:=	$(SRCS:$(SRCSDIR)/%.c=$(OBJSDIR)/%.o)
