@@ -1,0 +1,15 @@
+code pour diff linux et osx
+
+////
+#if ((defined __APPLE__) && (!defined MTIME))
+# define MTIME st_mtimespec.tv_sec
+#elif ((defined __linux) && (!defined MTIME))
+# define MTIME st_mtime
+#endif
+
+#ifdef MAC
+// Code pour MAC
+#else ifdef LINUX
+// Code pour Linux
+#endif
+////
