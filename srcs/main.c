@@ -2,46 +2,29 @@
 #include "libft.h"
 #include "ls.h"
 
-uint8_t					get_type(uint16_t mode)
-{
-	mode &= 0xF000;
-	if (mode == S_IFIFO)
-		return (0);
-	if (mode == S_IFCHR)
-		return (1);
-	if (mode == S_IFDIR)
-		return (2);
-	if (mode == S_IFBLK)
-		return (3);
-	if (mode == S_IFREG)
-		return (4);
-	if (mode == S_IFLNK)
-		return (5);
-	if (mode == S_IFSOCK)
-		return (6);
-	if (mode == S_IFWHT)
-		return (7);
-}
-
 void					arg_handler(char *arg, t_opt *opt)
 {
 	struct stat			stats;
 	struct stat			sym_stats;
-	uint16_t			type;
 
-	if (lstat(arg, &file_stats) != -1)
-	{
-		if (file_stats.st_mode & 0xF000 == S_IFLNK)
-		{
-			stat(arg, &file_stats);
-			if (file_stats.st_mode & 0xF000 == S_IFDIR)
-			ft_printf("Print symbolic link\n");//debug
-		}
-		else
-			display_dir(arg, options);
-	}
+	if (lstat(arg, &stats) == -1)
+		error_handler(arg, -1);
 	else
-		error_handler(arg);
+	{
+		if (is_symlink(stats.st_mode))
+		{
+			sym_stats = stats;
+			stat(arg, &stats);
+			if (is_dir(stats.st_mode) && !opt->ldisp)
+				display_dir(arg, opt);
+			else
+				ft_printf("TODO Disp symlink stats\n");//
+		}
+		else if (is_dir(stats.st_mode))
+			display_dir(arg, opt);
+		else
+			ft_printf("TODO Disp file\n");//
+	}
 }
 
 int						main(int argc, char **argv)
@@ -60,5 +43,6 @@ int						main(int argc, char **argv)
 			i++;
 		}
 	}
+	while(1);
 	return (0);
 }

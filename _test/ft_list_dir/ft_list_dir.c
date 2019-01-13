@@ -24,6 +24,19 @@ void				ft_list_dir(char *name)
 	{
 		while ((dirent = readdir(dir_to_parse)))
 			ft_putendl(dirent->d_name);
+		ft_putendl("");
+		//Only for test, not protected
 		closedir(dir_to_parse);
+		dir_to_parse = opendir(name);
+		ft_list_dir("objs");
+//		while ((dirent = readdir(dir_to_parse)))
+//		{
+//			if (dirent->d_type == DT_DIR)
+//			{
+//				if (!(ft_strcmp(dirent->d_name, ".")) &&
+//					!(ft_strcmp(dirent->d_name, "..")))
+//				ft_list_dir(dirent->d_name);
+//			}
+//		}
 	}
 }
