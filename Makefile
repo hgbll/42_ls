@@ -18,7 +18,9 @@ INCDIR				:=	$(LIBSUBDIR:%=%/includes) \
 # File Variables
 
 SRCS_RAW			:=	main.c 						\
-						get_options.c
+						get_options.c				\
+						display_dir.c				\
+						error_handler.c
 
 SRCS				:=	$(SRCS_RAW:%.c=$(SRCSDIR)/%.c)
 

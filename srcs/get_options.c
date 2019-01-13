@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include "libft.h"
-#include "ft_ls.h"
+#include "ls.h"
 
 void			exit_usage(void)
 {
@@ -9,7 +9,7 @@ void			exit_usage(void)
 }
 
 void			add_option(const char c,
-							t_options_u *options)
+							t_opt_u *opt)
 {
 	int			i;
 
@@ -24,24 +24,24 @@ void			add_option(const char c,
 		ft_printf("ls: option not implemented -- %c\n", c);
 		exit_usage();
 	}
-	options->opt_int[i] = 1;
+	opt->opt_int[i] = 1;
 }
 
-int				get_options(t_options_u *options,
+int				get_options(t_opt_u *opt,
 							int argc,
 							char **argv)
 {
 	int			i;
 	int			j;
 
-	ft_bzero(options, sizeof(t_options_u));
+	ft_bzero(opt, sizeof(t_opt_u));
 	i = 1;
 	while (i < argc && argv[i][0] == '-' && argv[i][1])
 	{
 		j = 1;
 		while (argv[i][j])
 		{
-			add_option(argv[i][j], options);
+			add_option(argv[i][j], opt);
 			j++;
 		}
 		i++;
