@@ -7,6 +7,7 @@ void					arg_handler(char *arg, t_opt *opt)
 	struct stat			stats;
 	struct stat			sym_stats;
 
+	// USE READLINK ???
 	if (lstat(arg, &stats) == -1)
 		error_handler(arg, -1);
 	else

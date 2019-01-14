@@ -16,27 +16,33 @@
 void				ft_list_dir(char *name)
 {
 	DIR				*dir_to_parse;
+//	DIR				*subdir;
 	struct dirent	*dirent;
+
+	ft_printf("Trying to open %s\n", name);
 
 	dir_to_parse = opendir(name);
 
 	if (dir_to_parse)
 	{
+		ft_printf("Opened %s\n", name);
 		while ((dirent = readdir(dir_to_parse)))
 			ft_putendl(dirent->d_name);
 		ft_putendl("");
 		//Only for test, not protected
 		closedir(dir_to_parse);
 		dir_to_parse = opendir(name);
-		ft_list_dir("objs");
-//		while ((dirent = readdir(dir_to_parse)))
-//		{
-//			if (dirent->d_type == DT_DIR)
-//			{
-//				if (!(ft_strcmp(dirent->d_name, ".")) &&
-//					!(ft_strcmp(dirent->d_name, "..")))
-//				ft_list_dir(dirent->d_name);
-//			}
-//		}
+//		ft_list_dir("objs");
+		while ((dirent = readdir(dir_to_parse)))
+		{
+			if (dirent->d_type == DT_DIR)
+			{
+				if (ft_strcmp(dirent->d_name, ".") &&
+						ft_strcmp(dirent->d_name, ".."))
+					ft_list_dir(dirent->d_name);
+			}
+		}
 	}
+	else
+		ft_printf("Could not open %s\n", name);
 }
