@@ -1,15 +1,16 @@
 #include <sys/stat.h>
+#include <stdlib.h>
 #include "libft.h"
 #include "ls.h"
 
-void					arg_handler(char *arg, t_opt *opt)
+int8_t					arg_handler(char *arg, t_opt *opt)
 {
 	struct stat			stats;
 	struct stat			sym_stats;
 
 	// USE READLINK ???
 	if (lstat(arg, &stats) == -1)
-		error_handler(arg, -1);
+		return (error_handler(arg, -1));
 	else
 	{
 		if (is_symlink(stats.st_mode))
@@ -17,14 +18,14 @@ void					arg_handler(char *arg, t_opt *opt)
 			sym_stats = stats;
 			stat(arg, &stats);
 			if (is_dir(stats.st_mode) && !opt->ldisp)
-				display_dir(arg, opt);
+				return (display_dir(arg, (uint32_t)ft_strlen(arg), opt, 0));
 			else
-				ft_printf("TODO Disp symlink stats\n");//
+				return (printf("TODO Disp symlink stats\n"));//
 		}
 		else if (is_dir(stats.st_mode))
-			display_dir(arg, opt);
+			return (display_dir(arg, (uint32_t)ft_strlen(arg), opt, 0));
 		else
-			ft_printf("TODO Disp file\n");//
+			return (printf("TODO Disp file\n"));//
 	}
 }
 
@@ -35,15 +36,15 @@ int						main(int argc, char **argv)
 
 	i = get_options(&opt, argc, argv);
 	if (i == argc)
-		display_dir(".", &(opt.opt_struct));
+		display_dir(".", (uint32_t)1, &(opt.opt_struct), 0);
 	else
 	{
 		while (i < argc)
 		{
-			arg_handler(argv[i], &(opt.opt_struct));
+			if (arg_handler(argv[i], &(opt.opt_struct)) == -2)
+				exit(EXIT_FAILURE);
 			i++;
 		}
 	}
-	while(1);
 	return (0);
 }

@@ -4,7 +4,7 @@
 
 void			exit_usage(void)
 {
-	ft_printf("usage: ls [-Ralrt] [file ...]\n");
+	printf("usage: ls [-Ralrt] [file ...]\n");
 	exit(EXIT_FAILURE);
 }
 
@@ -15,13 +15,13 @@ void			add_option(const char c,
 
 	if (!ft_strchr("ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1", c))
 	{
-		ft_printf("ls: illegal option -- %c\n", c);
+		printf("ls: illegal option -- %c\n", c);
 		exit_usage();
 	}
 	i = ft_strchri("Ralrt", c);
 	if (i == -1)
 	{
-		ft_printf("ls: option not implemented -- %c\n", c);
+		printf("ls: option not implemented -- %c\n", c);
 		exit_usage();
 	}
 	opt->opt_int[i] = 1;

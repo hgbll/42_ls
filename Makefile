@@ -21,7 +21,8 @@ SRCS_RAW			:=	main.c 						\
 						get_options.c				\
 						display_dir.c				\
 						error_handler.c				\
-						stats_type.c
+						stats_type.c				\
+						get_dirlist.c
 
 SRCS				:=	$(SRCS_RAW:%.c=$(SRCSDIR)/%.c)
 
@@ -50,6 +51,8 @@ $(NAME)				: 	$(OBJS)
 
 .PHONY				:	libs
 libs				:
+						git submodule foreach git checkout master
+						git submodule foreach git pull origin master
 						@$(foreach LIB, $(LIBSUBDIR), make -C $(LIB);)
 
 # Objs Target
