@@ -57,4 +57,5 @@ uint8_t				is_symlink(uint16_t mode);
 uint8_t				is_dir(uint16_t mode);
 char				get_type(uint16_t mode);
 
+void					tmp_printdir(t_dirlist *dir, char *name);
 #endif

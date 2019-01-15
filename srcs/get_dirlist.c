@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/14 16:19:00 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/14 19:18:13 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/14 20:21:26 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,9 +39,11 @@ int8_t					get_dirlist(t_dirlist *dir)
 	status = get_dirlistlen(dir);
 	if (status)
 		return (status);
-	ft_putstr("ALLOCATING DIR : ");
+	ft_putstr("ALLOCATING DIRLIST : ");
 	ft_putendl(dir->name);
 	dir->data = (struct dirent**)ft_memalloc(sizeof(struct dirent*) * dir->len);
+	ft_putstr("FILLING DIRLIST : ");
+	ft_putendl(dir->name);
 	if (dir->data)
 	{
 		if (!(dir->dirp = opendir(dir->name)))
@@ -53,7 +55,8 @@ int8_t					get_dirlist(t_dirlist *dir)
 			return (exit_dir(dir, dir->name, -2));
 		return (0);
 	}
-	ft_putstr("FAILED TO ALLOCATE DIR : ");
+	tmp_printdir(dir, dir->name);
+	ft_putstr("FAILED TO ALLOCATE DIRLIST : ");
 	ft_putendl(dir->name);
 	return (exit_dir(dir, dir->name, -2));
 }

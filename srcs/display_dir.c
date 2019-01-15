@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/14 16:19:39 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/14 19:27:10 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/14 20:22:43 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,23 @@
 #include "libft.h"
 #include "ls.h"
 
+void					tmp_printdir(t_dirlist *dir, char *name)
+{
+		size_t i = 0;
+
+		ft_putstr("CONTENT OF DIR : ");
+		ft_putstr(name);
+		ft_putendl("");
+		while (i < dir->len)
+		{
+			if(ft_strcmp(dir->data[i]->d_name, ".") &&
+				ft_strcmp(dir->data[i]->d_name, ".."))
+				ft_putendl(dir->data[i]->d_name);
+			i++;
+		}
+		ft_putendl("____________");
+
+}
 int8_t					exit_dir(t_dirlist *dir,
 									char *name,
 									int8_t status)
@@ -28,7 +45,7 @@ int8_t					exit_dir(t_dirlist *dir,
 		dir->data = NULL;
 	}
 	else
-		str_error_handler("Failed to allocate directory data.", name, -2);
+//		str_error_handler("Failed to allocate directory data.", name, -2);
 	if (dir->depth > 0)
 	{
 		free(name);
@@ -65,6 +82,7 @@ int8_t				display_subdirs(t_dirlist *dir,
 	ft_putendl(dir->name);//
 	while (i < dir->len)
 	{
+		tmp_printdir(dir, dir->name);
 		if (data[i]->d_type == DT_DIR && 
 				ft_strcmp(data[i]->d_name, ".") &&
 				ft_strcmp(data[i]->d_name, ".."))
@@ -115,19 +133,9 @@ int8_t				display_dir(char *name,
 	if (dir.data)
 	{
 		/* debug */
-		size_t i = 0;
-		ft_putstr(name);
-		ft_putstr(":\n");
-		while (i < dir.len)
-		{
-			if(ft_strcmp(dir.data[i]->d_name, ".") &&
-				ft_strcmp(dir.data[i]->d_name, ".."))
-				ft_putendl(dir.data[i]->d_name);
-			i++;
-		}
-		ft_putendl("");
 //		sort_dir(&dir, opt);
 //		print_dir(&dir, opt);
+		tmp_printdir(&dir, name);
 		if (opt->deep)
 			status = display_subdirs(&dir, dir.data, opt);
 	}
