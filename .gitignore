@@ -53,3 +53,6 @@ dkms.confe
 
 # Vim
 *.swp
+
+# Binary
+ft_ls
