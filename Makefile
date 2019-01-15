@@ -6,7 +6,7 @@
 #    By: hbally <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/15 17:12:52 by hbally            #+#    #+#              #
-#    Updated: 2019/01/15 17:23:16 by hbally           ###   ########.fr        #
+#    Updated: 2019/01/15 18:00:04 by hbally           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,9 +22,9 @@ TESTDIR				=	_test
 
 LIBDIR				=	.
 
-LIBSUBDIR			:=	$(LIBDIR)/libft
+LIBSUBDIRS			:=	$(LIBDIR)/libft
 
-INCDIR				:=	$(LIBSUBDIR:%=%/includes) \
+INCDIR				:=	$(LIBSUBDIRS:%=%/includes) \
 						includes
 
 # File Variables
@@ -44,6 +44,8 @@ OBJS  				:=	$(SRCS:$(SRCSDIR)/%.c=$(OBJSDIR)/%.o)
 
 DEPENDENCIES		:=	$(OBJS:%.o=%.d)
 
+LIBFILES			:=	$(foreach LIB, $(LIBSUBDIRS), $(LIB)/$(notdir $(LIB)).a)
+
 # Compiler Config
 
 CC					=	gcc
@@ -52,13 +54,13 @@ CFLAGS				+=	-Wall -Werror -Wextra
 
 INCLUDES			:=	$(addprefix -I ,$(INCDIR))
 
-LIBS				:=	$(foreach LIB, $(LIBSUBDIR), -L $(LIBSUBDIR) $(subst lib,-l,$(notdir $(LIB))))
+INCLIBS				:=	$(foreach LIB, $(LIBSUBDIRS), -L $(LIB) $(subst lib,-l,$(notdir $(LIB))))
 
 # Main Target
 
 all					:	libs $(NAME)
 
-$(NAME)				: 	$(OBJS)
+$(NAME)				: 	$(OBJS) $(LIBFILES)
 						$(CC) -o $@ $(CFLAGS) $(LIBS) $(OBJS)
 
 # Make Libs
@@ -66,7 +68,7 @@ $(NAME)				: 	$(OBJS)
 .PHONY				:	libs
 libs				:
 						@git submodule foreach git pull origin master
-						@$(foreach LIB, $(LIBSUBDIR), make -C $(LIB);)
+						@$(foreach LIB, $(LIBSUBDIRS), make -C $(LIB);)
 
 # Objs Target
 
@@ -82,12 +84,12 @@ $(OBJS)				: 	$(OBJSDIR)/%.o : $(SRCSDIR)/%.c
 clean				:
 						rm -f $(OBJS) $(DEPENDENCIES)
 						rm -rf $(OBJSDIR)
-						@$(foreach LIB, $(LIBSUBDIR), make clean -C $(LIB);)
+						@$(foreach LIB, $(LIBSUBDIRS), make clean -C $(LIB);)
 
 .PHONY				:	fclean
 fclean				:	clean
 						rm -f $(NAME)
-						@$(foreach LIB, $(LIBSUBDIR), make fclean -C $(LIB);)
+						@$(foreach LIB, $(LIBSUBDIRS), make fclean -C $(LIB);)
 
 .PHONY				:	re
 re					:	fclean all
