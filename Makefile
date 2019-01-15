@@ -6,7 +6,7 @@
 #    By: hbally <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/15 17:12:52 by hbally            #+#    #+#              #
-#    Updated: 2019/01/15 18:01:58 by hbally           ###   ########.fr        #
+#    Updated: 2019/01/15 18:41:05 by hbally           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,11 +32,12 @@ INCDIR				:=	$(LIBSUBDIRS:%=%/includes) \
 SRCS_RAW			:=	main.c 						\
 						get_options.c				\
 						display_dir.c				\
-						error_handler.c				\
-						stats_type.c				\
 						get_dirlist.c				\
+						sort_dir.c					\
+						print_dirlist.c				\
 						exit_dir.c					\
-						print_dir.c
+						error_handler.c				\
+						stats_type.c
 
 SRCS				:=	$(SRCS_RAW:%.c=$(SRCSDIR)/%.c)
 

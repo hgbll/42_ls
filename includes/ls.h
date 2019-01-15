@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:11:23 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/15 17:14:28 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/15 19:49:04 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,14 @@
 # include <sys/stat.h>
 # include "libft.h"
 
-# define FILE_ERR_OPEN -1
+# define STAT_RET_ERR -1
+
 # define DIR_ERR_OPEN -1
 # define DIR_ERR_CLOSE -2
 # define DIR_ERR_MALLOC -3
-# define CUR_DIR_ERR 1
-# define SUB_DIR_ERR 0
+
+# define ERR_PRINT 1
+# define ERR_NOPRINT 0
 
 typedef struct		s_opt
 {
@@ -65,18 +67,17 @@ int8_t				display_dir(char *name,
 								uint32_t namlen,
 								t_opt *opt,
 								size_t depth);
+int8_t				get_dirlist(t_dirlist *dir);
+int8_t				print_dirlist(t_dirlist *dir, t_entry *data, t_opt *opt);
 int8_t				exit_dir(t_dirlist *dir,
 								char *name,
 								int8_t status,
 								int8_t origin);
 int8_t				error_handler(char *arg, int8_t status);
 int8_t				str_error_handler(char *string, char *arg, int8_t status);
-int8_t				get_dirlist(t_dirlist *dir);
 
 uint8_t				is_symlink(uint16_t mode);
 uint8_t				is_dir(uint16_t mode);
 char				get_type(uint16_t mode);
-
-void				tmp_printdir(t_dirlist *dir, char *name);// DEBUG
 
 #endif

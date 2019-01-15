@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:06:39 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/15 18:03:23 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/15 19:24:39 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,14 +17,15 @@ int8_t					arg_handler(char *arg, t_opt *opt)
 	struct stat			stats;
 	struct stat			sym_stats;
 
-	if (lstat(arg, &stats) == -1) // USE READLINK ???
-		return (error_handler(arg, FILE_ERR_OPEN));
+	if (lstat(arg, &stats) == -1)
+		return (error_handler(arg, STAT_RET_ERR));
 	else
 	{
 		if (is_symlink(stats.st_mode))
 		{
 			sym_stats = stats;
-			stat(arg, &stats);
+			if (stat(arg, &stats) == -1)
+				return (error_handler(arg, STAT_RET_ERR));
 			if (is_dir(stats.st_mode) && !opt->ldisp)
 				return (display_dir(arg, (uint32_t)ft_strlen(arg), opt, 0));
 			else
@@ -49,7 +50,7 @@ int						main(int argc, char **argv)
 	{
 		while (i < argc)
 		{
-			if (arg_handler(argv[i], &(opt.opt_struct)) == -2)
+			if (arg_handler(argv[i], &(opt.opt_struct)) < DIR_ERR_OPEN)
 				exit(EXIT_FAILURE);
 			i++;
 		}

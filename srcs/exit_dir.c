@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 16:52:54 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/15 17:05:26 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/15 19:33:47 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,10 @@ static void				free_dirlist(t_dirlist *dir,
 		while (i < dir->len)
 		{
 			if (dir->data[i].name)
+			{
 				free(dir->data[i].name);
+				dir->data[i].name = NULL;
+			}
 			else
 				str_error_handler("Data allocation failure",
 									name, DIR_ERR_MALLOC);
@@ -41,9 +44,9 @@ static void				free_dirlist(t_dirlist *dir,
 int8_t					exit_dir(t_dirlist *dir,
 									char *name,
 									int8_t status,
-									int8_t origin)
+									int8_t print)
 {
-	if (status < 0 && origin == CUR_DIR_ERR)
+	if (status < 0 && print == ERR_PRINT)
 		error_handler(name, status);
 	free_dirlist(dir, name, status);
 	if (dir->depth > 0)
