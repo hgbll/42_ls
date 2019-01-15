@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:11:23 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/15 19:49:04 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/15 20:09:31 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,6 +68,7 @@ int8_t				display_dir(char *name,
 								t_opt *opt,
 								size_t depth);
 int8_t				get_dirlist(t_dirlist *dir);
+int8_t				sort_dir(t_dirlist *dir, t_entry *data, t_opt *opt);
 int8_t				print_dirlist(t_dirlist *dir, t_entry *data, t_opt *opt);
 int8_t				exit_dir(t_dirlist *dir,
 								char *name,
