@@ -6,7 +6,7 @@
 #    By: hbally <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/15 17:12:52 by hbally            #+#    #+#              #
-#    Updated: 2019/01/15 18:00:04 by hbally           ###   ########.fr        #
+#    Updated: 2019/01/15 18:01:58 by hbally           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -54,14 +54,14 @@ CFLAGS				+=	-Wall -Werror -Wextra
 
 INCLUDES			:=	$(addprefix -I ,$(INCDIR))
 
-INCLIBS				:=	$(foreach LIB, $(LIBSUBDIRS), -L $(LIB) $(subst lib,-l,$(notdir $(LIB))))
+INCLIBS				:=	$(foreach LIB, $(LIBSUBDIRS), -L $(LIBSUBDIRS) $(subst lib,-l,$(notdir $(LIB))))
 
 # Main Target
 
 all					:	libs $(NAME)
 
 $(NAME)				: 	$(OBJS) $(LIBFILES)
-						$(CC) -o $@ $(CFLAGS) $(LIBS) $(OBJS)
+						$(CC) -o $@ $(CFLAGS) $(INCLIBS) $(OBJS)
 
 # Make Libs
 
