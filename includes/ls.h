@@ -23,13 +23,19 @@ typedef union		u_opt
 	t_opt			opt_struct;
 }					t_opt_u;
 
+typedef struct		s_entry
+{
+	char			*name;
+	uint8_t			subdir;
+}					t_entry;
+
 typedef struct		s_dirlist
 {
 	char			*name;
 	size_t			namlen;
 	size_t			depth;
 	DIR				*dirp;
-	struct dirent	**data;
+	t_entry			*data;
 	size_t			len;
 	blkcnt_t		total_blocks;
 }					t_dirlist;

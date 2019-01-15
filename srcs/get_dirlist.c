@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/14 16:19:00 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/14 20:21:26 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/15 13:47:34 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,41 +22,57 @@ int8_t					get_dirlistlen(t_dirlist *dir)
 		return (exit_dir(dir, dir->name, -1));
 	while ((entry = readdir(dir->dirp)))
 		dir->len++;
-	ft_putstr("DIRLEN IS ");//
-	ft_putnbr(dir->len);//
-	ft_putstr("\n");//
+//	ft_putstr("DIRLEN IS ");//
+//	ft_putnbr(dir->len);//
+//	ft_putstr("\n");//
 	if (closedir(dir->dirp) == -1)
 		return (error_handler(dir->name, -2));
 	return (0);
 }
 
-int8_t					get_dirlist(t_dirlist *dir)
+int8_t					fill_dirlist(t_dirlist *dir)
 {
 	struct dirent		*entry;
-	int8_t				status;
 	size_t				index;
 
-	status = get_dirlistlen(dir);
-	if (status)
+	index = 0;
+	while ((entry = readdir(dir->dirp)))
+	{
+		if ((dir->data[index].name = ft_strnew(entry->d_namlen)) == NULL)
+			return (exit_dir(dir, dir->name, -2));
+		ft_strcpy(dir->data[index].name, entry->d_name);
+		if (entry->d_type == DT_DIR &&
+				ft_strcmp(entry->d_name, ".") &&
+				ft_strcmp(entry->d_name, ".."))
+			dir->data[index].subdir = 1;
+		index++;
+	}
+	return (0);
+}
+
+int8_t					get_dirlist(t_dirlist *dir)
+{
+	int8_t				status;
+
+	if ((status = get_dirlistlen(dir)) != 0)
 		return (status);
-	ft_putstr("ALLOCATING DIRLIST : ");
-	ft_putendl(dir->name);
-	dir->data = (struct dirent**)ft_memalloc(sizeof(struct dirent*) * dir->len);
-	ft_putstr("FILLING DIRLIST : ");
-	ft_putendl(dir->name);
+//	ft_putstr("ALLOCATING DIRLIST : ");//
+//	ft_putendl(dir->name);//
+	dir->data = (t_entry*)ft_memalloc(sizeof(t_entry) * dir->len);
+//	ft_putstr("FILLING DIRLIST : ");//
+//	ft_putendl(dir->name);//
 	if (dir->data)
 	{
 		if (!(dir->dirp = opendir(dir->name)))
 			return (exit_dir(dir, dir->name, -2));
-		index = 0;
-		while ((entry = readdir(dir->dirp)))
-			dir->data[index++] = entry;
+		if ((status = fill_dirlist(dir)) != 0)
+			return (status);
 		if (closedir(dir->dirp) == -1)
 			return (exit_dir(dir, dir->name, -2));
 		return (0);
 	}
-	tmp_printdir(dir, dir->name);
-	ft_putstr("FAILED TO ALLOCATE DIRLIST : ");
-	ft_putendl(dir->name);
+//	tmp_printdir(dir, dir->name);//
+//	ft_putstr("FAILED TO ALLOCATE DIRLIST : ");//
+//	ft_putendl(dir->name);//
 	return (exit_dir(dir, dir->name, -2));
 }
