@@ -6,80 +6,11 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/14 16:19:39 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/15 16:48:56 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/15 17:04:16 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <dirent.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include "libft.h"
 #include "ls.h"
-
-/*
-**	Return values indicate program status :
-**	0 	: OK
-**	-- Error in current dir :
-**  -1 	: Failed to open Dir or File -- Keep displaying / Print error
-**	-2	: Malloc failure			 -- Stop displaying / Print error
-**	-3	: closedir() failure		 -- Stop displaying / Print error
-**	-- Error in subdir :
-**  -4 	: Failed to open Dir or File -- Keep displaying / Don't print error
-**	-5	: Malloc failure			 -- Stop displaying / Don't print error
-**	-6	: closedir() failure		 -- Stop displaying / Don't print error
-** (see header for macros)
-*/
-
-void					tmp_printdir(t_dirlist *dir, char *name)
-{
-		size_t i = 0;
-
-//		ft_putstr("CONTENT OF DIR : ");
-		if (dir->depth)
-		{
-			ft_putendl("");
-			ft_putstr(name);
-			ft_putendl(":");
-		}
-		while (i < dir->len)
-		{
-			ft_putendl(dir->data[i].name);
-			i++;
-		}
-}
-
-int8_t					exit_dir(t_dirlist *dir,
-									char *name,
-									int8_t status,
-									int8_t origin)
-{
-	size_t				i;
-
-	if (status < 0 && origin == CUR_DIR_ERR)
-		error_handler(name, status);
-	if (!dir->data && status == -2)
-		str_error_handler("Data allocation failure", name, DIR_ERR_MALLOC);
-	if (dir->data)
-	{
-		i = 0;
-		while (i < dir->len)
-		{
-			if (dir->data[i].name)
-				free(dir->data[i].name);
-			else
-				str_error_handler("Data allocation failure", name, DIR_ERR_MALLOC);
-			i++;
-		}
-		free(dir->data);
-		dir->data = NULL;
-	}
-	if (dir->depth > 0)
-	{
-		free(name);
-		name = NULL;
-	}
-	return (status);
-}
 
 char				*makepath(t_dirlist *dir,
 								char *to_add,

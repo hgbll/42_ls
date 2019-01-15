@@ -1,12 +1,25 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ls.h                                               :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/01/15 17:11:23 by hbally            #+#    #+#             */
+/*   Updated: 2019/01/15 17:14:28 by hbally           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef LS_H
 # define LS_H
 
-# include <string.h>
 # include <stdint.h>
+# include <stdio.h>
+# include <stdlib.h>
+# include <string.h>
 # include <dirent.h>
 # include <sys/stat.h>
-
-# include <stdio.h> //DEBUG!! REMOVE AND REPLACE ALL PRINTF WITH FT_PRINTF
+# include "libft.h"
 
 # define FILE_ERR_OPEN -1
 # define DIR_ERR_OPEN -1
@@ -47,21 +60,15 @@ typedef struct		s_dirlist
 	blkcnt_t		total_blocks;
 }					t_dirlist;
 
-//TEST
-/*
-typedef struct		s_type
-{
-	uint16_t		type_int;
-	char			type_char;
-}					t_type;
-*/
-
 int					get_options(t_opt_u *opt, int argc, char **argv);
 int8_t				display_dir(char *name,
 								uint32_t namlen,
 								t_opt *opt,
 								size_t depth);
-int8_t				exit_dir(t_dirlist *dir, char *name, int8_t status, int8_t origin);
+int8_t				exit_dir(t_dirlist *dir,
+								char *name,
+								int8_t status,
+								int8_t origin);
 int8_t				error_handler(char *arg, int8_t status);
 int8_t				str_error_handler(char *string, char *arg, int8_t status);
 int8_t				get_dirlist(t_dirlist *dir);
@@ -70,5 +77,6 @@ uint8_t				is_symlink(uint16_t mode);
 uint8_t				is_dir(uint16_t mode);
 char				get_type(uint16_t mode);
 
-void					tmp_printdir(t_dirlist *dir, char *name);
+void				tmp_printdir(t_dirlist *dir, char *name);// DEBUG
+
 #endif

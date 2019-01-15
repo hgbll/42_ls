@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: hbally <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/01/15 17:12:52 by hbally            #+#    #+#              #
+#    Updated: 2019/01/15 17:15:45 by hbally           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME				=	ft_ls
 
 # Dir Variables
@@ -22,7 +34,9 @@ SRCS_RAW			:=	main.c 						\
 						display_dir.c				\
 						error_handler.c				\
 						stats_type.c				\
-						get_dirlist.c
+						get_dirlist.c				\
+						exit_dir.c					\
+						print_dir.c
 
 SRCS				:=	$(SRCS_RAW:%.c=$(SRCSDIR)/%.c)
 
@@ -51,8 +65,7 @@ $(NAME)				: 	$(OBJS)
 
 .PHONY				:	libs
 libs				:
-						git submodule foreach git checkout master
-						git submodule foreach git pull origin master
+						@git submodule foreach git pull origin master
 						@$(foreach LIB, $(LIBSUBDIR), make -C $(LIB);)
 
 # Objs Target

@@ -6,13 +6,11 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/14 16:19:00 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/15 16:36:15 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/15 17:06:10 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <dirent.h>
 #include "ls.h"
-#include "libft.h"
 
 int8_t					get_dirlistlen(t_dirlist *dir)
 {
@@ -22,9 +20,6 @@ int8_t					get_dirlistlen(t_dirlist *dir)
 		return (exit_dir(dir, dir->name, DIR_ERR_OPEN, CUR_DIR_ERR));
 	while ((entry = readdir(dir->dirp)))
 		dir->len++;
-//	ft_putstr("DIRLEN IS ");//
-//	ft_putnbr(dir->len);//
-//	ft_putstr("\n");//
 	if (closedir(dir->dirp) == -1)
 		return (exit_dir(dir, dir->name, DIR_ERR_CLOSE, CUR_DIR_ERR));
 	return (0);
@@ -56,11 +51,7 @@ int8_t					get_dirlist(t_dirlist *dir)
 
 	if ((status = get_dirlistlen(dir)) != 0)
 		return (status);
-//	ft_putstr("ALLOCATING DIRLIST : ");//
-//	ft_putendl(dir->name);//
 	dir->data = (t_entry*)ft_memalloc(sizeof(t_entry) * dir->len);
-//	ft_putstr("FILLING DIRLIST : ");//
-//	ft_putendl(dir->name);//
 	if (dir->data)
 	{
 		if (!(dir->dirp = opendir(dir->name)))
@@ -71,8 +62,5 @@ int8_t					get_dirlist(t_dirlist *dir)
 			return (exit_dir(dir, dir->name, DIR_ERR_CLOSE, CUR_DIR_ERR));
 		return (0);
 	}
-//	tmp_printdir(dir, dir->name);//
-//	ft_putstr("FAILED TO ALLOCATE DIRLIST : ");//
-//	ft_putendl(dir->name);//
 	return (exit_dir(dir, dir->name, DIR_ERR_MALLOC, CUR_DIR_ERR));
 }
