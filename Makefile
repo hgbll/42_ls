@@ -6,7 +6,7 @@
 #    By: hbally <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/15 17:12:52 by hbally            #+#    #+#              #
-#    Updated: 2019/01/15 18:41:05 by hbally           ###   ########.fr        #
+#    Updated: 2019/01/15 20:18:54 by hbally           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -68,7 +68,8 @@ $(NAME)				: 	$(OBJS) $(LIBFILES)
 
 .PHONY				:	libs
 libs				:
-						@git submodule foreach git pull origin master
+						@git submodule foreach git checkout -q master
+						@git submodule foreach git pull -q origin master
 						@$(foreach LIB, $(LIBSUBDIRS), make -C $(LIB);)
 
 # Objs Target
