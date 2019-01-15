@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:06:39 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/15 17:26:20 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/15 18:03:23 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,12 +28,12 @@ int8_t					arg_handler(char *arg, t_opt *opt)
 			if (is_dir(stats.st_mode) && !opt->ldisp)
 				return (display_dir(arg, (uint32_t)ft_strlen(arg), opt, 0));
 			else
-				return (printf("TODO Disp symlink stats\n"));//
+				return (ft_printf("TODO Disp symlink stats\n"));//
 		}
 		else if (is_dir(stats.st_mode))
 			return (display_dir(arg, (uint32_t)ft_strlen(arg), opt, 0));
 		else
-			return (printf("TODO Disp file\n"));//
+			return (ft_printf("TODO Disp file\n"));//
 	}
 }
 

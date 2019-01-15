@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:04:36 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/15 17:04:37 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/15 18:03:11 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void			exit_usage(void)
 {
-	printf("usage: ls [-Ralrt] [file ...]\n");
+	ft_printf("usage: ls [-Ralrt] [file ...]\n");
 	exit(EXIT_FAILURE);
 }
 
@@ -25,13 +25,13 @@ void			add_option(const char c,
 
 	if (!ft_strchr("ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1", c))
 	{
-		printf("ls: illegal option -- %c\n", c);
+		ft_printf("ls: illegal option -- %c\n", c);
 		exit_usage();
 	}
 	i = ft_strchri("Ralrt", c);
 	if (i == -1)
 	{
-		printf("ls: option not implemented -- %c\n", c);
+		ft_printf("ls: option not implemented -- %c\n", c);
 		exit_usage();
 	}
 	opt->opt_int[i] = 1;
