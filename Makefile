@@ -6,7 +6,7 @@
 #    By: hbally <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/15 17:12:52 by hbally            #+#    #+#              #
-#    Updated: 2019/01/15 17:15:45 by hbally           ###   ########.fr        #
+#    Updated: 2019/01/15 17:23:16 by hbally           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ OBJSDIR   			=	objs
 
 TESTDIR				=	_test
 
-LIBDIR				=	libs
+LIBDIR				=	.
 
 LIBSUBDIR			:=	$(LIBDIR)/libft
 

@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:06:39 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/15 17:06:40 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/15 17:26:20 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,7 @@ int8_t					arg_handler(char *arg, t_opt *opt)
 	struct stat			stats;
 	struct stat			sym_stats;
 
-	// USE READLINK ???
-	if (lstat(arg, &stats) == -1)
+	if (lstat(arg, &stats) == -1) // USE READLINK ???
 		return (error_handler(arg, FILE_ERR_OPEN));
 	else
 	{
