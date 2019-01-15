@@ -16,6 +16,7 @@ objs
 real_ls
 srcs
 test
+test.sh
 test1
 
 ./.git:
@@ -666,10 +667,14 @@ asprintf
 16
 30
 3a
+47
 49
 52
 55
+5b
+5e
 68
+6c
 6e
 6f
 77
@@ -679,12 +684,15 @@ asprintf
 89
 8a
 92
+9a
 a1
 ab
 b1
 b3
+b4
 bf
 c7
+c8
 cb
 ce
 d8
@@ -692,7 +700,9 @@ d9
 da
 dc
 e5
+eb
 fa
+fc
 info
 pack
 
@@ -716,6 +726,11 @@ dc65f68c73ac7a4948ab8b1083b2cb2e9b079f
 ..
 b6f4158c2dd713af82ed2b1ef15c6143b5a1fa
 
+./.git/objects/47:
+.
+..
+d8b70fd95f040dfe47a2b585ce2f420c087362
+
 ./.git/objects/49:
 .
 ..
@@ -729,12 +744,28 @@ d47954fa2566966b5b325de997ee550ce67476
 ./.git/objects/55:
 .
 ..
+6bd4976442f1d3a0fe2b84e0906b8ebb8c7954
 7c76672355937adb1e7437986f60ef57cae799
+
+./.git/objects/5b:
+.
+..
+14d0f7625c87a63cd974ccf3d9f989063c781c
+
+./.git/objects/5e:
+.
+..
+2f15f4741ffb4b9ce512f6cbadcb6241cee6af
 
 ./.git/objects/68:
 .
 ..
 dd9391b106284242132955a6581b6c58425ce1
+
+./.git/objects/6c:
+.
+..
+dbb3f5954f596bd7bc16dd61a547f12ed6f2eb
 
 ./.git/objects/6e:
 .
@@ -781,6 +812,11 @@ b5068339e146c20f1bba615577635a3a4bafb2
 ..
 4101e59682c4417e12bf9499991fd88e75b621
 
+./.git/objects/9a:
+.
+..
+367e5440d6bcd07b34c5db7161d118d174d19c
+
 ./.git/objects/a1:
 .
 ..
@@ -801,6 +837,11 @@ b5068339e146c20f1bba615577635a3a4bafb2
 ..
 5756ac8716322956e894961399d7e72fc57475
 
+./.git/objects/b4:
+.
+..
+6133d1b857d3411260102f2c7a745cebfd9214
+
 ./.git/objects/bf:
 .
 ..
@@ -810,6 +851,11 @@ b9366e300e8b2887d213137088a76d5476b8e7
 .
 ..
 86c95ed286082985791092b3fee1e8fedcf329
+
+./.git/objects/c8:
+.
+..
+0ce57a3223fb4edbe6f7d23e8917db8f34a8cf
 
 ./.git/objects/cb:
 .
@@ -848,10 +894,20 @@ d6786ed6fca72b8704c51466ac569972f3a54c
 a4e5065c940943875ba5c7f6931b37d9691208
 c0bab9eec2137c73077a49cf9f076ab78c9ec2
 
+./.git/objects/eb:
+.
+..
+eb3f0742694e79fa1b93c1b063bcbbbfcefd42
+
 ./.git/objects/fa:
 .
 ..
 94ad84a966dc0898ce2b7f8abf8730c2306a8f
+
+./.git/objects/fc:
+.
+..
+f79890ff802bc5dd5e2bcfc17a21c626bd9bc9
 
 ./.git/objects/info:
 .
@@ -956,7 +1012,6 @@ test2
 ./includes:
 .
 ..
-.ls.h.swp
 ls.h
 
 ./libs:
@@ -1391,8 +1446,6 @@ stats_type.o
 ./srcs:
 .
 ..
-.display_dir.c.swp
-.get_dirlist.c.swp
 display_dir.c
 error_handler.c
 get_dirlist.c

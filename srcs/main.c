@@ -10,7 +10,7 @@ int8_t					arg_handler(char *arg, t_opt *opt)
 
 	// USE READLINK ???
 	if (lstat(arg, &stats) == -1)
-		return (error_handler(arg, -1));
+		return (error_handler(arg, FILE_ERR_OPEN));
 	else
 	{
 		if (is_symlink(stats.st_mode))
