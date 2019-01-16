@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/14 16:19:39 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/16 09:53:04 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/16 11:15:44 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,7 +75,7 @@ int8_t				display_dir(char *name,
 	dir.namlen = namlen;
 	dir.depth = depth;
 	if (!(status = get_dirlist(&dir)) &&
-		!(status = sort_dir(&dir, dir.data, opt)) &&
+		!(status = sort_dir(&dir, opt)) &&
 		!(status = print_dirlist(&dir, dir.data, opt)) &&
 		opt->deep)
 	{

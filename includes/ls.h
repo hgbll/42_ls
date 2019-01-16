@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:11:23 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/15 20:09:31 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/16 11:15:35 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 # include <string.h>
 # include <dirent.h>
 # include <sys/stat.h>
+# include <time.h>
 # include "libft.h"
 
 # define STAT_RET_ERR -1
@@ -29,6 +30,8 @@
 
 # define ERR_PRINT 1
 # define ERR_NOPRINT 0
+
+typedef int8_t (*cmp_ptr)(char*, char*, int8_t);
 
 typedef struct		s_opt
 {
@@ -68,7 +71,7 @@ int8_t				display_dir(char *name,
 								t_opt *opt,
 								size_t depth);
 int8_t				get_dirlist(t_dirlist *dir);
-int8_t				sort_dir(t_dirlist *dir, t_entry *data, t_opt *opt);
+int8_t				sort_dir(t_dirlist *dir, t_opt *opt);
 int8_t				print_dirlist(t_dirlist *dir, t_entry *data, t_opt *opt);
 int8_t				exit_dir(t_dirlist *dir,
 								char *name,
