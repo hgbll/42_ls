@@ -6,7 +6,7 @@
 #    By: hbally <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/15 17:12:52 by hbally            #+#    #+#              #
-#    Updated: 2019/01/15 20:18:54 by hbally           ###   ########.fr        #
+#    Updated: 2019/01/16 18:39:54 by hbally           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,15 +29,21 @@ INCDIR				:=	$(LIBSUBDIRS:%=%/includes) \
 
 # File Variables
 
-SRCS_RAW			:=	main.c 						\
-						get_options.c				\
-						display_dir.c				\
-						get_dirlist.c				\
-						sort_dir.c					\
-						print_dirlist.c				\
-						exit_dir.c					\
-						error_handler.c				\
-						stats_type.c
+SRCS_RAW			:=	main.c 				\
+						get_options.c		\
+						display_dir.c		\
+						get_dirlist.c		\
+						sort_dir.c			\
+						print_dirlist.c		\
+						print_entry.c		\
+						exit_dir.c			\
+						error_handler.c		\
+						stats_type.c		\
+						get_mode.c			\
+						get_names.c			\
+						get_padding.c		\
+						get_symlink.c		\
+						get_time.c
 
 SRCS				:=	$(SRCS_RAW:%.c=$(SRCSDIR)/%.c)
 

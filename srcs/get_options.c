@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:04:36 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/16 09:52:29 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/16 18:39:37 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,7 @@ static void		exit_usage(void)
 	exit(EXIT_FAILURE);
 }
 
-static void		add_option(const char c,
-							t_opt_u *opt)
+static void		add_option(const char c, t_opt_u *opt)
 {
 	int			i;
 
@@ -37,9 +36,7 @@ static void		add_option(const char c,
 	opt->opt_int[i] = 1;
 }
 
-int				get_options(t_opt_u *opt,
-							int argc,
-							char **argv)
+int				get_options(t_opt_u *opt, int argc, char **argv)
 {
 	int			i;
 	int			j;
