@@ -6,13 +6,13 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/14 16:19:00 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/15 19:27:35 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/16 09:50:01 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
 
-int8_t					get_dirlistlen(t_dirlist *dir)
+static int8_t			get_dirlistlen(t_dirlist *dir)
 {
 	struct dirent			*entry;
 
@@ -25,7 +25,7 @@ int8_t					get_dirlistlen(t_dirlist *dir)
 	return (0);
 }
 
-int8_t					fill_dirlist(t_dirlist *dir)
+static int8_t			fill_dirlist(t_dirlist *dir)
 {
 	struct dirent		*entry;
 	size_t				index;

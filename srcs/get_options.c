@@ -6,19 +6,19 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:04:36 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/15 18:03:11 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/16 09:52:29 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
 
-void			exit_usage(void)
+static void		exit_usage(void)
 {
 	ft_printf("usage: ls [-Ralrt] [file ...]\n");
 	exit(EXIT_FAILURE);
 }
 
-void			add_option(const char c,
+static void		add_option(const char c,
 							t_opt_u *opt)
 {
 	int			i;

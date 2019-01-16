@@ -6,13 +6,13 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/14 16:19:39 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/15 19:46:59 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/16 09:53:04 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
 
-char				*makepath(t_dirlist *dir,
+static char			*makepath(t_dirlist *dir,
 								char *to_add,
 								size_t total_len,
 								int8_t addslash)
@@ -30,7 +30,7 @@ char				*makepath(t_dirlist *dir,
 	return (path);
 }
 
-int8_t				display_subdirs(t_dirlist *dir,
+static int8_t		display_subdirs(t_dirlist *dir,
 									t_entry *data,
 									t_opt *opt)
 {
