@@ -6,27 +6,17 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:03:13 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/15 20:10:06 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/16 15:48:56 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
 
-int8_t					print_dirlist(t_dirlist *dir, t_entry *data, t_opt *opt)
-{
-	size_t i = 0;
+//block size is a uint64_t
+int8_t				get_info();
 
-	if (dir->depth)
-	{
-		ft_putendl("");
-		ft_putstr(dir->name);
-		ft_putendl(":");
-	}
-	while (i < dir->len)
-	{
-		ft_putendl(dir->data[i].name);
-		i++;
-	}
-	return (0);
+int8_t				print_dirlist(t_dirlist *dir, t_entry *data, t_opt *opt)
+{
 }
 
+int8_t				print_singleton()//or included in print_dir

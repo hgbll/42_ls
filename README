@@ -1,4 +1,4 @@
 Todo
 
 Check norminette on libft after changes + norminette printf
-REPLACE ALL PRINTF WITH GOOD FT_PRINTF
+Change printf > return error value of -1
