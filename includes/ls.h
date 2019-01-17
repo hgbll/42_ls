@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:11:23 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/17 13:39:40 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/17 17:55:44 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -122,8 +122,7 @@ typedef struct		s_printdata
 
 int					get_options(t_opt_u *opt, int argc, char **argv);
 
-int8_t				display_dir(char *name, uint32_t namlen, t_opt *opt,
-								size_t depth);
+int8_t				display_dir(char *name, t_opt *opt, size_t depth);
 int8_t				get_dirlist(t_dirlist *dir, t_opt *opt);
 int8_t				sort_dir(t_dirlist *dir, t_opt *opt);
 int8_t				print_dirlist(t_dirlist *dir, t_opt *opt);
@@ -134,6 +133,8 @@ int8_t				exit_dir(t_dirlist *dir, char *name, int8_t status,
 /*
 ** Helper Functions
 */
+
+char				*path(t_dirlist *dir, char *to_add);
 
 int8_t				error_handler(char *arg, int8_t status);
 int8_t				str_error_handler(char *string, char *arg, int8_t status);

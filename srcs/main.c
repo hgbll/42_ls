@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:06:39 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/15 19:24:39 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/17 17:47:45 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,18 +21,18 @@ int8_t					arg_handler(char *arg, t_opt *opt)
 		return (error_handler(arg, STAT_RET_ERR));
 	else
 	{
-		if (is_symlink(stats.st_mode))
+		if (get_type(stats.st_mode) == 'l')
 		{
 			sym_stats = stats;
 			if (stat(arg, &stats) == -1)
 				return (error_handler(arg, STAT_RET_ERR));
-			if (is_dir(stats.st_mode) && !opt->ldisp)
-				return (display_dir(arg, (uint32_t)ft_strlen(arg), opt, 0));
+			if (get_type(stats.st_mode) == 'd' && !opt->ldisp)
+				return (display_dir(arg, opt, 0));
 			else
 				return (ft_printf("TODO Disp symlink stats\n"));//
 		}
-		else if (is_dir(stats.st_mode))
-			return (display_dir(arg, (uint32_t)ft_strlen(arg), opt, 0));
+		else if (get_type(stats.st_mode) == 'd')
+			return (display_dir(arg, opt, 0));
 		else
 			return (ft_printf("TODO Disp file\n"));//
 	}
@@ -45,7 +45,7 @@ int						main(int argc, char **argv)
 
 	i = get_options(&opt, argc, argv);
 	if (i == argc)
-		display_dir(".", (uint32_t)1, &(opt.opt_struct), 0);
+		display_dir(".", &(opt.opt_struct), 0);
 	else
 	{
 		while (i < argc)

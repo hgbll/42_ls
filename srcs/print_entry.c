@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 13:49:38 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/17 13:53:40 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/17 18:00:50 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,6 @@ static int8_t		print_entry_l(char *name, t_printdata *data)
 
 int8_t				print_entry(char *name, t_printdata *data)
 {
-	printf("ENTRY\n");//
 	if (data)
 		return (print_entry_l(name, data));
 	else
