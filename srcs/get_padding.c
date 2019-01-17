@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 17:18:59 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/16 19:51:14 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/17 12:06:16 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,8 +45,8 @@ int8_t				get_padding(t_dirlist *dir, t_printdata *data)
 	struct group	*grp;
 
 	i = 0;
-	data->total_blocks = 0;
-	ft_bzero(&(data->paddings), sizeof(t_paddings));
+//	data->total_blocks = 0;
+//	ft_bzero(&(data->paddings), sizeof(t_paddings));
 	while (i < dir->len)
 	{
 		if (lstat(dir->data[i].name, &stats) == STAT_RET_ERR ||
@@ -60,5 +60,10 @@ int8_t				get_padding(t_dirlist *dir, t_printdata *data)
 		data->total_blocks += stats.st_blocks;
 		i++;
 	}
+
+	//
+	ft_printf("link : %u\n size : %u\n ownername : %u\n groupname : %u\n",
+				data->paddings.links, data->paddings.size,
+				data->paddings.ownername, data->paddings.groupname);
 	return (0);
 }

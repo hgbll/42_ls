@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:11:23 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/16 20:21:32 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/17 11:55:24 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -108,9 +108,9 @@ typedef struct		s_printdata
 {
 	t_paddings		paddings;
 	blkcnt_t		total_blocks;
-	char			*symbols; // 3 chars + \0
-	char			*mode; //11 chars + \0
-	char			*time; //12 chars + \0
+	char			symbols[4]; 		// 3 chars + \0
+	char			mode[12]; 			//11 chars + \0
+	char			time[13]; 			//12 chars + \0
 	char			*ownername;
 	char			*groupname;
 	char			*linkpath;
@@ -127,8 +127,7 @@ int8_t				display_dir(char *name, uint32_t namlen, t_opt *opt,
 int8_t				get_dirlist(t_dirlist *dir, t_opt *opt);
 int8_t				sort_dir(t_dirlist *dir, t_opt *opt);
 int8_t				print_dirlist(t_dirlist *dir, t_opt *opt);
-int8_t				print_entry_l(char *name, t_printdata *data);
-int8_t				print_entry(char *name);
+int8_t				print_entry(char *name, t_printdata *data);
 int8_t				exit_dir(t_dirlist *dir, char *name, int8_t status,
 								int8_t origin);
 

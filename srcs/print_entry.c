@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 13:49:38 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/16 20:23:18 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/17 12:02:51 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,12 +16,7 @@ static int8_t		get_data(char *name, struct stat *stats, t_printdata *data)
 {
 	int8_t	status;
 
-	//TEMPORARY
-	data->symbols = ft_strnew(100);
 	ft_strcpy(data->symbols, "rwx");
-	data->mode = ft_strnew(100);
-	data->time = ft_strnew(100);
-	//
 	get_mode(stats, data);
 	get_names(stats, data);
 	if ((status = get_time(stats, data)) ||
@@ -31,7 +26,7 @@ static int8_t		get_data(char *name, struct stat *stats, t_printdata *data)
 	return (0);
 }
 
-int8_t				print_entry_l(char *name, t_printdata *data)
+static int8_t		print_entry_l(char *name, t_printdata *data)
 {
 	struct stat		stats;
 	int8_t			status;
@@ -48,14 +43,19 @@ int8_t				print_entry_l(char *name, t_printdata *data)
 						data->time,
 						name,
 						data->linkpath ? data->linkpath : "");
-	if (data->linkpath)
-		free(data->linkpath); // and other mallocs
-	return (status);
+//	if (data->linkpath)
+//		free(data->linkpath);
+	return (status == -1 ? status : 0);
 }
 
-int8_t				print_entry(char *name)
+int8_t				print_entry(char *name, t_printdata *data)
 {
-	if (ft_printf("%s\n", name) == -1)
-		return (DIR_ERR_PRINT);
-	return (0);
+	if (data)
+		return (print_entry_l(name, data));
+	else
+	{
+		if (ft_printf("%s\n", name) == -1)
+			return (DIR_ERR_PRINT);
+		return (0);
+	}
 }
