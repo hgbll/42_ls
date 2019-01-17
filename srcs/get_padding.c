@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 17:18:59 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/17 12:06:16 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/17 13:45:31 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,12 @@
 
 //block size is a uint64_t
 
-static void			update_padding(char *str, uint64_t n, uint8_t *current)
+static void			update_padding(char *str, uint64_t n, uint16_t *current)
 {
-	uint8_t			len;
+	uint16_t		len;
 
 	if (str)
-		len = (uint8_t)ft_strlen(str);
+		len = (uint16_t)ft_strlen(str);
 	else
 	{
 		len = 1;
@@ -37,6 +37,12 @@ static void			update_padding(char *str, uint64_t n, uint8_t *current)
 **	Note : get_padding also calculates total block count for -R option
 */
 
+static void			add_whitespace(t_paddings *paddings)
+{
+	paddings->ownername += 1;
+	paddings->size += 1;
+}
+
 int8_t				get_padding(t_dirlist *dir, t_printdata *data)
 {
 	size_t			i;
@@ -45,8 +51,6 @@ int8_t				get_padding(t_dirlist *dir, t_printdata *data)
 	struct group	*grp;
 
 	i = 0;
-//	data->total_blocks = 0;
-//	ft_bzero(&(data->paddings), sizeof(t_paddings));
 	while (i < dir->len)
 	{
 		if (lstat(dir->data[i].name, &stats) == STAT_RET_ERR ||
@@ -60,10 +64,6 @@ int8_t				get_padding(t_dirlist *dir, t_printdata *data)
 		data->total_blocks += stats.st_blocks;
 		i++;
 	}
-
-	//
-	ft_printf("link : %u\n size : %u\n ownername : %u\n groupname : %u\n",
-				data->paddings.links, data->paddings.size,
-				data->paddings.ownername, data->paddings.groupname);
+	add_whitespace(&(data->paddings));
 	return (0);
 }

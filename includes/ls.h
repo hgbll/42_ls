@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:11:23 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/17 11:55:24 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/17 13:39:40 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,10 +97,10 @@ typedef union		u_mode
 
 typedef struct		s_paddings
 {
-	uint8_t			links;
-	uint8_t			size;
-	uint8_t			ownername;
-	uint8_t			groupname;
+	uint16_t		links;
+	uint16_t		size;
+	uint16_t		ownername;
+	uint16_t		groupname;
 
 }					t_paddings;
 

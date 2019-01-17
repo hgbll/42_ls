@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 18:02:10 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/17 12:10:59 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/17 13:01:54 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char		get_type(uint16_t mode)
 {
-	mode &= ((mode << 12) & 0xF000);
+	mode &= 0xF000;
 	if (mode == S_IFREG)
 		return ('-');
 	else if (mode == S_IFDIR)
@@ -42,20 +42,18 @@ void		get_mode(struct stat *stats, t_printdata *data)
 	t_mode			mode;
 
 	mode.raw = stats->st_mode;
-	printf("%u\n", mode.bits.filetype);
-	data->mode[0] = get_type(mode.bits.filetype);
+	data->mode[0] = get_type(mode.raw);
 	i = 0x100;
 	j = 1;
-//	ft_printf("i = %d, j = %d, mode = %s\n", i, j, data->mode);
 	while (i > 0)
 	{
 		if (i & mode.bits.rights)
-			data->mode[j] = data->symbols[j - 1 % 3];
+			data->mode[j] = data->symbols[(j - 1) % 3];
 		else
 			data->mode[j] = '-';
 		i /= 2;
 		j++;
-//		ft_printf("i = %d, j = %d, mode = %s\n", i, j, data->mode);
 	}
-	data->mode[j] = ' ';
+	data->mode[j++] = ' ';
+	data->mode[j] = '\0';
 }

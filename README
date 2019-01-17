@@ -2,3 +2,17 @@ Todo
 
 Check norminette on libft after changes + norminette printf
 Change printf > return error value of -1
+/dev > problem
+
+
+>> ls /dev/  >> aff le dossier full
+afficher grid si groupname == NULL
+
+sur du multi-args :
+
+affichage :
+1) les erreurs de dossiers imposs a ouvrir
+2) les erreurs de fichiers imposs a ouvrir
+3) print les fichiers donnes en arg (ordre ascii)
+4) print les dossiers (toujours mettre dossier: devant si plusieurs arg ou recurs, mm si error)
+	les dossiers sont en ordre ascii
