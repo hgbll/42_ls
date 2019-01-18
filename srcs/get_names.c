@@ -18,7 +18,7 @@ int8_t		get_names(struct stat *stats, t_printdata *data)
 	struct group	*grp;
 
 	if	(!(pw = getpwuid(stats->st_uid)) || !(grp = getgrgid(stats->st_gid)))
-		return (STAT_RET_ERR);
+		return (DIR_ERR_OPEN);
 	data->ownername = pw->pw_name;
 	data->groupname = grp->gr_name;
 	return (0);

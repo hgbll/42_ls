@@ -18,14 +18,14 @@ int8_t					arg_handler(char *arg, t_opt *opt)
 	struct stat			sym_stats;
 
 	if (lstat(arg, &stats) == -1)
-		return (error_handler(arg, STAT_RET_ERR));
+		return (error_handler(arg, DIR_ERR_OPEN));
 	else
 	{
 		if (get_type(stats.st_mode) == 'l')
 		{
 			sym_stats = stats;
 			if (stat(arg, &stats) == -1)
-				return (error_handler(arg, STAT_RET_ERR));
+				return (error_handler(arg, DIR_ERR_OPEN));
 			if (get_type(stats.st_mode) == 'd' && !opt->ldisp)
 				return (display_dir(arg, opt, 0));
 			else

@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 13:49:38 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/17 18:00:50 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/18 12:03:15 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,14 +26,14 @@ static int8_t		get_data(char *name, struct stat *stats, t_printdata *data)
 	return (0);
 }
 
-static int8_t		print_entry_l(char *name, t_printdata *data)
+static int8_t		print_entry_l(t_dirlist *dir, char *name, t_printdata *data)
 {
 	struct stat		stats;
 	int8_t			status;
 
-	if (lstat(name, &stats) == STAT_RET_ERR ||
-		get_data(name, &stats, data) == STAT_RET_ERR)
-		return (STAT_RET_ERR);
+	if (get_stats(dir, name, &stats, NOFOLLOW) == DIR_ERR_OPEN ||
+		get_data(name, &stats, data) == DIR_ERR_OPEN)
+		return (DIR_ERR_OPEN);
 	status = ft_printf("%s %*d %-*s %-*s %*llu %s %s%s\n",//
 						data->mode,
 						data->paddings.links, stats.st_nlink,
@@ -48,10 +48,10 @@ static int8_t		print_entry_l(char *name, t_printdata *data)
 	return (status == -1 ? status : 0);
 }
 
-int8_t				print_entry(char *name, t_printdata *data)
+int8_t				print_entry(t_dirlist *dir, char *name, t_printdata *data)
 {
 	if (data)
-		return (print_entry_l(name, data));
+		return (print_entry_l(dir, name, data));
 	else
 	{
 		if (ft_printf("%s\n", name) == -1)

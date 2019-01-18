@@ -6,7 +6,7 @@
 #    By: hbally <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/15 17:12:52 by hbally            #+#    #+#              #
-#    Updated: 2019/01/17 17:49:30 by hbally           ###   ########.fr        #
+#    Updated: 2019/01/18 12:11:02 by hbally           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,19 +30,20 @@ INCDIR				:=	$(LIBSUBDIRS:%=%/includes) \
 # File Variables
 
 SRCS_RAW			:=	main.c 				\
-						get_options.c		\
 						display_dir.c		\
-						get_dirlist.c		\
 						sort_dir.c			\
 						print_dirlist.c		\
 						print_entry.c		\
 						exit_dir.c			\
 						error_handler.c		\
+						get_options.c		\
+						get_dirlist.c		\
 						get_mode.c			\
 						get_names.c			\
 						get_padding.c		\
 						get_symlink.c		\
 						get_time.c			\
+						get_stats.c			\
 						helpers.c
 
 SRCS				:=	$(SRCS_RAW:%.c=$(SRCSDIR)/%.c)
@@ -74,8 +75,8 @@ $(NAME)				: 	$(OBJS) $(LIBFILES)
 
 .PHONY				:	libs
 libs				:
-						@git submodule foreach git checkout -q master
-						@git submodule foreach git pull -q origin master
+						git submodule foreach git checkout master
+						git submodule foreach git pull origin master
 						@$(foreach LIB, $(LIBSUBDIRS), make -C $(LIB);)
 
 # Objs Target

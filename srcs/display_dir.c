@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/14 16:19:39 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/17 17:56:02 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/18 11:58:52 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,10 @@ static int8_t		display_subdirs(t_dirlist *dir, t_entry *data, t_opt *opt)
 	status = 0;
 	while (i < dir->len)
 	{
-		if (dir->data[i].subdir)
+		if (data[i].subdir)
 		{
-			status = display_dir(path(dir, data[i].name), opt, dir->depth + 1);
+			status = display_dir(mkpath(dir, data[i].name), opt,
+									dir->depth + 1);
 			if (status < DIR_ERR_OPEN)
 				return (status);
 		}

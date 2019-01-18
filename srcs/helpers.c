@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:05:45 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/17 18:00:36 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/18 12:15:55 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,13 +28,13 @@ uint8_t					is_hidden(char *name, t_opt *opt)
 		return (0);
 }
 
-char				*path(t_dirlist *dir, char *to_add)
+char					*mkpath(t_dirlist *dir, char *to_add)
 {
 	char			*path;
 
-	if (dir->name[0] != '/' || dir->namlen != 1)
-		ft_asprintf(&path, "%s/%s", dir, to_add);
+	if (dir->namlen != 1 || dir->name[0] != '/')
+		ft_asprintf(&path, "%s/%s", dir->name, to_add);
 	else
-		ft_asprintf(&path, "%s%s", dir, to_add);
+		ft_asprintf(&path, "%s%s", dir->name, to_add);
 	return (path);
 }

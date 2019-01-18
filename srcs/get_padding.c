@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 17:18:59 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/17 13:45:31 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/18 12:01:41 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,10 +53,10 @@ int8_t				get_padding(t_dirlist *dir, t_printdata *data)
 	i = 0;
 	while (i < dir->len)
 	{
-		if (lstat(dir->data[i].name, &stats) == STAT_RET_ERR ||
-			(pw = getpwuid(stats.st_uid)) == NULL ||
-			(grp = getgrgid(stats.st_gid)) == NULL)
-			return (STAT_RET_ERR);
+		if (get_stats(dir, dir->data[i].name, &stats, NOFOLLOW) ||
+			!(pw = getpwuid(stats.st_uid)) ||
+			!(grp = getgrgid(stats.st_gid)))
+			return (DIR_ERR_OPEN);
 		update_padding(NULL, (uint64_t)stats.st_nlink, &(data->paddings.links));
 		update_padding(NULL, (uint64_t)stats.st_size, &(data->paddings.size));
 		update_padding(pw->pw_name, 0, &(data->paddings.ownername));

@@ -7,6 +7,7 @@ Change printf > return error value of -1
 
 >> ls /dev/  >> aff le dossier full
 afficher grid si groupname == NULL
+time format 6monts
 
 sur du multi-args :
 
