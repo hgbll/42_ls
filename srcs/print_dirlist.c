@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:03:13 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 12:00:18 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/18 18:50:26 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,11 @@ static int8_t		print_loop(t_dirlist *dir, t_printdata *printdata)
 	i = 0;
 	while (i < dir->len)
 	{
+		if (printdata)
+		{
+			if (!(printdata->path = mkpath(dir, dir->data[i].name)))
+				return (DIR_ERR_MALLOC);
+		}
 		if((status = print_entry(dir, dir->data[i].name, printdata)))
 			return (status);
 		i++;

@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 18:35:37 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 12:11:29 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/18 17:54:33 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,12 +27,13 @@ static int8_t		cmp_mtime(t_dirlist *dir, char *name1, char *name2,
 	struct stat		stats;
 	int8_t			result;
 	time_t			name1_time;
+	int8_t			status;
 
-	if (get_stats(dir, name1, &stats, NOFOLLOW == DIR_ERR_OPEN))
-		return (DIR_ERR_OPEN);
+	if ((status = get_stats(dir, name1, &stats, NOFOLLOW)))
+		return (status);
 	name1_time = stats.st_mtimespec.tv_sec;
-	if (get_stats(dir, name2, &stats, NOFOLLOW == DIR_ERR_OPEN))
-		return (DIR_ERR_OPEN);
+	if ((status = get_stats(dir, name2, &stats, NOFOLLOW)))
+		return (status);
 	result = name1_time < stats.st_mtimespec.tv_sec;
 	return (rev ? !result : result);
 }

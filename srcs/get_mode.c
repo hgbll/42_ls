@@ -6,13 +6,27 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 18:02:10 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 13:44:35 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/18 18:32:19 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
 
-char		get_type(uint16_t mode)
+static int8_t		get_xattr(t_printdata *data)
+{
+	ssize_t			status;
+
+	status = listxattr(data->path, NULL, 0, XATTR_NOFOLLOW);
+	if (status > 0)
+		data->mode[10] = '@';
+	else
+		data->mode[10] = ' ';
+	if (status == -1)
+		return (error_handler(NULL, DIR_ERR_OPEN));
+	return (0);
+}
+
+char				get_type(uint16_t mode)
 {
 	mode &= 0xF000;
 	if (mode == S_IFREG)
@@ -35,11 +49,12 @@ char		get_type(uint16_t mode)
 		return ('-');
 }
 
-void		get_mode(struct stat *stats, t_printdata *data)
+int8_t				get_mode(struct stat *stats, t_printdata *data)
 {
 	uint16_t 		i;
 	size_t			j;
 	t_mode			mode;
+	int8_t			status;
 
 	mode.raw = stats->st_mode;
 	data->type = get_type(mode.raw);
@@ -55,6 +70,7 @@ void		get_mode(struct stat *stats, t_printdata *data)
 		i /= 2;
 		j++;
 	}
-	data->mode[j++] = ' ';
-	data->mode[j] = '\0';
+	status = get_xattr(data);
+	data->mode[11] = '\0';
+	return (status);
 }

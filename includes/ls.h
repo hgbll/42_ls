@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:11:23 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 17:23:57 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/18 18:29:42 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define LS_H
 
 # include <sys/stat.h>
+# include <sys/xattr.h>
 # include <sys/types.h>
 # include <sys/syslimits.h>
 # include <stdint.h>
@@ -115,6 +116,7 @@ typedef struct		s_printdata
 	char			type;
 	char			mode[12];
 	char			time[13];
+	char			*path;
 	char			*size;
 	char			*target;
 	char			*ownername;
@@ -146,19 +148,21 @@ uint8_t				is_dir(uint16_t mode);
 uint8_t				is_anchor(char *name);
 uint8_t				is_hidden(char *name, t_opt *opt);
 
-int8_t				get_printdata(t_dirlist *dir, char *name,
-							struct stat *stats, t_printdata *data);
+int8_t				get_printdata(t_dirlist *dir, struct stat *stats,
+									t_printdata *data);
 int8_t				free_printdata(t_printdata *data, int8_t status);
 int8_t				get_padding(t_dirlist *dir, t_printdata *data);
 int8_t				get_names(struct stat *stats, t_printdata *data);
-void				get_mode(struct stat *stats, t_printdata *data);
+int8_t				get_mode(struct stat *stats, t_printdata *data);
 int8_t				get_time(struct stat *stats, t_printdata *data);
 int8_t				get_size(t_dirlist *dir, struct stat *stats,
 								t_printdata *data);
 char				get_type(uint16_t mode);
 int8_t				get_stats(t_dirlist *dir, char *name, struct stat *stats,
-							uint8_t nofollow);
-int8_t				get_symlink(t_dirlist *dir, char *name, t_printdata *data);
+								uint8_t nofollow);
+int8_t				get_stats_path(char *path, struct stat *stats,
+								uint8_t nofollow);
+int8_t				get_symlink(t_printdata *data);
 
 char				*mkpath(t_dirlist *dir, char *to_add);
 typedef int8_t		(*cmp_ptr)(t_dirlist *dir, char*, char*, int8_t);
