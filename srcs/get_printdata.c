@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/18 13:31:58 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 14:57:28 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/18 17:20:04 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int8_t		free_printdata(t_printdata *data, int8_t status)
 {
-	if (data->linkpath)
-		ft_memdel((void**)&(data->linkpath));
+	if (data->target)
+		ft_memdel((void**)&(data->target));
 	if (data->size)
 		ft_memdel((void**)&(data->size));
 	return (status);
@@ -32,7 +32,7 @@ int8_t		get_printdata(t_dirlist *dir, char *name,
 	if ((status = get_time(stats, data)) ||
 		(status = get_size(dir, stats, data)) ||
 		(status = get_names(stats, data)) ||
-		(status = get_symlink(name, stats, data)))
+		(status = get_symlink(dir, name, data)))
 		return (free_printdata(data, status));
 	return (0);
 }

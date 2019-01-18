@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:11:23 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 15:52:02 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/18 17:19:37 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <sys/stat.h>
 # include <sys/types.h>
+# include <sys/syslimits.h>
 # include <stdint.h>
 # include <stdio.h>
 # include <stdlib.h>
@@ -23,6 +24,7 @@
 # include <pwd.h>
 # include <grp.h>
 # include <time.h>
+# include <unistd.h>
 # include "libft.h"
 
 # define FOLLOW 0
@@ -116,7 +118,7 @@ typedef struct		s_printdata
 	char			*size;
 	char			*ownername;
 	char			*groupname;
-	char			*linkpath;
+	char			*target;
 }					t_printdata;
 
 /*
@@ -156,8 +158,7 @@ int8_t				get_size(t_dirlist *dir, struct stat *stats,
 char				get_type(uint16_t mode);
 int8_t				get_stats(t_dirlist *dir, char *name, struct stat *stats,
 							uint8_t nofollow);
-int8_t				get_symlink(char *name, struct stat *stats,
-									t_printdata *data);
+int8_t				get_symlink(t_dirlist *dir, char *name, t_printdata *data);
 
 char				*mkpath(t_dirlist *dir, char *to_add);
 typedef int8_t		(*cmp_ptr)(t_dirlist *dir, char*, char*, int8_t);
