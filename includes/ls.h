@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:11:23 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 17:19:37 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/18 17:23:57 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -116,9 +116,9 @@ typedef struct		s_printdata
 	char			mode[12];
 	char			time[13];
 	char			*size;
+	char			*target;
 	char			*ownername;
 	char			*groupname;
-	char			*target;
 }					t_printdata;
 
 /*

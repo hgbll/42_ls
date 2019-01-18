@@ -9,6 +9,7 @@ Change printf > return error value of -1
 afficher grid si groupname == NULL
 time format 6monts
 error non critique pendant le printdir : aff error avec error_handler
+total : 0 >> not on the real ls
 
 sur du multi-args :
 
