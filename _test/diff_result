@@ -1,21 +1,66 @@
-26c26
-< crw-rw-rw-   1 root    wheel        24,  31 Jan 17 19:40 dtrace
+124792c124792,124794
+< ft_ls: /System/Library/Caches/com.apple.coresymbolicationd: 
 ---
-> crw-rw-rw-   1 root    wheel        24,   2 Jan 17 19:40 dtrace
-31c31
-< crw-rw-rw-   1 root    wheel        18,  11 Jan 18 20:16 io8log
----
-> crw-rw-rw-   1 root    wheel        18,  18 Jan 18 20:16 io8log
-33c33
-< crw-rw-rw-   1 root    wheel        18,  11 Jan 18 21:03 io8logtemp
----
-> crw-rw-rw-   1 root    wheel        18,  19 Jan 18 21:03 io8logtemp
-329a330,337
 > 
-> /dev/fd:
-> total 9
-> dr-xr-xr-x  1 root    wheel         0 Jan 17 19:40 .
-> dr-xr-xr-x  3 root    wheel      4458 Jan 17 19:40 ..
-> crw--w----  1 hbally  tty     16,   6 Jan 18 21:03 0
-> crw--w----  1 hbally  tty     16,   6 Jan 18 21:03 2
-> dr--r--r--  1 root    wheel         0 Jan 17 19:40 4
+> /System/Library/Caches/com.apple.coresymbolicationd:
+> 
+228888c228890,228892
+< ft_ls: /System/Library/DirectoryServices/DefaultLocalDB/Default: ft_ls: /System/Library/DirectoryServices/DefaultLocalDB: 
+---
+> 
+> /System/Library/DirectoryServices/DefaultLocalDB/Default:
+> 
+274619,274620c274623,274642
+< -rw-r--r--     1 root  wheel    56916 Sep 27  2016 ヒラギノ丸ゴ ProN W4.ttc.AE18C8_0.ATSD
+< -rw-r--r--     1 root  wheel    20662 Sep 27  2016 ヒラギノ丸ゴ ProN W4.ttc.AE18C8_0.fontinfo
+---
+> -rw-r--r--     1 root  wheel    15224 Sep 27  2016 儷黑 Pro.ttf.5568_0.ATSD
+> -rw-r--r--     1 root  wheel     6369 Sep 27  2016 儷黑 Pro.ttf.5568_0.fontinfo
+> -rw-r--r--     1 root  wheel    18760 Sep 27  2016 儷黑 Pro.ttf.6A8600_0.ATSD
+> -rw-r--r--     1 root  wheel    14144 Sep 27  2016 儷黑 Pro.ttf.6A8600_0.fontinfo
+> -rw-r--r--     1 root  wheel    14780 Sep 27  2016 儷宋 Pro.ttf.8A44_0.ATSD
+> -rw-r--r--     1 root  wheel     6330 Sep 27  2016 儷宋 Pro.ttf.8A44_0.fontinfo
+> -rw-r--r--     1 root  wheel    18764 Sep 27  2016 儷宋 Pro.ttf.D77FE4_0.ATSD
+> -rw-r--r--     1 root  wheel    14109 Sep 27  2016 儷宋 Pro.ttf.D77FE4_0.fontinfo
+> -rw-r--r--     1 root  wheel    11460 Sep 27  2016 华文细黑.ttf.71E4_0.ATSD
+> -rw-r--r--     1 root  wheel     8121 Sep 27  2016 华文细黑.ttf.71E4_0.fontinfo
+> -rw-r--r--     1 root  wheel    13172 Sep 27  2016 华文黑体.ttf.8654_0.ATSD
+> -rw-r--r--     1 root  wheel     8105 Sep 27  2016 华文黑体.ttf.8654_0.fontinfo
+> -rw-r--r--     1 root  wheel    13320 Sep 27  2016 华文仿宋.ttf.9CEC_0.ATSD
+> -rw-r--r--     1 root  wheel     8133 Sep 27  2016 华文仿宋.ttf.9CEC_0.fontinfo
+> -rw-r--r--     1 root  wheel   203552 Sep 27  2016 华文黑体.ttf.D01930_0.ATSD
+> -rw-r--r--     1 root  wheel    20744 Sep 27  2016 华文黑体.ttf.D01930_0.fontinfo
+> -rw-r--r--     1 root  wheel   228292 Sep 27  2016 华文细黑.ttf.EEC9B8_0.ATSD
+> -rw-r--r--     1 root  wheel    20762 Sep 27  2016 华文细黑.ttf.EEC9B8_0.fontinfo
+> -rw-r--r--     1 root  wheel   203796 Sep 27  2016 华文仿宋.ttf.F277F4_0.ATSD
+> -rw-r--r--     1 root  wheel    20772 Sep 27  2016 华文仿宋.ttf.F277F4_0.fontinfo
+274624a274647,274648
+> -rw-r--r--     1 root  wheel    56916 Sep 27  2016 ヒラギノ丸ゴ ProN W4.ttc.AE18C8_0.ATSD
+> -rw-r--r--     1 root  wheel    20662 Sep 27  2016 ヒラギノ丸ゴ ProN W4.ttc.AE18C8_0.fontinfo
+274645,274664d274668
+< -rw-r--r--     1 root  wheel    14780 Sep 27  2016 儷宋 Pro.ttf.8A44_0.ATSD
+< -rw-r--r--     1 root  wheel     6330 Sep 27  2016 儷宋 Pro.ttf.8A44_0.fontinfo
+< -rw-r--r--     1 root  wheel    18764 Sep 27  2016 儷宋 Pro.ttf.D77FE4_0.ATSD
+< -rw-r--r--     1 root  wheel    14109 Sep 27  2016 儷宋 Pro.ttf.D77FE4_0.fontinfo
+< -rw-r--r--     1 root  wheel    15224 Sep 27  2016 儷黑 Pro.ttf.5568_0.ATSD
+< -rw-r--r--     1 root  wheel     6369 Sep 27  2016 儷黑 Pro.ttf.5568_0.fontinfo
+< -rw-r--r--     1 root  wheel    18760 Sep 27  2016 儷黑 Pro.ttf.6A8600_0.ATSD
+< -rw-r--r--     1 root  wheel    14144 Sep 27  2016 儷黑 Pro.ttf.6A8600_0.fontinfo
+< -rw-r--r--     1 root  wheel    13320 Sep 27  2016 华文仿宋.ttf.9CEC_0.ATSD
+< -rw-r--r--     1 root  wheel     8133 Sep 27  2016 华文仿宋.ttf.9CEC_0.fontinfo
+< -rw-r--r--     1 root  wheel   203796 Sep 27  2016 华文仿宋.ttf.F277F4_0.ATSD
+< -rw-r--r--     1 root  wheel    20772 Sep 27  2016 华文仿宋.ttf.F277F4_0.fontinfo
+< -rw-r--r--     1 root  wheel    11460 Sep 27  2016 华文细黑.ttf.71E4_0.ATSD
+< -rw-r--r--     1 root  wheel     8121 Sep 27  2016 华文细黑.ttf.71E4_0.fontinfo
+< -rw-r--r--     1 root  wheel   228292 Sep 27  2016 华文细黑.ttf.EEC9B8_0.ATSD
+< -rw-r--r--     1 root  wheel    20762 Sep 27  2016 华文细黑.ttf.EEC9B8_0.fontinfo
+< -rw-r--r--     1 root  wheel    13172 Sep 27  2016 华文黑体.ttf.8654_0.ATSD
+< -rw-r--r--     1 root  wheel     8105 Sep 27  2016 华文黑体.ttf.8654_0.fontinfo
+< -rw-r--r--     1 root  wheel   203552 Sep 27  2016 华文黑体.ttf.D01930_0.ATSD
+< -rw-r--r--     1 root  wheel    20744 Sep 27  2016 华文黑体.ttf.D01930_0.fontinfo
+690355c690359,690361
+< ft_ls: /System/Library/User Template: 
+---
+> 
+> /System/Library/User Template:
+> 

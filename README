@@ -1,11 +1,9 @@
 Todo
 
-Check norminette on libft after changes + norminette printf
-Change printf > return error value of -1
+Remove _test from libs
 /dev > problem
 
 total : 0 >> not on the real ls
-
 sur du multi-args :
 
 affichage :
