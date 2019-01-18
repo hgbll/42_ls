@@ -4,11 +4,6 @@ Check norminette on libft after changes + norminette printf
 Change printf > return error value of -1
 /dev > problem
 
-
->> ls /dev/  >> aff le dossier full
-afficher grid si groupname == NULL
-time format 6monts
-error non critique pendant le printdir : aff error avec error_handler
 total : 0 >> not on the real ls
 
 sur du multi-args :

@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:11:23 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 18:29:42 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/18 20:49:41 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -112,7 +112,7 @@ typedef struct		s_printdata
 {
 	t_paddings		paddings;
 	blkcnt_t		total_blocks;
-	char			symbols[4];
+	char			*name;
 	char			type;
 	char			mode[12];
 	char			time[13];
@@ -120,7 +120,9 @@ typedef struct		s_printdata
 	char			*size;
 	char			*target;
 	char			*ownername;
+	int				no_ownername;
 	char			*groupname;
+	int				no_groupname;
 }					t_printdata;
 
 /*

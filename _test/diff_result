@@ -1,0 +1,21 @@
+26c26
+< crw-rw-rw-   1 root    wheel        24,  31 Jan 17 19:40 dtrace
+---
+> crw-rw-rw-   1 root    wheel        24,   2 Jan 17 19:40 dtrace
+31c31
+< crw-rw-rw-   1 root    wheel        18,  11 Jan 18 20:16 io8log
+---
+> crw-rw-rw-   1 root    wheel        18,  18 Jan 18 20:16 io8log
+33c33
+< crw-rw-rw-   1 root    wheel        18,  11 Jan 18 21:03 io8logtemp
+---
+> crw-rw-rw-   1 root    wheel        18,  19 Jan 18 21:03 io8logtemp
+329a330,337
+> 
+> /dev/fd:
+> total 9
+> dr-xr-xr-x  1 root    wheel         0 Jan 17 19:40 .
+> dr-xr-xr-x  3 root    wheel      4458 Jan 17 19:40 ..
+> crw--w----  1 hbally  tty     16,   6 Jan 18 21:03 0
+> crw--w----  1 hbally  tty     16,   6 Jan 18 21:03 2
+> dr--r--r--  1 root    wheel         0 Jan 17 19:40 4

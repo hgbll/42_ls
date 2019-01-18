@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 17:18:59 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 18:49:47 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/18 19:48:38 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,26 +55,39 @@ static void			add_whitespace(t_paddings *paddings)
 	paddings->major += 2;
 }
 
+static void			get_namepadding(t_printdata *data, struct stat *stats)
+{
+	struct passwd	*pw;
+	struct group	*grp;
+
+	pw = getpwuid(stats->st_uid);
+	grp = getgrgid(stats->st_gid);
+	if (pw && pw->pw_name)
+		update_padding(pw->pw_name, 0, &(data->paddings.ownername));
+	else
+		update_padding(NULL, stats->st_uid, &(data->paddings.ownername));
+	if (grp && grp->gr_name)
+		update_padding(grp->gr_name, 0, &(data->paddings.groupname));
+	else
+		update_padding(NULL, stats->st_gid, &(data->paddings.groupname));
+}
+
 int8_t				get_padding(t_dirlist *dir, t_printdata *data)
 {
 	size_t			i;
 	struct stat		stats;
-	struct passwd	*pw;
-	struct group	*grp;
+	int8_t			status;
 
 	i = 0;
 	while (i < dir->len)
 	{
-		if (get_stats(dir, dir->data[i].name, &stats, NOFOLLOW) ||
-			!(pw = getpwuid(stats.st_uid)) ||
-			!(grp = getgrgid(stats.st_gid)))
-			return (DIR_ERR_OPEN);
+		if ((status = get_stats(dir, dir->data[i].name, &stats, NOFOLLOW)))
+			return (error_handler(NULL, DIR_ERR_OPEN));
 		if (get_type(stats.st_mode) == 'b' || get_type(stats.st_mode) == 'c')
 			device_handler(dir, data, &stats);
 		update_padding(NULL, (uint64_t)stats.st_size, &(data->paddings.size));
 		update_padding(NULL, (uint64_t)stats.st_nlink, &(data->paddings.links));
-		update_padding(pw->pw_name, 0, &(data->paddings.ownername));
-		update_padding(grp->gr_name, 0, &(data->paddings.groupname));
+		get_namepadding(data, &stats);
 		data->total_blocks += stats.st_blocks;
 		i++;
 	}

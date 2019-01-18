@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/18 13:31:58 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 18:29:30 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/18 20:18:04 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,10 @@ int8_t		free_printdata(t_printdata *data, int8_t status)
 		ft_memdel((void**)&(data->target));
 	if (data->size)
 		ft_memdel((void**)&(data->size));
+	if (data->no_ownername)
+		ft_memdel((void**)&(data->ownername));
+	if (data->no_groupname)
+		ft_memdel((void**)&(data->groupname));
 	return (status);
 }
 
@@ -27,7 +31,6 @@ int8_t		get_printdata(t_dirlist *dir, struct stat *stats, t_printdata *data)
 {
 	int8_t	status;
 
-	ft_strcpy(data->symbols, "rwx");
 	if ((status = get_mode(stats, data)) ||
 		(status = get_time(stats, data)) ||
 		(status = get_size(dir, stats, data)) ||

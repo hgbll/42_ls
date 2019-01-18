@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 18:02:10 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 18:32:19 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/18 20:38:54 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,6 @@ static int8_t		get_xattr(t_printdata *data)
 		data->mode[10] = '@';
 	else
 		data->mode[10] = ' ';
-	if (status == -1)
-		return (error_handler(NULL, DIR_ERR_OPEN));
 	return (0);
 }
 
@@ -49,6 +47,21 @@ char				get_type(uint16_t mode)
 		return ('-');
 }
 
+static void			set_bit(t_printdata *data, size_t index, t_mode *mode)
+{
+	if ((index == 2 && (mode->bits.extra & 4)) ||
+		(index == 5 && (mode->bits.extra & 2)))
+		data->mode[index + 1] = 's';
+	else if (index == 8 && (mode->bits.extra & 1))
+		data->mode[index + 1] = 't';
+	else if (index % 3 == 0)
+		data->mode[index + 1] = 'r';
+	else if (index % 3 == 1)
+		data->mode[index + 1] = 'w';
+	else if (index % 3 == 2)
+		data->mode[index + 1] = 'x';
+}
+
 int8_t				get_mode(struct stat *stats, t_printdata *data)
 {
 	uint16_t 		i;
@@ -64,7 +77,7 @@ int8_t				get_mode(struct stat *stats, t_printdata *data)
 	while (i > 0)
 	{
 		if (i & mode.bits.rights)
-			data->mode[j] = data->symbols[(j - 1) % 3];
+			set_bit(data, j - 1, &mode);
 		else
 			data->mode[j] = '-';
 		i /= 2;
