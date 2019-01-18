@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:11:23 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 12:10:44 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/18 15:52:02 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,6 +68,7 @@ typedef struct		s_dirlist
 	char			*name;
 	size_t			namlen;
 	size_t			depth;
+	uint8_t			is_dev;
 	DIR				*dirp;
 	t_entry			*data;
 	size_t			len;
@@ -100,7 +101,8 @@ typedef struct		s_paddings
 	uint16_t		size;
 	uint16_t		ownername;
 	uint16_t		groupname;
-
+	uint16_t		major;
+	uint16_t		minor;
 }					t_paddings;
 
 typedef struct		s_printdata
@@ -108,8 +110,10 @@ typedef struct		s_printdata
 	t_paddings		paddings;
 	blkcnt_t		total_blocks;
 	char			symbols[4];
+	char			type;
 	char			mode[12];
 	char			time[13];
+	char			*size;
 	char			*ownername;
 	char			*groupname;
 	char			*linkpath;
@@ -135,22 +139,27 @@ int8_t				exit_dir(t_dirlist *dir, char *name, int8_t status,
 char				*path(t_dirlist *dir, char *to_add);
 
 int8_t				error_handler(char *arg, int8_t status);
-int8_t				str_error_handler(char *string, char *arg, int8_t status);
 uint8_t				is_symlink(uint16_t mode);
 uint8_t				is_dir(uint16_t mode);
 uint8_t				is_anchor(char *name);
 uint8_t				is_hidden(char *name, t_opt *opt);
-int8_t				get_stats(t_dirlist *dir, char *name, struct stat *stats,
-							uint8_t nofollow);
+
+int8_t				get_printdata(t_dirlist *dir, char *name,
+							struct stat *stats, t_printdata *data);
+int8_t				free_printdata(t_printdata *data, int8_t status);
 int8_t				get_padding(t_dirlist *dir, t_printdata *data);
 int8_t				get_names(struct stat *stats, t_printdata *data);
 void				get_mode(struct stat *stats, t_printdata *data);
 int8_t				get_time(struct stat *stats, t_printdata *data);
+int8_t				get_size(t_dirlist *dir, struct stat *stats,
+								t_printdata *data);
+char				get_type(uint16_t mode);
+int8_t				get_stats(t_dirlist *dir, char *name, struct stat *stats,
+							uint8_t nofollow);
 int8_t				get_symlink(char *name, struct stat *stats,
 									t_printdata *data);
-char				get_type(uint16_t mode);
-char				*mkpath(t_dirlist *dir, char *to_add);
 
+char				*mkpath(t_dirlist *dir, char *to_add);
 typedef int8_t		(*cmp_ptr)(t_dirlist *dir, char*, char*, int8_t);
 
 #endif

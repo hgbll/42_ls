@@ -8,6 +8,7 @@ Change printf > return error value of -1
 >> ls /dev/  >> aff le dossier full
 afficher grid si groupname == NULL
 time format 6monts
+error non critique pendant le printdir : aff error avec error_handler
 
 sur du multi-args :
 

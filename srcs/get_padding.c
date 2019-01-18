@@ -6,13 +6,11 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 17:18:59 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 12:01:41 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/18 16:08:23 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
-
-//block size is a uint64_t
 
 static void			update_padding(char *str, uint64_t n, uint16_t *current)
 {
@@ -34,6 +32,19 @@ static void			update_padding(char *str, uint64_t n, uint16_t *current)
 }
 
 /*
+**	Get padding for device major and minor when in /dev
+*/
+
+static void			device_handler(t_dirlist *dir, t_printdata *data, 
+									struct stat *stats)
+{
+	dir->is_dev = 1;
+	update_padding(NULL, (stats->st_rdev & 0xFF000000) >> 24,
+						&(data->paddings.major));
+	update_padding(NULL, stats->st_rdev & 0x00FFFFFF, &(data->paddings.minor));
+}
+
+/*
 **	Note : get_padding also calculates total block count for -R option
 */
 
@@ -41,6 +52,7 @@ static void			add_whitespace(t_paddings *paddings)
 {
 	paddings->ownername += 1;
 	paddings->size += 1;
+	paddings->major += 2;
 }
 
 int8_t				get_padding(t_dirlist *dir, t_printdata *data)
@@ -57,8 +69,10 @@ int8_t				get_padding(t_dirlist *dir, t_printdata *data)
 			!(pw = getpwuid(stats.st_uid)) ||
 			!(grp = getgrgid(stats.st_gid)))
 			return (DIR_ERR_OPEN);
-		update_padding(NULL, (uint64_t)stats.st_nlink, &(data->paddings.links));
+		if (get_type(stats.st_mode) == 'b' || get_type(stats.st_mode) == 'c')
+			device_handler(dir, data, &stats);
 		update_padding(NULL, (uint64_t)stats.st_size, &(data->paddings.size));
+		update_padding(NULL, (uint64_t)stats.st_nlink, &(data->paddings.links));
 		update_padding(pw->pw_name, 0, &(data->paddings.ownername));
 		update_padding(grp->gr_name, 0, &(data->paddings.groupname));
 		data->total_blocks += stats.st_blocks;

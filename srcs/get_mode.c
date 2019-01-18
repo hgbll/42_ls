@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 18:02:10 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/17 13:01:54 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/18 13:44:35 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,8 @@ void		get_mode(struct stat *stats, t_printdata *data)
 	t_mode			mode;
 
 	mode.raw = stats->st_mode;
-	data->mode[0] = get_type(mode.raw);
+	data->type = get_type(mode.raw);
+	data->mode[0] = data->type;
 	i = 0x100;
 	j = 1;
 	while (i > 0)

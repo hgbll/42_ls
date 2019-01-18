@@ -6,7 +6,7 @@
 #    By: hbally <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/15 17:12:52 by hbally            #+#    #+#              #
-#    Updated: 2019/01/18 12:11:02 by hbally           ###   ########.fr        #
+#    Updated: 2019/01/18 14:59:16 by hbally           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -44,6 +44,8 @@ SRCS_RAW			:=	main.c 				\
 						get_symlink.c		\
 						get_time.c			\
 						get_stats.c			\
+						get_printdata.c		\
+						get_size.c			\
 						helpers.c
 
 SRCS				:=	$(SRCS_RAW:%.c=$(SRCSDIR)/%.c)
