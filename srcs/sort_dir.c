@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 18:35:37 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 17:54:33 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/19 21:20:31 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,10 @@ static int8_t		cmp_mtime(char *path1, char *path2, int8_t rev)
 	t2 = stats.st_mtimespec;
 	if (t1.tv_sec != t2.tv_sec)
 		result = t1.tv_sec < t2.tv_sec;
-	else
+	else if (t1.tv_nsec != t2.tv_nsec)
 		result = t1.tv_nsec < t2.tv_nsec;
+	else
+		return (cmp_ascii(path1, path2, rev));
 	return (rev ? !result : result);
 }
 
