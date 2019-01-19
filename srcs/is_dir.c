@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   is_dir.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/01/19 22:12:21 by hbally            #+#    #+#             */
+/*   Updated: 2019/01/19 22:12:22 by hbally           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ls.h"
 
 char					is_dir_deep(t_entry *entry)
@@ -32,15 +44,3 @@ void					is_dir(t_arg *arg, t_opt *opt)
 	if (is_dir && !(arg->type == 'l' && opt->ldisp))
 		arg->type = 'd';
 }
-
-/*
-		ft_printf("Looking at : %s\n", entry->path);
-		if ((dirp = opendir(entry->path)))
-			ft_printf("Can open %s\n", entry->name);
-		else
-			ft_printf("Can't open %s\n", entry->name);
-		if (get_type(stats.st_mode) != 'l')
-			ft_printf("%s is not a link\n", entry->name);
-		if (!is_anchor(entry->name))
-			ft_printf("%s is not an anchor\n", entry->name);
-			*/

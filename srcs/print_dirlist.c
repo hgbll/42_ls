@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:03:13 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 20:48:26 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/19 22:11:36 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,13 +36,11 @@ static int8_t		print_dirlist_l(t_dirlist *dir)
 {
 	t_printdata		printdata;
 
-	//ft_printf("Entering print\n");//
 	ft_bzero(&printdata, sizeof(t_printdata));
 	get_padding(dir, &printdata);
 	if (!dir->is_container)
 		if (ft_printf("total %llu\n", printdata.total_blocks) == -1)
 			return (DIR_ERR_PRINT);
-	//ft_printf("Starting print loop\n");//
 	return (print_loop(dir, &printdata));
 }
 
@@ -53,5 +51,3 @@ int8_t				print_dirlist(t_dirlist *dir, t_opt *opt)
 	else
 		return (print_loop(dir, NULL));
 }
-
-//int8_t				print_singleton(char *name); // TODO

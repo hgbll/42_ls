@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:04:59 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 14:00:22 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/19 21:58:23 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,16 @@
 
 int8_t				error_handler(char *arg, int8_t status)
 {
+	char			*str;
+
 	if (arg)
-		ft_printf("ft_ls: %s: ", arg);
+	{
+		str = ft_strrchr(arg, '/') + 1;
+		if (str)
+			ft_printf("ft_ls: %s: ", str);
+		else
+			ft_printf("ft_ls: %s: ", arg);
+	}
 	else
 		ft_printf("ft_ls: ");
 	perror(NULL);
