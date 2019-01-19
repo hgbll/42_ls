@@ -30,15 +30,15 @@ int8_t		get_printdata(t_dirlist *dir, struct stat *stats, t_printdata *data)
 	int8_t	status;
 
 	status = 0;//
-	if (!ft_printf("Fetching mode\n") ||//
+	if (//!ft_printf("Fetching mode\n") ||//
 		(status = get_mode(stats, data)) ||
-		!ft_printf("Fetching time\n") ||//
+		//!ft_printf("Fetching time\n") ||//
 		(status = get_time(stats, data)) ||
-		!ft_printf("Fetching size\n") ||//
+		//!ft_printf("Fetching size\n") ||//
 		(status = get_size(dir, stats, data)) ||
-		!ft_printf("Fetching names\n") ||//
+		//!ft_printf("Fetching names\n") ||//
 		(status = get_names(stats, data)) ||
-		!ft_printf("Fetching link\n") ||//
+		//!ft_printf("Fetching link\n") ||//
 		(status = get_symlink(data)))
 		return (free_printdata(data, status));
 	return (0);

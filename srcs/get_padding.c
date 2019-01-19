@@ -82,8 +82,7 @@ int8_t				get_padding(t_dirlist *dir, t_printdata *data)
 	while (i < dir->len)
 	{
 		ft_printf("Getting stats for %s\n", dir->data[i].path);
-		if ((status = get_stats_path(dir->data[i].path, &stats, NOFOLLOW)))
-			return (error_handler(NULL, DIR_ERR_OPEN));
+		status = get_stats_path(dir->data[i].path, &stats, NOFOLLOW);
 		ft_printf("Stats OK%s\n", dir->data[i].path);
 		if (get_type(stats.st_mode) == 'b' || get_type(stats.st_mode) == 'c')
 			device_handler(dir, data, &stats);

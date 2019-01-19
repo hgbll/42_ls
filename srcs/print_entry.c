@@ -17,9 +17,8 @@ static int8_t		print_entry_l(t_dirlist *dir, char *name, t_printdata *data)
 	struct stat		stats;
 	int8_t			status;
 
-	if (get_stats_path(data->path, &stats, NOFOLLOW) ||
-		get_printdata(dir, &stats, data))
-		return (DIR_ERR_OPEN);
+	get_stats_path(data->path, &stats, NOFOLLOW);
+	get_printdata(dir, &stats, data);
 	status = ft_printf("%s %*d %-*s %-*s %s %s %s%s%s\n",
 						data->mode,
 						data->paddings.links, stats.st_nlink,

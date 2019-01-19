@@ -12,21 +12,6 @@
 
 #include "ls.h"
 
-/*
-static uint16_t	digitlen(uint64_t n)
-{
-	uint16_t	len;
-	
-	len = 1;
-	if (n != 0)
-	{
-		while ((n /= 10) > 0)
-			len++;
-	}
-	return (len);
-}
-*/
-
 int8_t			get_size(t_dirlist *dir, struct stat *stats, t_printdata *data)
 {
 	int8_t		status;

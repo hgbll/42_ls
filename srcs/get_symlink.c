@@ -19,11 +19,9 @@ int8_t			get_symlink(t_printdata *data)
 	if (data->type == 'l')
 	{
 		if ((data->target = ft_strnew(PATH_MAX)))
-		{
 			status = readlink(data->path, data->target, PATH_MAX);
-			return (status != -1 ? 0 : error_handler(NULL, DIR_ERR_OPEN));
-		}
-		return (DIR_ERR_MALLOC);
+		else
+			return (DIR_ERR_MALLOC);
 	}
 	return (0);
 }

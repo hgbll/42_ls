@@ -1,1322 +1,1396 @@
-Looking at : /dev/console
-console is not a link
-console is not an anchor
-Looking at : /dev/tty
-tty is not a link
-tty is not an anchor
-Looking at : /dev/null
-null is not a link
-null is not an anchor
-Looking at : /dev/zero
-zero is not a link
-zero is not an anchor
-Looking at : /dev/klog
-klog is not a link
-klog is not an anchor
-Looking at : /dev/oslog
-oslog is not a link
-oslog is not an anchor
-Looking at : /dev/oslog_stream
-oslog_stream is not a link
-oslog_stream is not an anchor
-Looking at : /dev/fd
-Can open fd
-fd is not a link
-fd is not an anchor
-Looking at : /dev/stdin
-stdin is not an anchor
-Looking at : /dev/stdout
-stdout is not an anchor
-Looking at : /dev/stderr
-stderr is not an anchor
-Looking at : /dev/auditsessions
-auditsessions is not a link
-auditsessions is not an anchor
-Looking at : /dev/auditpipe
-auditpipe is not a link
-auditpipe is not an anchor
-Looking at : /dev/pf
-pf is not a link
-pf is not an anchor
-Looking at : /dev/pfm
-pfm is not a link
-pfm is not an anchor
-Looking at : /dev/ttyp0
-ttyp0 is not a link
-ttyp0 is not an anchor
-Looking at : /dev/ptyp0
-ptyp0 is not a link
-ptyp0 is not an anchor
-Looking at : /dev/ttyp1
-ttyp1 is not a link
-ttyp1 is not an anchor
-Looking at : /dev/ptyp1
-ptyp1 is not a link
-ptyp1 is not an anchor
-Looking at : /dev/ttyp2
-ttyp2 is not a link
-ttyp2 is not an anchor
-Looking at : /dev/ptyp2
-ptyp2 is not a link
-ptyp2 is not an anchor
-Looking at : /dev/ttyp3
-ttyp3 is not a link
-ttyp3 is not an anchor
-Looking at : /dev/ptyp3
-ptyp3 is not a link
-ptyp3 is not an anchor
-Looking at : /dev/ttyp4
-ttyp4 is not a link
-ttyp4 is not an anchor
-Looking at : /dev/ptyp4
-ptyp4 is not a link
-ptyp4 is not an anchor
-Looking at : /dev/ttyp5
-ttyp5 is not a link
-ttyp5 is not an anchor
-Looking at : /dev/ptyp5
-ptyp5 is not a link
-ptyp5 is not an anchor
-Looking at : /dev/ttyp6
-ttyp6 is not a link
-ttyp6 is not an anchor
-Looking at : /dev/ptyp6
-ptyp6 is not a link
-ptyp6 is not an anchor
-Looking at : /dev/ttyp7
-ttyp7 is not a link
-ttyp7 is not an anchor
-Looking at : /dev/ptyp7
-ptyp7 is not a link
-ptyp7 is not an anchor
-Looking at : /dev/ttyp8
-ttyp8 is not a link
-ttyp8 is not an anchor
-Looking at : /dev/ptyp8
-ptyp8 is not a link
-ptyp8 is not an anchor
-Looking at : /dev/ttyp9
-ttyp9 is not a link
-ttyp9 is not an anchor
-Looking at : /dev/ptyp9
-ptyp9 is not a link
-ptyp9 is not an anchor
-Looking at : /dev/ttypa
-ttypa is not a link
-ttypa is not an anchor
-Looking at : /dev/ptypa
-ptypa is not a link
-ptypa is not an anchor
-Looking at : /dev/ttypb
-ttypb is not a link
-ttypb is not an anchor
-Looking at : /dev/ptypb
-ptypb is not a link
-ptypb is not an anchor
-Looking at : /dev/ttypc
-ttypc is not a link
-ttypc is not an anchor
-Looking at : /dev/ptypc
-ptypc is not a link
-ptypc is not an anchor
-Looking at : /dev/ttypd
-ttypd is not a link
-ttypd is not an anchor
-Looking at : /dev/ptypd
-ptypd is not a link
-ptypd is not an anchor
-Looking at : /dev/ttype
-ttype is not a link
-ttype is not an anchor
-Looking at : /dev/ptype
-ptype is not a link
-ptype is not an anchor
-Looking at : /dev/ttypf
-ttypf is not a link
-ttypf is not an anchor
-Looking at : /dev/ptypf
-ptypf is not a link
-ptypf is not an anchor
-Looking at : /dev/ttyq0
-ttyq0 is not a link
-ttyq0 is not an anchor
-Looking at : /dev/ptyq0
-ptyq0 is not a link
-ptyq0 is not an anchor
-Looking at : /dev/ttyq1
-ttyq1 is not a link
-ttyq1 is not an anchor
-Looking at : /dev/ptyq1
-ptyq1 is not a link
-ptyq1 is not an anchor
-Looking at : /dev/ttyq2
-ttyq2 is not a link
-ttyq2 is not an anchor
-Looking at : /dev/ptyq2
-ptyq2 is not a link
-ptyq2 is not an anchor
-Looking at : /dev/ttyq3
-ttyq3 is not a link
-ttyq3 is not an anchor
-Looking at : /dev/ptyq3
-ptyq3 is not a link
-ptyq3 is not an anchor
-Looking at : /dev/ttyq4
-ttyq4 is not a link
-ttyq4 is not an anchor
-Looking at : /dev/ptyq4
-ptyq4 is not a link
-ptyq4 is not an anchor
-Looking at : /dev/ttyq5
-ttyq5 is not a link
-ttyq5 is not an anchor
-Looking at : /dev/ptyq5
-ptyq5 is not a link
-ptyq5 is not an anchor
-Looking at : /dev/ttyq6
-ttyq6 is not a link
-ttyq6 is not an anchor
-Looking at : /dev/ptyq6
-ptyq6 is not a link
-ptyq6 is not an anchor
-Looking at : /dev/ttyq7
-ttyq7 is not a link
-ttyq7 is not an anchor
-Looking at : /dev/ptyq7
-ptyq7 is not a link
-ptyq7 is not an anchor
-Looking at : /dev/ttyq8
-ttyq8 is not a link
-ttyq8 is not an anchor
-Looking at : /dev/ptyq8
-ptyq8 is not a link
-ptyq8 is not an anchor
-Looking at : /dev/ttyq9
-ttyq9 is not a link
-ttyq9 is not an anchor
-Looking at : /dev/ptyq9
-ptyq9 is not a link
-ptyq9 is not an anchor
-Looking at : /dev/ttyqa
-ttyqa is not a link
-ttyqa is not an anchor
-Looking at : /dev/ptyqa
-ptyqa is not a link
-ptyqa is not an anchor
-Looking at : /dev/ttyqb
-ttyqb is not a link
-ttyqb is not an anchor
-Looking at : /dev/ptyqb
-ptyqb is not a link
-ptyqb is not an anchor
-Looking at : /dev/ttyqc
-ttyqc is not a link
-ttyqc is not an anchor
-Looking at : /dev/ptyqc
-ptyqc is not a link
-ptyqc is not an anchor
-Looking at : /dev/ttyqd
-ttyqd is not a link
-ttyqd is not an anchor
-Looking at : /dev/ptyqd
-ptyqd is not a link
-ptyqd is not an anchor
-Looking at : /dev/ttyqe
-ttyqe is not a link
-ttyqe is not an anchor
-Looking at : /dev/ptyqe
-ptyqe is not a link
-ptyqe is not an anchor
-Looking at : /dev/ttyqf
-ttyqf is not a link
-ttyqf is not an anchor
-Looking at : /dev/ptyqf
-ptyqf is not a link
-ptyqf is not an anchor
-Looking at : /dev/ttyr0
-ttyr0 is not a link
-ttyr0 is not an anchor
-Looking at : /dev/ptyr0
-ptyr0 is not a link
-ptyr0 is not an anchor
-Looking at : /dev/ttyr1
-ttyr1 is not a link
-ttyr1 is not an anchor
-Looking at : /dev/ptyr1
-ptyr1 is not a link
-ptyr1 is not an anchor
-Looking at : /dev/ttyr2
-ttyr2 is not a link
-ttyr2 is not an anchor
-Looking at : /dev/ptyr2
-ptyr2 is not a link
-ptyr2 is not an anchor
-Looking at : /dev/ttyr3
-ttyr3 is not a link
-ttyr3 is not an anchor
-Looking at : /dev/ptyr3
-ptyr3 is not a link
-ptyr3 is not an anchor
-Looking at : /dev/ttyr4
-ttyr4 is not a link
-ttyr4 is not an anchor
-Looking at : /dev/ptyr4
-ptyr4 is not a link
-ptyr4 is not an anchor
-Looking at : /dev/ttyr5
-ttyr5 is not a link
-ttyr5 is not an anchor
-Looking at : /dev/ptyr5
-ptyr5 is not a link
-ptyr5 is not an anchor
-Looking at : /dev/ttyr6
-ttyr6 is not a link
-ttyr6 is not an anchor
-Looking at : /dev/ptyr6
-ptyr6 is not a link
-ptyr6 is not an anchor
-Looking at : /dev/ttyr7
-ttyr7 is not a link
-ttyr7 is not an anchor
-Looking at : /dev/ptyr7
-ptyr7 is not a link
-ptyr7 is not an anchor
-Looking at : /dev/ttyr8
-ttyr8 is not a link
-ttyr8 is not an anchor
-Looking at : /dev/ptyr8
-ptyr8 is not a link
-ptyr8 is not an anchor
-Looking at : /dev/ttyr9
-ttyr9 is not a link
-ttyr9 is not an anchor
-Looking at : /dev/ptyr9
-ptyr9 is not a link
-ptyr9 is not an anchor
-Looking at : /dev/ttyra
-ttyra is not a link
-ttyra is not an anchor
-Looking at : /dev/ptyra
-ptyra is not a link
-ptyra is not an anchor
-Looking at : /dev/ttyrb
-ttyrb is not a link
-ttyrb is not an anchor
-Looking at : /dev/ptyrb
-ptyrb is not a link
-ptyrb is not an anchor
-Looking at : /dev/ttyrc
-ttyrc is not a link
-ttyrc is not an anchor
-Looking at : /dev/ptyrc
-ptyrc is not a link
-ptyrc is not an anchor
-Looking at : /dev/ttyrd
-ttyrd is not a link
-ttyrd is not an anchor
-Looking at : /dev/ptyrd
-ptyrd is not a link
-ptyrd is not an anchor
-Looking at : /dev/ttyre
-ttyre is not a link
-ttyre is not an anchor
-Looking at : /dev/ptyre
-ptyre is not a link
-ptyre is not an anchor
-Looking at : /dev/ttyrf
-ttyrf is not a link
-ttyrf is not an anchor
-Looking at : /dev/ptyrf
-ptyrf is not a link
-ptyrf is not an anchor
-Looking at : /dev/ttys0
-ttys0 is not a link
-ttys0 is not an anchor
-Looking at : /dev/ptys0
-ptys0 is not a link
-ptys0 is not an anchor
-Looking at : /dev/ttys1
-ttys1 is not a link
-ttys1 is not an anchor
-Looking at : /dev/ptys1
-ptys1 is not a link
-ptys1 is not an anchor
-Looking at : /dev/ttys2
-ttys2 is not a link
-ttys2 is not an anchor
-Looking at : /dev/ptys2
-ptys2 is not a link
-ptys2 is not an anchor
-Looking at : /dev/ttys3
-ttys3 is not a link
-ttys3 is not an anchor
-Looking at : /dev/ptys3
-ptys3 is not a link
-ptys3 is not an anchor
-Looking at : /dev/ttys4
-ttys4 is not a link
-ttys4 is not an anchor
-Looking at : /dev/ptys4
-ptys4 is not a link
-ptys4 is not an anchor
-Looking at : /dev/ttys5
-ttys5 is not a link
-ttys5 is not an anchor
-Looking at : /dev/ptys5
-ptys5 is not a link
-ptys5 is not an anchor
-Looking at : /dev/ttys6
-ttys6 is not a link
-ttys6 is not an anchor
-Looking at : /dev/ptys6
-ptys6 is not a link
-ptys6 is not an anchor
-Looking at : /dev/ttys7
-ttys7 is not a link
-ttys7 is not an anchor
-Looking at : /dev/ptys7
-ptys7 is not a link
-ptys7 is not an anchor
-Looking at : /dev/ttys8
-ttys8 is not a link
-ttys8 is not an anchor
-Looking at : /dev/ptys8
-ptys8 is not a link
-ptys8 is not an anchor
-Looking at : /dev/ttys9
-ttys9 is not a link
-ttys9 is not an anchor
-Looking at : /dev/ptys9
-ptys9 is not a link
-ptys9 is not an anchor
-Looking at : /dev/ttysa
-ttysa is not a link
-ttysa is not an anchor
-Looking at : /dev/ptysa
-ptysa is not a link
-ptysa is not an anchor
-Looking at : /dev/ttysb
-ttysb is not a link
-ttysb is not an anchor
-Looking at : /dev/ptysb
-ptysb is not a link
-ptysb is not an anchor
-Looking at : /dev/ttysc
-ttysc is not a link
-ttysc is not an anchor
-Looking at : /dev/ptysc
-ptysc is not a link
-ptysc is not an anchor
-Looking at : /dev/ttysd
-ttysd is not a link
-ttysd is not an anchor
-Looking at : /dev/ptysd
-ptysd is not a link
-ptysd is not an anchor
-Looking at : /dev/ttyse
-ttyse is not a link
-ttyse is not an anchor
-Looking at : /dev/ptyse
-ptyse is not a link
-ptyse is not an anchor
-Looking at : /dev/ttysf
-ttysf is not a link
-ttysf is not an anchor
-Looking at : /dev/ptysf
-ptysf is not a link
-ptysf is not an anchor
-Looking at : /dev/ttyt0
-ttyt0 is not a link
-ttyt0 is not an anchor
-Looking at : /dev/ptyt0
-ptyt0 is not a link
-ptyt0 is not an anchor
-Looking at : /dev/ttyt1
-ttyt1 is not a link
-ttyt1 is not an anchor
-Looking at : /dev/ptyt1
-ptyt1 is not a link
-ptyt1 is not an anchor
-Looking at : /dev/ttyt2
-ttyt2 is not a link
-ttyt2 is not an anchor
-Looking at : /dev/ptyt2
-ptyt2 is not a link
-ptyt2 is not an anchor
-Looking at : /dev/ttyt3
-ttyt3 is not a link
-ttyt3 is not an anchor
-Looking at : /dev/ptyt3
-ptyt3 is not a link
-ptyt3 is not an anchor
-Looking at : /dev/ttyt4
-ttyt4 is not a link
-ttyt4 is not an anchor
-Looking at : /dev/ptyt4
-ptyt4 is not a link
-ptyt4 is not an anchor
-Looking at : /dev/ttyt5
-ttyt5 is not a link
-ttyt5 is not an anchor
-Looking at : /dev/ptyt5
-ptyt5 is not a link
-ptyt5 is not an anchor
-Looking at : /dev/ttyt6
-ttyt6 is not a link
-ttyt6 is not an anchor
-Looking at : /dev/ptyt6
-ptyt6 is not a link
-ptyt6 is not an anchor
-Looking at : /dev/ttyt7
-ttyt7 is not a link
-ttyt7 is not an anchor
-Looking at : /dev/ptyt7
-ptyt7 is not a link
-ptyt7 is not an anchor
-Looking at : /dev/ttyt8
-ttyt8 is not a link
-ttyt8 is not an anchor
-Looking at : /dev/ptyt8
-ptyt8 is not a link
-ptyt8 is not an anchor
-Looking at : /dev/ttyt9
-ttyt9 is not a link
-ttyt9 is not an anchor
-Looking at : /dev/ptyt9
-ptyt9 is not a link
-ptyt9 is not an anchor
-Looking at : /dev/ttyta
-ttyta is not a link
-ttyta is not an anchor
-Looking at : /dev/ptyta
-ptyta is not a link
-ptyta is not an anchor
-Looking at : /dev/ttytb
-ttytb is not a link
-ttytb is not an anchor
-Looking at : /dev/ptytb
-ptytb is not a link
-ptytb is not an anchor
-Looking at : /dev/ttytc
-ttytc is not a link
-ttytc is not an anchor
-Looking at : /dev/ptytc
-ptytc is not a link
-ptytc is not an anchor
-Looking at : /dev/ttytd
-ttytd is not a link
-ttytd is not an anchor
-Looking at : /dev/ptytd
-ptytd is not a link
-ptytd is not an anchor
-Looking at : /dev/ttyte
-ttyte is not a link
-ttyte is not an anchor
-Looking at : /dev/ptyte
-ptyte is not a link
-ptyte is not an anchor
-Looking at : /dev/ttytf
-ttytf is not a link
-ttytf is not an anchor
-Looking at : /dev/ptytf
-ptytf is not a link
-ptytf is not an anchor
-Looking at : /dev/ttyu0
-ttyu0 is not a link
-ttyu0 is not an anchor
-Looking at : /dev/ptyu0
-ptyu0 is not a link
-ptyu0 is not an anchor
-Looking at : /dev/ttyu1
-ttyu1 is not a link
-ttyu1 is not an anchor
-Looking at : /dev/ptyu1
-ptyu1 is not a link
-ptyu1 is not an anchor
-Looking at : /dev/ttyu2
-ttyu2 is not a link
-ttyu2 is not an anchor
-Looking at : /dev/ptyu2
-ptyu2 is not a link
-ptyu2 is not an anchor
-Looking at : /dev/ttyu3
-ttyu3 is not a link
-ttyu3 is not an anchor
-Looking at : /dev/ptyu3
-ptyu3 is not a link
-ptyu3 is not an anchor
-Looking at : /dev/ttyu4
-ttyu4 is not a link
-ttyu4 is not an anchor
-Looking at : /dev/ptyu4
-ptyu4 is not a link
-ptyu4 is not an anchor
-Looking at : /dev/ttyu5
-ttyu5 is not a link
-ttyu5 is not an anchor
-Looking at : /dev/ptyu5
-ptyu5 is not a link
-ptyu5 is not an anchor
-Looking at : /dev/ttyu6
-ttyu6 is not a link
-ttyu6 is not an anchor
-Looking at : /dev/ptyu6
-ptyu6 is not a link
-ptyu6 is not an anchor
-Looking at : /dev/ttyu7
-ttyu7 is not a link
-ttyu7 is not an anchor
-Looking at : /dev/ptyu7
-ptyu7 is not a link
-ptyu7 is not an anchor
-Looking at : /dev/ttyu8
-ttyu8 is not a link
-ttyu8 is not an anchor
-Looking at : /dev/ptyu8
-ptyu8 is not a link
-ptyu8 is not an anchor
-Looking at : /dev/ttyu9
-ttyu9 is not a link
-ttyu9 is not an anchor
-Looking at : /dev/ptyu9
-ptyu9 is not a link
-ptyu9 is not an anchor
-Looking at : /dev/ttyua
-ttyua is not a link
-ttyua is not an anchor
-Looking at : /dev/ptyua
-ptyua is not a link
-ptyua is not an anchor
-Looking at : /dev/ttyub
-ttyub is not a link
-ttyub is not an anchor
-Looking at : /dev/ptyub
-ptyub is not a link
-ptyub is not an anchor
-Looking at : /dev/ttyuc
-ttyuc is not a link
-ttyuc is not an anchor
-Looking at : /dev/ptyuc
-ptyuc is not a link
-ptyuc is not an anchor
-Looking at : /dev/ttyud
-ttyud is not a link
-ttyud is not an anchor
-Looking at : /dev/ptyud
-ptyud is not a link
-ptyud is not an anchor
-Looking at : /dev/ttyue
-ttyue is not a link
-ttyue is not an anchor
-Looking at : /dev/ptyue
-ptyue is not a link
-ptyue is not an anchor
-Looking at : /dev/ttyuf
-ttyuf is not a link
-ttyuf is not an anchor
-Looking at : /dev/ptyuf
-ptyuf is not a link
-ptyuf is not an anchor
-Looking at : /dev/ttyv0
-ttyv0 is not a link
-ttyv0 is not an anchor
-Looking at : /dev/ptyv0
-ptyv0 is not a link
-ptyv0 is not an anchor
-Looking at : /dev/ttyv1
-ttyv1 is not a link
-ttyv1 is not an anchor
-Looking at : /dev/ptyv1
-ptyv1 is not a link
-ptyv1 is not an anchor
-Looking at : /dev/ttyv2
-ttyv2 is not a link
-ttyv2 is not an anchor
-Looking at : /dev/ptyv2
-ptyv2 is not a link
-ptyv2 is not an anchor
-Looking at : /dev/ttyv3
-ttyv3 is not a link
-ttyv3 is not an anchor
-Looking at : /dev/ptyv3
-ptyv3 is not a link
-ptyv3 is not an anchor
-Looking at : /dev/ttyv4
-ttyv4 is not a link
-ttyv4 is not an anchor
-Looking at : /dev/ptyv4
-ptyv4 is not a link
-ptyv4 is not an anchor
-Looking at : /dev/ttyv5
-ttyv5 is not a link
-ttyv5 is not an anchor
-Looking at : /dev/ptyv5
-ptyv5 is not a link
-ptyv5 is not an anchor
-Looking at : /dev/ttyv6
-ttyv6 is not a link
-ttyv6 is not an anchor
-Looking at : /dev/ptyv6
-ptyv6 is not a link
-ptyv6 is not an anchor
-Looking at : /dev/ttyv7
-ttyv7 is not a link
-ttyv7 is not an anchor
-Looking at : /dev/ptyv7
-ptyv7 is not a link
-ptyv7 is not an anchor
-Looking at : /dev/ttyv8
-ttyv8 is not a link
-ttyv8 is not an anchor
-Looking at : /dev/ptyv8
-ptyv8 is not a link
-ptyv8 is not an anchor
-Looking at : /dev/ttyv9
-ttyv9 is not a link
-ttyv9 is not an anchor
-Looking at : /dev/ptyv9
-ptyv9 is not a link
-ptyv9 is not an anchor
-Looking at : /dev/ttyva
-ttyva is not a link
-ttyva is not an anchor
-Looking at : /dev/ptyva
-ptyva is not a link
-ptyva is not an anchor
-Looking at : /dev/ttyvb
-ttyvb is not a link
-ttyvb is not an anchor
-Looking at : /dev/ptyvb
-ptyvb is not a link
-ptyvb is not an anchor
-Looking at : /dev/ttyvc
-ttyvc is not a link
-ttyvc is not an anchor
-Looking at : /dev/ptyvc
-ptyvc is not a link
-ptyvc is not an anchor
-Looking at : /dev/ttyvd
-ttyvd is not a link
-ttyvd is not an anchor
-Looking at : /dev/ptyvd
-ptyvd is not a link
-ptyvd is not an anchor
-Looking at : /dev/ttyve
-ttyve is not a link
-ttyve is not an anchor
-Looking at : /dev/ptyve
-ptyve is not a link
-ptyve is not an anchor
-Looking at : /dev/ttyvf
-ttyvf is not a link
-ttyvf is not an anchor
-Looking at : /dev/ptyvf
-ptyvf is not a link
-ptyvf is not an anchor
-Looking at : /dev/ttyw0
-ttyw0 is not a link
-ttyw0 is not an anchor
-Looking at : /dev/ptyw0
-ptyw0 is not a link
-ptyw0 is not an anchor
-Looking at : /dev/ttyw1
-ttyw1 is not a link
-ttyw1 is not an anchor
-Looking at : /dev/ptyw1
-ptyw1 is not a link
-ptyw1 is not an anchor
-Looking at : /dev/ttyw2
-ttyw2 is not a link
-ttyw2 is not an anchor
-Looking at : /dev/ptyw2
-ptyw2 is not a link
-ptyw2 is not an anchor
-Looking at : /dev/ttyw3
-ttyw3 is not a link
-ttyw3 is not an anchor
-Looking at : /dev/ptyw3
-ptyw3 is not a link
-ptyw3 is not an anchor
-Looking at : /dev/ttyw4
-ttyw4 is not a link
-ttyw4 is not an anchor
-Looking at : /dev/ptyw4
-ptyw4 is not a link
-ptyw4 is not an anchor
-Looking at : /dev/ttyw5
-ttyw5 is not a link
-ttyw5 is not an anchor
-Looking at : /dev/ptyw5
-ptyw5 is not a link
-ptyw5 is not an anchor
-Looking at : /dev/ttyw6
-ttyw6 is not a link
-ttyw6 is not an anchor
-Looking at : /dev/ptyw6
-ptyw6 is not a link
-ptyw6 is not an anchor
-Looking at : /dev/ttyw7
-ttyw7 is not a link
-ttyw7 is not an anchor
-Looking at : /dev/ptyw7
-ptyw7 is not a link
-ptyw7 is not an anchor
-Looking at : /dev/ttyw8
-ttyw8 is not a link
-ttyw8 is not an anchor
-Looking at : /dev/ptyw8
-ptyw8 is not a link
-ptyw8 is not an anchor
-Looking at : /dev/ttyw9
-ttyw9 is not a link
-ttyw9 is not an anchor
-Looking at : /dev/ptyw9
-ptyw9 is not a link
-ptyw9 is not an anchor
-Looking at : /dev/ttywa
-ttywa is not a link
-ttywa is not an anchor
-Looking at : /dev/ptywa
-ptywa is not a link
-ptywa is not an anchor
-Looking at : /dev/ttywb
-ttywb is not a link
-ttywb is not an anchor
-Looking at : /dev/ptywb
-ptywb is not a link
-ptywb is not an anchor
-Looking at : /dev/ttywc
-ttywc is not a link
-ttywc is not an anchor
-Looking at : /dev/ptywc
-ptywc is not a link
-ptywc is not an anchor
-Looking at : /dev/ttywd
-ttywd is not a link
-ttywd is not an anchor
-Looking at : /dev/ptywd
-ptywd is not a link
-ptywd is not an anchor
-Looking at : /dev/ttywe
-ttywe is not a link
-ttywe is not an anchor
-Looking at : /dev/ptywe
-ptywe is not a link
-ptywe is not an anchor
-Looking at : /dev/ttywf
-ttywf is not a link
-ttywf is not an anchor
-Looking at : /dev/ptywf
-ptywf is not a link
-ptywf is not an anchor
-Looking at : /dev/ptmx
-ptmx is not a link
-ptmx is not an anchor
-Looking at : /dev/bpf0
-bpf0 is not a link
-bpf0 is not an anchor
-Looking at : /dev/bpf1
-bpf1 is not a link
-bpf1 is not an anchor
-Looking at : /dev/bpf2
-bpf2 is not a link
-bpf2 is not an anchor
-Looking at : /dev/bpf3
-bpf3 is not a link
-bpf3 is not an anchor
-Looking at : /dev/fsevents
-fsevents is not a link
-fsevents is not an anchor
-Looking at : /dev/random
-random is not a link
-random is not an anchor
-Looking at : /dev/urandom
-urandom is not a link
-urandom is not an anchor
-Looking at : /dev/dtrace
-dtrace is not a link
-dtrace is not an anchor
-Looking at : /dev/dtracehelper
-dtracehelper is not a link
-dtracehelper is not an anchor
-Looking at : /dev/lockstat
-lockstat is not a link
-lockstat is not an anchor
-Looking at : /dev/sdt
-sdt is not a link
-sdt is not an anchor
-Looking at : /dev/systrace
-systrace is not a link
-systrace is not an anchor
-Looking at : /dev/machtrace
-machtrace is not a link
-machtrace is not an anchor
-Looking at : /dev/fbt
-fbt is not a link
-fbt is not an anchor
-Looking at : /dev/profile
-profile is not a link
-profile is not an anchor
-Looking at : /dev/afsc_type5
-afsc_type5 is not a link
-afsc_type5 is not an anchor
-Looking at : /dev/io8log
-io8log is not a link
-io8log is not an anchor
-Looking at : /dev/io8logmt
-io8logmt is not a link
-io8logmt is not an anchor
-Looking at : /dev/io8logtemp
-io8logtemp is not a link
-io8logtemp is not an anchor
-Looking at : /dev/disk0
-disk0 is not a link
-disk0 is not an anchor
-Looking at : /dev/rdisk0
-rdisk0 is not a link
-rdisk0 is not an anchor
-Looking at : /dev/disk0s1
-disk0s1 is not a link
-disk0s1 is not an anchor
-Looking at : /dev/rdisk0s1
-rdisk0s1 is not a link
-rdisk0s1 is not an anchor
-Looking at : /dev/disk0s2
-disk0s2 is not a link
-disk0s2 is not an anchor
-Looking at : /dev/rdisk0s2
-rdisk0s2 is not a link
-rdisk0s2 is not an anchor
-Looking at : /dev/disk1
-disk1 is not a link
-disk1 is not an anchor
-Looking at : /dev/rdisk1
-rdisk1 is not a link
-rdisk1 is not an anchor
-Looking at : /dev/disk1s1
-disk1s1 is not a link
-disk1s1 is not an anchor
-Looking at : /dev/rdisk1s1
-rdisk1s1 is not a link
-rdisk1s1 is not an anchor
-Looking at : /dev/disk1s3
-disk1s3 is not a link
-disk1s3 is not an anchor
-Looking at : /dev/rdisk1s3
-rdisk1s3 is not a link
-rdisk1s3 is not an anchor
-Looking at : /dev/disk1s4
-disk1s4 is not a link
-disk1s4 is not an anchor
-Looking at : /dev/rdisk1s4
-rdisk1s4 is not a link
-rdisk1s4 is not an anchor
-Looking at : /dev/disk1s2
-disk1s2 is not a link
-disk1s2 is not an anchor
-Looking at : /dev/rdisk1s2
-rdisk1s2 is not a link
-rdisk1s2 is not an anchor
-Looking at : /dev/xcpm
-xcpm is not a link
-xcpm is not an anchor
-Looking at : /dev/cu.Bluetooth-Incoming-Port
-cu.Bluetooth-Incoming-Port is not a link
-cu.Bluetooth-Incoming-Port is not an anchor
-Looking at : /dev/tty.Bluetooth-Incoming-Port
-tty.Bluetooth-Incoming-Port is not a link
-tty.Bluetooth-Incoming-Port is not an anchor
-Looking at : /dev/cu.iphonecb-WirelessiAP
-cu.iphonecb-WirelessiAP is not a link
-cu.iphonecb-WirelessiAP is not an anchor
-Looking at : /dev/tty.iphonecb-WirelessiAP
-tty.iphonecb-WirelessiAP is not a link
-tty.iphonecb-WirelessiAP is not an anchor
-Looking at : /dev/autofs
-autofs is not a link
-autofs is not an anchor
-Looking at : /dev/autofs_nowait
-autofs_nowait is not a link
-autofs_nowait is not an anchor
-Looking at : /dev/autofs_notrigger
-autofs_notrigger is not a link
-autofs_notrigger is not an anchor
-Looking at : /dev/autofs_homedirmounter
-autofs_homedirmounter is not a link
-autofs_homedirmounter is not an anchor
-Looking at : /dev/autofs_control
-autofs_control is not a link
-autofs_control is not an anchor
-Looking at : /dev/nsmb0
-nsmb0 is not a link
-nsmb0 is not an anchor
-Looking at : /dev/bpf4
-bpf4 is not a link
-bpf4 is not an anchor
-Looking at : /dev/ttys001
-ttys001 is not a link
-ttys001 is not an anchor
-Looking at : /dev/ttys006
-ttys006 is not a link
-ttys006 is not an anchor
-Looking at : /dev/ttys002
-ttys002 is not a link
-ttys002 is not an anchor
-Looking at : /dev/ttys004
-ttys004 is not a link
-ttys004 is not an anchor
-Looking at : /dev/ttys000
-ttys000 is not a link
-ttys000 is not an anchor
-Looking at : /dev/ttys003
-ttys003 is not a link
-ttys003 is not an anchor
-Looking at : /dev/ttys005
-ttys005 is not a link
-ttys005 is not an anchor
+Entering .
+Entering print
+Getting stats for ./Makefile
+Stats OK./Makefile
+Getting stats for ./README
+Stats OK./README
+Getting stats for ./_test
+Stats OK./_test
+Getting stats for ./auteur
+Stats OK./auteur
+Getting stats for ./ft_ls
+Stats OK./ft_ls
+Getting stats for ./includes
+Stats OK./includes
+Getting stats for ./libft
+Stats OK./libft
+Getting stats for ./objs
+Stats OK./objs
+Getting stats for ./srcs
+Stats OK./srcs
+Getting stats for ./tmp
+Stats OK./tmp
+total 120
+Starting print loop
+-rw-r--r--   1 Hugo  staff   2715 Jan 19 10:00 Makefile
+-rw-r--r--   1 Hugo  staff    361 Jan 19 09:14 README
+drwxr-xr-x  10 Hugo  staff    320 Jan 19 09:14 _test
+-rw-r--r--   1 Hugo  staff      7 Jan 19 09:14 auteur
+-rwxr-xr-x   1 Hugo  staff  43076 Jan 19 11:04 ft_ls
+drwxr-xr-x   3 Hugo  staff     96 Jan 19 10:51 includes
+drwxr-xr-x  12 Hugo  staff    384 Jan 19 09:54 libft
+drwxr-xr-x  38 Hugo  staff   1216 Jan 19 11:04 objs
+drwxr-xr-x  20 Hugo  staff    640 Jan 19 11:04 srcs
+-rw-r--r--   1 Hugo  staff    967 Jan 19 11:05 tmp
+Entering ./_test
+Entering print
+Getting stats for ./_test/diff_result
+Stats OK./_test/diff_result
+Getting stats for ./_test/dir
+Stats OK./_test/dir
+Getting stats for ./_test/dirsym
+Stats OK./_test/dirsym
+Getting stats for ./_test/dirsym_ext
+Stats OK./_test/dirsym_ext
+Getting stats for ./_test/dirsym_ext_r
+Stats OK./_test/dirsym_ext_r
+Getting stats for ./_test/filesym
+Stats OK./_test/filesym
+Getting stats for ./_test/test.sh
+Stats OK./_test/test.sh
+Getting stats for ./_test/testfile
+Stats OK./_test/testfile
+
+./_test:
+total 24
+Starting print loop
+-rw-r--r--  1 Hugo  staff  4336 Jan 19 09:14 diff_result
+drwxr-xr-x  6 Hugo  staff   192 Jan 19 09:14 dir
+lrwxr-xr-x  1 Hugo  staff     3 Jan 19 09:14 dirsym -> dir
+lrwxr-xr-x  1 Hugo  staff    12 Jan 19 09:14 dirsym_ext -> ../includes/
+lrwxr-xr-x  1 Hugo  staff     2 Jan 19 09:14 dirsym_ext_r -> ..
+lrwxr-xr-x  1 Hugo  staff     6 Jan 19 09:14 filesym -> README
+-rwxr-xr-x  1 Hugo  staff    79 Jan 19 09:14 test.sh
+-rwxr-xr-x  1 Hugo  staff     0 Jan 19 09:14 testfile
+Entering ./_test/dir
+Entering print
+Getting stats for ./_test/dir/bigdir.sh
+Stats OK./_test/dir/bigdir.sh
+Getting stats for ./_test/dir/manydirs.sh
+Stats OK./_test/dir/manydirs.sh
+Getting stats for ./_test/dir/test
+Stats OK./_test/dir/test
+Getting stats for ./_test/dir/tmpfile
+Stats OK./_test/dir/tmpfile
+
+./_test/dir:
+total 32
+Starting print loop
+-rw-r--r--  1 Hugo  staff    54 Jan 19 09:14 bigdir.sh
+-rw-r--r--  1 Hugo  staff   146 Jan 19 09:14 manydirs.sh
+-rw-r--r--  1 Hugo  staff     0 Jan 19 09:14 test
+-rw-r--r--  1 Hugo  staff  4892 Jan 19 09:14 tmpfile
+Entering ./includes
+Entering print
+Getting stats for ./includes/ls.h
+Stats OK./includes/ls.h
+
+./includes:
+total 16
+Starting print loop
+-rw-r--r--  1 Hugo  staff  4102 Jan 19 10:31 ls.h
+Entering ./libft
+Entering print
+Getting stats for ./libft/Makefile
+Stats OK./libft/Makefile
+Getting stats for ./libft/README
+Stats OK./libft/README
+Getting stats for ./libft/_test
+Stats OK./libft/_test
+Getting stats for ./libft/includes
+Stats OK./libft/includes
+Getting stats for ./libft/libft.a
+Stats OK./libft/libft.a
+Getting stats for ./libft/libs
+Stats OK./libft/libs
+Getting stats for ./libft/objs
+Stats OK./libft/objs
+Getting stats for ./libft/srcs
+Stats OK./libft/srcs
+
+./libft:
+total 248
+Starting print loop
+-rw-r--r--    1 Hugo  staff    4143 Jan 19 09:15 Makefile
+-rw-r--r--    1 Hugo  staff      56 Jan 19 09:15 README
+drwxr-xr-x    6 Hugo  staff     192 Jan 19 09:15 _test
+drwxr-xr-x    3 Hugo  staff      96 Jan 19 09:15 includes
+-rw-r--r--    1 Hugo  staff  111752 Jan 19 09:54 libft.a
+drwxr-xr-x    3 Hugo  staff      96 Jan 19 09:15 libs
+drwxr-xr-x  166 Hugo  staff    5312 Jan 19 09:54 objs
+drwxr-xr-x   85 Hugo  staff    2720 Jan 19 09:34 srcs
+Entering ./libft/_test
+Entering print
+Getting stats for ./libft/_test/Makefile
+Stats OK./libft/_test/Makefile
+Getting stats for ./libft/_test/includes
+Stats OK./libft/_test/includes
+Getting stats for ./libft/_test/libft
+Stats OK./libft/_test/libft
+Getting stats for ./libft/_test/srcs
+Stats OK./libft/_test/srcs
+
+./libft/_test:
+total 8
+Starting print loop
+-rw-r--r--  1 Hugo  staff  1878 Jan 19 09:15 Makefile
+drwxr-xr-x  3 Hugo  staff    96 Jan 19 09:15 includes
+lrwxr-xr-x  1 Hugo  staff     2 Jan 19 09:15 libft -> ..
+drwxr-xr-x  6 Hugo  staff   192 Jan 19 09:15 srcs
+Entering ./libft/_test/includes
+Entering print
+Getting stats for ./libft/_test/includes/libft_tests.h
+Stats OK./libft/_test/includes/libft_tests.h
+
+./libft/_test/includes:
+total 8
+Starting print loop
+-rw-r--r--  1 Hugo  staff  448 Jan 19 09:15 libft_tests.h
+Entering ./libft/_test/srcs
+Entering print
+Getting stats for ./libft/_test/srcs/basic_tests.c
+Stats OK./libft/_test/srcs/basic_tests.c
+Getting stats for ./libft/_test/srcs/compare.c
+Stats OK./libft/_test/srcs/compare.c
+Getting stats for ./libft/_test/srcs/custom_tests.c
+Stats OK./libft/_test/srcs/custom_tests.c
+Getting stats for ./libft/_test/srcs/main.c
+Stats OK./libft/_test/srcs/main.c
+
+./libft/_test/srcs:
+total 80
+Starting print loop
+-rw-r--r--  1 Hugo  staff  20536 Jan 19 09:15 basic_tests.c
+-rw-r--r--  1 Hugo  staff    972 Jan 19 09:15 compare.c
+-rw-r--r--  1 Hugo  staff   4653 Jan 19 09:15 custom_tests.c
+-rw-r--r--  1 Hugo  staff     95 Jan 19 09:15 main.c
+Entering ./libft/includes
+Entering print
+Getting stats for ./libft/includes/libft.h
+Stats OK./libft/includes/libft.h
+
+./libft/includes:
+total 16
+Starting print loop
+-rw-r--r--  1 Hugo  staff  5018 Jan 19 09:15 libft.h
+Entering ./libft/libs
+Entering print
+Getting stats for ./libft/libs/libftprintf
+Stats OK./libft/libs/libftprintf
+
+./libft/libs:
 total 0
-crw-------  1 root  wheel           19,     1 Nov 25 21:39 afsc_type5
-crw-------  1 root  wheel           10,     0 Nov 25 21:39 auditpipe
-crw-r--r--  1 root  wheel            9,     3 Nov 25 21:39 auditsessions
-crw-------  1 root  wheel           22,     0 Nov 25 21:40 autofs
-crw-------  1 root  wheel           34,     0 Nov 25 21:40 autofs_control
-crw-rw-rw-  1 root  wheel           33, 23030 Nov 25 21:40 autofs_homedirmounter
-crw-rw-rw-  1 root  wheel           32, 23030 Nov 25 21:40 autofs_notrigger
-crw-rw-rw-  1 root  wheel           31, 43936 Nov 25 21:40 autofs_nowait
-crw-------  1 root  wheel           23,     0 Nov 25 21:40 bpf0
-crw-------  1 root  wheel           23,     1 Nov 25 21:39 bpf1
-crw-------  1 root  wheel           23,     2 Jan 19 09:12 bpf2
-crw-------  1 root  wheel           23,     3 Jan 19 09:12 bpf3
-crw-------  1 root  wheel           23,     4 Nov 26 06:28 bpf4
-crw-------  1 Hugo  staff            0,     0 Nov 25 21:41 console
-crw-rw-rw-  1 root  wheel           18,     1 Nov 25 21:40 cu.Bluetooth-Incoming-Port
-crw-rw-rw-  1 root  wheel           18,     3 Nov 25 21:40 cu.iphonecb-WirelessiAP
-brw-r-----  1 root  operator         1,     0 Nov 25 21:39 disk0
-brw-r-----  1 root  operator         1,     1 Nov 25 21:39 disk0s1
-brw-r-----  1 root  operator         1,     2 Nov 25 21:39 disk0s2
-brw-r-----  1 root  operator         1,     3 Nov 25 21:39 disk1
-brw-r-----  1 root  operator         1,     4 Nov 25 21:39 disk1s1
-brw-r-----  1 root  operator         1,     7 Nov 25 21:39 disk1s2
-brw-r-----  1 root  operator         1,     5 Nov 25 21:39 disk1s3
-brw-r-----  1 root  operator         1,     6 Nov 25 21:39 disk1s4
-crw-rw-rw-  1 root  wheel           24,     3 Nov 25 21:39 dtrace
-crw-rw-rw-  1 root  wheel           25,     0 Nov 25 21:39 dtracehelper
-crw-rw-rw-  1 root  wheel            0,     0 Nov 25 21:39 fbt
-dr-xr-xr-x  1 root  wheel                   0 Nov 25 21:39 fd
-crw-r--r--  1 root  wheel           13,     0 Nov 25 21:39 fsevents
-crw-rw-rw-  1 root  wheel           20,    16 Jan 19 09:12 io8log
-cr--r--r--  1 root  wheel           20,    16 Nov 25 21:39 io8logmt
-crw-rw-rw-  1 root  wheel           20,    16 Jan 19 10:34 io8logtemp
-crw-------  1 root  wheel            6,     0 Nov 25 21:39 klog
-crw-rw-rw-  1 root  wheel            0,     0 Nov 25 21:39 lockstat
-crw-rw-rw-  1 root  wheel            0,     0 Nov 25 21:39 machtrace
-crw-rw-rw-  1 root  wheel           35,     0 Nov 25 21:42 nsmb0
-crw-rw-rw-  1 root  wheel            3,     2 Jan 19 10:38 null
-crw-------  1 root  wheel            7,     0 Nov 25 21:39 oslog
-crw-------  1 root  wheel            8,     0 Nov 25 21:39 oslog_stream
-crw-------  1 root  wheel           11,     0 Nov 25 21:39 pf
-crw-------  1 root  wheel           11,     1 Nov 25 21:39 pfm
-crw-rw-rw-  1 root  wheel            0,     0 Nov 25 21:39 profile
-crw-rw-rw-  1 root  tty             15,     7 Jan 19 10:38 ptmx
-crw-rw-rw-  1 root  wheel            5,     0 Nov 25 21:39 ptyp0
-crw-rw-rw-  1 root  wheel            5,     1 Nov 25 21:39 ptyp1
-crw-rw-rw-  1 root  wheel            5,     2 Nov 25 21:39 ptyp2
-crw-rw-rw-  1 root  wheel            5,     3 Nov 25 21:39 ptyp3
-crw-rw-rw-  1 root  wheel            5,     4 Nov 25 21:39 ptyp4
-crw-rw-rw-  1 root  wheel            5,     5 Nov 25 21:39 ptyp5
-crw-rw-rw-  1 root  wheel            5,     6 Nov 25 21:39 ptyp6
-crw-rw-rw-  1 root  wheel            5,     7 Nov 25 21:39 ptyp7
-crw-rw-rw-  1 root  wheel            5,     8 Nov 25 21:39 ptyp8
-crw-rw-rw-  1 root  wheel            5,     9 Nov 25 21:39 ptyp9
-crw-rw-rw-  1 root  wheel            5,    10 Nov 25 21:39 ptypa
-crw-rw-rw-  1 root  wheel            5,    11 Nov 25 21:39 ptypb
-crw-rw-rw-  1 root  wheel            5,    12 Nov 25 21:39 ptypc
-crw-rw-rw-  1 root  wheel            5,    13 Nov 25 21:39 ptypd
-crw-rw-rw-  1 root  wheel            5,    14 Nov 25 21:39 ptype
-crw-rw-rw-  1 root  wheel            5,    15 Nov 25 21:39 ptypf
-crw-rw-rw-  1 root  wheel            5,    16 Nov 25 21:39 ptyq0
-crw-rw-rw-  1 root  wheel            5,    17 Nov 25 21:39 ptyq1
-crw-rw-rw-  1 root  wheel            5,    18 Nov 25 21:39 ptyq2
-crw-rw-rw-  1 root  wheel            5,    19 Nov 25 21:39 ptyq3
-crw-rw-rw-  1 root  wheel            5,    20 Nov 25 21:39 ptyq4
-crw-rw-rw-  1 root  wheel            5,    21 Nov 25 21:39 ptyq5
-crw-rw-rw-  1 root  wheel            5,    22 Nov 25 21:39 ptyq6
-crw-rw-rw-  1 root  wheel            5,    23 Nov 25 21:39 ptyq7
-crw-rw-rw-  1 root  wheel            5,    24 Nov 25 21:39 ptyq8
-crw-rw-rw-  1 root  wheel            5,    25 Nov 25 21:39 ptyq9
-crw-rw-rw-  1 root  wheel            5,    26 Nov 25 21:39 ptyqa
-crw-rw-rw-  1 root  wheel            5,    27 Nov 25 21:39 ptyqb
-crw-rw-rw-  1 root  wheel            5,    28 Nov 25 21:39 ptyqc
-crw-rw-rw-  1 root  wheel            5,    29 Nov 25 21:39 ptyqd
-crw-rw-rw-  1 root  wheel            5,    30 Nov 25 21:39 ptyqe
-crw-rw-rw-  1 root  wheel            5,    31 Nov 25 21:39 ptyqf
-crw-rw-rw-  1 root  wheel            5,    32 Nov 25 21:39 ptyr0
-crw-rw-rw-  1 root  wheel            5,    33 Nov 25 21:39 ptyr1
-crw-rw-rw-  1 root  wheel            5,    34 Nov 25 21:39 ptyr2
-crw-rw-rw-  1 root  wheel            5,    35 Nov 25 21:39 ptyr3
-crw-rw-rw-  1 root  wheel            5,    36 Nov 25 21:39 ptyr4
-crw-rw-rw-  1 root  wheel            5,    37 Nov 25 21:39 ptyr5
-crw-rw-rw-  1 root  wheel            5,    38 Nov 25 21:39 ptyr6
-crw-rw-rw-  1 root  wheel            5,    39 Nov 25 21:39 ptyr7
-crw-rw-rw-  1 root  wheel            5,    40 Nov 25 21:39 ptyr8
-crw-rw-rw-  1 root  wheel            5,    41 Nov 25 21:39 ptyr9
-crw-rw-rw-  1 root  wheel            5,    42 Nov 25 21:39 ptyra
-crw-rw-rw-  1 root  wheel            5,    43 Nov 25 21:39 ptyrb
-crw-rw-rw-  1 root  wheel            5,    44 Nov 25 21:39 ptyrc
-crw-rw-rw-  1 root  wheel            5,    45 Nov 25 21:39 ptyrd
-crw-rw-rw-  1 root  wheel            5,    46 Nov 25 21:39 ptyre
-crw-rw-rw-  1 root  wheel            5,    47 Nov 25 21:39 ptyrf
-crw-rw-rw-  1 root  wheel            5,    48 Nov 25 21:39 ptys0
-crw-rw-rw-  1 root  wheel            5,    49 Nov 25 21:39 ptys1
-crw-rw-rw-  1 root  wheel            5,    50 Nov 25 21:39 ptys2
-crw-rw-rw-  1 root  wheel            5,    51 Nov 25 21:39 ptys3
-crw-rw-rw-  1 root  wheel            5,    52 Nov 25 21:39 ptys4
-crw-rw-rw-  1 root  wheel            5,    53 Nov 25 21:39 ptys5
-crw-rw-rw-  1 root  wheel            5,    54 Nov 25 21:39 ptys6
-crw-rw-rw-  1 root  wheel            5,    55 Nov 25 21:39 ptys7
-crw-rw-rw-  1 root  wheel            5,    56 Nov 25 21:39 ptys8
-crw-rw-rw-  1 root  wheel            5,    57 Nov 25 21:39 ptys9
-crw-rw-rw-  1 root  wheel            5,    58 Nov 25 21:39 ptysa
-crw-rw-rw-  1 root  wheel            5,    59 Nov 25 21:39 ptysb
-crw-rw-rw-  1 root  wheel            5,    60 Nov 25 21:39 ptysc
-crw-rw-rw-  1 root  wheel            5,    61 Nov 25 21:39 ptysd
-crw-rw-rw-  1 root  wheel            5,    62 Nov 25 21:39 ptyse
-crw-rw-rw-  1 root  wheel            5,    63 Nov 25 21:39 ptysf
-crw-rw-rw-  1 root  wheel            5,    64 Nov 25 21:39 ptyt0
-crw-rw-rw-  1 root  wheel            5,    65 Nov 25 21:39 ptyt1
-crw-rw-rw-  1 root  wheel            5,    66 Nov 25 21:39 ptyt2
-crw-rw-rw-  1 root  wheel            5,    67 Nov 25 21:39 ptyt3
-crw-rw-rw-  1 root  wheel            5,    68 Nov 25 21:39 ptyt4
-crw-rw-rw-  1 root  wheel            5,    69 Nov 25 21:39 ptyt5
-crw-rw-rw-  1 root  wheel            5,    70 Nov 25 21:39 ptyt6
-crw-rw-rw-  1 root  wheel            5,    71 Nov 25 21:39 ptyt7
-crw-rw-rw-  1 root  wheel            5,    72 Nov 25 21:39 ptyt8
-crw-rw-rw-  1 root  wheel            5,    73 Nov 25 21:39 ptyt9
-crw-rw-rw-  1 root  wheel            5,    74 Nov 25 21:39 ptyta
-crw-rw-rw-  1 root  wheel            5,    75 Nov 25 21:39 ptytb
-crw-rw-rw-  1 root  wheel            5,    76 Nov 25 21:39 ptytc
-crw-rw-rw-  1 root  wheel            5,    77 Nov 25 21:39 ptytd
-crw-rw-rw-  1 root  wheel            5,    78 Nov 25 21:39 ptyte
-crw-rw-rw-  1 root  wheel            5,    79 Nov 25 21:39 ptytf
-crw-rw-rw-  1 root  wheel            5,    80 Nov 25 21:39 ptyu0
-crw-rw-rw-  1 root  wheel            5,    81 Nov 25 21:39 ptyu1
-crw-rw-rw-  1 root  wheel            5,    82 Nov 25 21:39 ptyu2
-crw-rw-rw-  1 root  wheel            5,    83 Nov 25 21:39 ptyu3
-crw-rw-rw-  1 root  wheel            5,    84 Nov 25 21:39 ptyu4
-crw-rw-rw-  1 root  wheel            5,    85 Nov 25 21:39 ptyu5
-crw-rw-rw-  1 root  wheel            5,    86 Nov 25 21:39 ptyu6
-crw-rw-rw-  1 root  wheel            5,    87 Nov 25 21:39 ptyu7
-crw-rw-rw-  1 root  wheel            5,    88 Nov 25 21:39 ptyu8
-crw-rw-rw-  1 root  wheel            5,    89 Nov 25 21:39 ptyu9
-crw-rw-rw-  1 root  wheel            5,    90 Nov 25 21:39 ptyua
-crw-rw-rw-  1 root  wheel            5,    91 Nov 25 21:39 ptyub
-crw-rw-rw-  1 root  wheel            5,    92 Nov 25 21:39 ptyuc
-crw-rw-rw-  1 root  wheel            5,    93 Nov 25 21:39 ptyud
-crw-rw-rw-  1 root  wheel            5,    94 Nov 25 21:39 ptyue
-crw-rw-rw-  1 root  wheel            5,    95 Nov 25 21:39 ptyuf
-crw-rw-rw-  1 root  wheel            5,    96 Nov 25 21:39 ptyv0
-crw-rw-rw-  1 root  wheel            5,    97 Nov 25 21:39 ptyv1
-crw-rw-rw-  1 root  wheel            5,    98 Nov 25 21:39 ptyv2
-crw-rw-rw-  1 root  wheel            5,    99 Nov 25 21:39 ptyv3
-crw-rw-rw-  1 root  wheel            5,   100 Nov 25 21:39 ptyv4
-crw-rw-rw-  1 root  wheel            5,   101 Nov 25 21:39 ptyv5
-crw-rw-rw-  1 root  wheel            5,   102 Nov 25 21:39 ptyv6
-crw-rw-rw-  1 root  wheel            5,   103 Nov 25 21:39 ptyv7
-crw-rw-rw-  1 root  wheel            5,   104 Nov 25 21:39 ptyv8
-crw-rw-rw-  1 root  wheel            5,   105 Nov 25 21:39 ptyv9
-crw-rw-rw-  1 root  wheel            5,   106 Nov 25 21:39 ptyva
-crw-rw-rw-  1 root  wheel            5,   107 Nov 25 21:39 ptyvb
-crw-rw-rw-  1 root  wheel            5,   108 Nov 25 21:39 ptyvc
-crw-rw-rw-  1 root  wheel            5,   109 Nov 25 21:39 ptyvd
-crw-rw-rw-  1 root  wheel            5,   110 Nov 25 21:39 ptyve
-crw-rw-rw-  1 root  wheel            5,   111 Nov 25 21:39 ptyvf
-crw-rw-rw-  1 root  wheel            5,   112 Nov 25 21:39 ptyw0
-crw-rw-rw-  1 root  wheel            5,   113 Nov 25 21:39 ptyw1
-crw-rw-rw-  1 root  wheel            5,   114 Nov 25 21:39 ptyw2
-crw-rw-rw-  1 root  wheel            5,   115 Nov 25 21:39 ptyw3
-crw-rw-rw-  1 root  wheel            5,   116 Nov 25 21:39 ptyw4
-crw-rw-rw-  1 root  wheel            5,   117 Nov 25 21:39 ptyw5
-crw-rw-rw-  1 root  wheel            5,   118 Nov 25 21:39 ptyw6
-crw-rw-rw-  1 root  wheel            5,   119 Nov 25 21:39 ptyw7
-crw-rw-rw-  1 root  wheel            5,   120 Nov 25 21:39 ptyw8
-crw-rw-rw-  1 root  wheel            5,   121 Nov 25 21:39 ptyw9
-crw-rw-rw-  1 root  wheel            5,   122 Nov 25 21:39 ptywa
-crw-rw-rw-  1 root  wheel            5,   123 Nov 25 21:39 ptywb
-crw-rw-rw-  1 root  wheel            5,   124 Nov 25 21:39 ptywc
-crw-rw-rw-  1 root  wheel            5,   125 Nov 25 21:39 ptywd
-crw-rw-rw-  1 root  wheel            5,   126 Nov 25 21:39 ptywe
-crw-rw-rw-  1 root  wheel            5,   127 Nov 25 21:39 ptywf
-crw-rw-rw-  1 root  wheel           14,     0 Nov 25 21:39 random
-crw-r-----  1 root  operator         1,     0 Nov 25 21:39 rdisk0
-crw-r-----  1 root  operator         1,     1 Nov 25 21:39 rdisk0s1
-crw-r-----  1 root  operator         1,     2 Nov 25 21:39 rdisk0s2
-crw-r-----  1 root  operator         1,     3 Nov 25 21:39 rdisk1
-crw-r-----  1 root  operator         1,     4 Nov 25 21:39 rdisk1s1
-crw-r-----  1 root  operator         1,     7 Nov 25 21:39 rdisk1s2
-crw-r-----  1 root  operator         1,     5 Nov 25 21:39 rdisk1s3
-crw-r-----  1 root  operator         1,     6 Nov 25 21:39 rdisk1s4
-crw-rw-rw-  1 root  wheel            0,     0 Nov 25 21:39 sdt
-lr-xr-xr-x  1 root  wheel                   0 Nov 25 21:39 stderr -> fd/2
-lr-xr-xr-x  1 root  wheel                   0 Nov 25 21:39 stdin -> fd/0
-lr-xr-xr-x  1 root  wheel                   0 Nov 25 21:39 stdout -> fd/1
-crw-rw-rw-  1 root  wheel            0,     0 Nov 25 21:39 systrace
-crw-rw-rw-  1 root  wheel            2,     0 Jan 13 13:42 tty
-crw-rw-rw-  1 root  wheel           18,     0 Nov 25 21:40 tty.Bluetooth-Incoming-Port
-crw-rw-rw-  1 root  wheel           18,     2 Nov 25 21:40 tty.iphonecb-WirelessiAP
-crw-rw-rw-  1 root  wheel            4,     0 Nov 25 21:39 ttyp0
-crw-rw-rw-  1 root  wheel            4,     1 Nov 25 21:39 ttyp1
-crw-rw-rw-  1 root  wheel            4,     2 Nov 25 21:39 ttyp2
-crw-rw-rw-  1 root  wheel            4,     3 Nov 25 21:39 ttyp3
-crw-rw-rw-  1 root  wheel            4,     4 Nov 25 21:39 ttyp4
-crw-rw-rw-  1 root  wheel            4,     5 Nov 25 21:39 ttyp5
-crw-rw-rw-  1 root  wheel            4,     6 Nov 25 21:39 ttyp6
-crw-rw-rw-  1 root  wheel            4,     7 Nov 25 21:39 ttyp7
-crw-rw-rw-  1 root  wheel            4,     8 Nov 25 21:39 ttyp8
-crw-rw-rw-  1 root  wheel            4,     9 Nov 25 21:39 ttyp9
-crw-rw-rw-  1 root  wheel            4,    10 Nov 25 21:39 ttypa
-crw-rw-rw-  1 root  wheel            4,    11 Nov 25 21:39 ttypb
-crw-rw-rw-  1 root  wheel            4,    12 Nov 25 21:39 ttypc
-crw-rw-rw-  1 root  wheel            4,    13 Nov 25 21:39 ttypd
-crw-rw-rw-  1 root  wheel            4,    14 Nov 25 21:39 ttype
-crw-rw-rw-  1 root  wheel            4,    15 Nov 25 21:39 ttypf
-crw-rw-rw-  1 root  wheel            4,    16 Nov 25 21:39 ttyq0
-crw-rw-rw-  1 root  wheel            4,    17 Nov 25 21:39 ttyq1
-crw-rw-rw-  1 root  wheel            4,    18 Nov 25 21:39 ttyq2
-crw-rw-rw-  1 root  wheel            4,    19 Nov 25 21:39 ttyq3
-crw-rw-rw-  1 root  wheel            4,    20 Nov 25 21:39 ttyq4
-crw-rw-rw-  1 root  wheel            4,    21 Nov 25 21:39 ttyq5
-crw-rw-rw-  1 root  wheel            4,    22 Nov 25 21:39 ttyq6
-crw-rw-rw-  1 root  wheel            4,    23 Nov 25 21:39 ttyq7
-crw-rw-rw-  1 root  wheel            4,    24 Nov 25 21:39 ttyq8
-crw-rw-rw-  1 root  wheel            4,    25 Nov 25 21:39 ttyq9
-crw-rw-rw-  1 root  wheel            4,    26 Nov 25 21:39 ttyqa
-crw-rw-rw-  1 root  wheel            4,    27 Nov 25 21:39 ttyqb
-crw-rw-rw-  1 root  wheel            4,    28 Nov 25 21:39 ttyqc
-crw-rw-rw-  1 root  wheel            4,    29 Nov 25 21:39 ttyqd
-crw-rw-rw-  1 root  wheel            4,    30 Nov 25 21:39 ttyqe
-crw-rw-rw-  1 root  wheel            4,    31 Nov 25 21:39 ttyqf
-crw-rw-rw-  1 root  wheel            4,    32 Nov 25 21:39 ttyr0
-crw-rw-rw-  1 root  wheel            4,    33 Nov 25 21:39 ttyr1
-crw-rw-rw-  1 root  wheel            4,    34 Nov 25 21:39 ttyr2
-crw-rw-rw-  1 root  wheel            4,    35 Nov 25 21:39 ttyr3
-crw-rw-rw-  1 root  wheel            4,    36 Nov 25 21:39 ttyr4
-crw-rw-rw-  1 root  wheel            4,    37 Nov 25 21:39 ttyr5
-crw-rw-rw-  1 root  wheel            4,    38 Nov 25 21:39 ttyr6
-crw-rw-rw-  1 root  wheel            4,    39 Nov 25 21:39 ttyr7
-crw-rw-rw-  1 root  wheel            4,    40 Nov 25 21:39 ttyr8
-crw-rw-rw-  1 root  wheel            4,    41 Nov 25 21:39 ttyr9
-crw-rw-rw-  1 root  wheel            4,    42 Nov 25 21:39 ttyra
-crw-rw-rw-  1 root  wheel            4,    43 Nov 25 21:39 ttyrb
-crw-rw-rw-  1 root  wheel            4,    44 Nov 25 21:39 ttyrc
-crw-rw-rw-  1 root  wheel            4,    45 Nov 25 21:39 ttyrd
-crw-rw-rw-  1 root  wheel            4,    46 Nov 25 21:39 ttyre
-crw-rw-rw-  1 root  wheel            4,    47 Nov 25 21:39 ttyrf
-crw-rw-rw-  1 root  wheel            4,    48 Nov 25 21:39 ttys0
-crw--w----  1 Hugo  tty             16,     0 Jan 19 10:38 ttys000
-crw--w----  1 Hugo  tty             16,     1 Jan 19 10:38 ttys001
-crw--w----  1 Hugo  tty             16,     2 Jan 19 10:11 ttys002
-crw--w----  1 Hugo  tty             16,     3 Jan 19 10:22 ttys003
-crw--w----  1 Hugo  tty             16,     4 Jan 19 10:22 ttys004
-crw--w----  1 Hugo  tty             16,     5 Jan 19 10:23 ttys005
-crw--w----  1 Hugo  tty             16,     6 Jan 19 10:31 ttys006
-crw-rw-rw-  1 root  wheel            4,    49 Nov 25 21:39 ttys1
-crw-rw-rw-  1 root  wheel            4,    50 Nov 25 21:39 ttys2
-crw-rw-rw-  1 root  wheel            4,    51 Nov 25 21:39 ttys3
-crw-rw-rw-  1 root  wheel            4,    52 Nov 25 21:39 ttys4
-crw-rw-rw-  1 root  wheel            4,    53 Nov 25 21:39 ttys5
-crw-rw-rw-  1 root  wheel            4,    54 Nov 25 21:39 ttys6
-crw-rw-rw-  1 root  wheel            4,    55 Nov 25 21:39 ttys7
-crw-rw-rw-  1 root  wheel            4,    56 Nov 25 21:39 ttys8
-crw-rw-rw-  1 root  wheel            4,    57 Nov 25 21:39 ttys9
-crw-rw-rw-  1 root  wheel            4,    58 Nov 25 21:39 ttysa
-crw-rw-rw-  1 root  wheel            4,    59 Nov 25 21:39 ttysb
-crw-rw-rw-  1 root  wheel            4,    60 Nov 25 21:39 ttysc
-crw-rw-rw-  1 root  wheel            4,    61 Nov 25 21:39 ttysd
-crw-rw-rw-  1 root  wheel            4,    62 Nov 25 21:39 ttyse
-crw-rw-rw-  1 root  wheel            4,    63 Nov 25 21:39 ttysf
-crw-rw-rw-  1 root  wheel            4,    64 Nov 25 21:39 ttyt0
-crw-rw-rw-  1 root  wheel            4,    65 Nov 25 21:39 ttyt1
-crw-rw-rw-  1 root  wheel            4,    66 Nov 25 21:39 ttyt2
-crw-rw-rw-  1 root  wheel            4,    67 Nov 25 21:39 ttyt3
-crw-rw-rw-  1 root  wheel            4,    68 Nov 25 21:39 ttyt4
-crw-rw-rw-  1 root  wheel            4,    69 Nov 25 21:39 ttyt5
-crw-rw-rw-  1 root  wheel            4,    70 Nov 25 21:39 ttyt6
-crw-rw-rw-  1 root  wheel            4,    71 Nov 25 21:39 ttyt7
-crw-rw-rw-  1 root  wheel            4,    72 Nov 25 21:39 ttyt8
-crw-rw-rw-  1 root  wheel            4,    73 Nov 25 21:39 ttyt9
-crw-rw-rw-  1 root  wheel            4,    74 Nov 25 21:39 ttyta
-crw-rw-rw-  1 root  wheel            4,    75 Nov 25 21:39 ttytb
-crw-rw-rw-  1 root  wheel            4,    76 Nov 25 21:39 ttytc
-crw-rw-rw-  1 root  wheel            4,    77 Nov 25 21:39 ttytd
-crw-rw-rw-  1 root  wheel            4,    78 Nov 25 21:39 ttyte
-crw-rw-rw-  1 root  wheel            4,    79 Nov 25 21:39 ttytf
-crw-rw-rw-  1 root  wheel            4,    80 Nov 25 21:39 ttyu0
-crw-rw-rw-  1 root  wheel            4,    81 Nov 25 21:39 ttyu1
-crw-rw-rw-  1 root  wheel            4,    82 Nov 25 21:39 ttyu2
-crw-rw-rw-  1 root  wheel            4,    83 Nov 25 21:39 ttyu3
-crw-rw-rw-  1 root  wheel            4,    84 Nov 25 21:39 ttyu4
-crw-rw-rw-  1 root  wheel            4,    85 Nov 25 21:39 ttyu5
-crw-rw-rw-  1 root  wheel            4,    86 Nov 25 21:39 ttyu6
-crw-rw-rw-  1 root  wheel            4,    87 Nov 25 21:39 ttyu7
-crw-rw-rw-  1 root  wheel            4,    88 Nov 25 21:39 ttyu8
-crw-rw-rw-  1 root  wheel            4,    89 Nov 25 21:39 ttyu9
-crw-rw-rw-  1 root  wheel            4,    90 Nov 25 21:39 ttyua
-crw-rw-rw-  1 root  wheel            4,    91 Nov 25 21:39 ttyub
-crw-rw-rw-  1 root  wheel            4,    92 Nov 25 21:39 ttyuc
-crw-rw-rw-  1 root  wheel            4,    93 Nov 25 21:39 ttyud
-crw-rw-rw-  1 root  wheel            4,    94 Nov 25 21:39 ttyue
-crw-rw-rw-  1 root  wheel            4,    95 Nov 25 21:39 ttyuf
-crw-rw-rw-  1 root  wheel            4,    96 Nov 25 21:39 ttyv0
-crw-rw-rw-  1 root  wheel            4,    97 Nov 25 21:39 ttyv1
-crw-rw-rw-  1 root  wheel            4,    98 Nov 25 21:39 ttyv2
-crw-rw-rw-  1 root  wheel            4,    99 Nov 25 21:39 ttyv3
-crw-rw-rw-  1 root  wheel            4,   100 Nov 25 21:39 ttyv4
-crw-rw-rw-  1 root  wheel            4,   101 Nov 25 21:39 ttyv5
-crw-rw-rw-  1 root  wheel            4,   102 Nov 25 21:39 ttyv6
-crw-rw-rw-  1 root  wheel            4,   103 Nov 25 21:39 ttyv7
-crw-rw-rw-  1 root  wheel            4,   104 Nov 25 21:39 ttyv8
-crw-rw-rw-  1 root  wheel            4,   105 Nov 25 21:39 ttyv9
-crw-rw-rw-  1 root  wheel            4,   106 Nov 25 21:39 ttyva
-crw-rw-rw-  1 root  wheel            4,   107 Nov 25 21:39 ttyvb
-crw-rw-rw-  1 root  wheel            4,   108 Nov 25 21:39 ttyvc
-crw-rw-rw-  1 root  wheel            4,   109 Nov 25 21:39 ttyvd
-crw-rw-rw-  1 root  wheel            4,   110 Nov 25 21:39 ttyve
-crw-rw-rw-  1 root  wheel            4,   111 Nov 25 21:39 ttyvf
-crw-rw-rw-  1 root  wheel            4,   112 Nov 25 21:39 ttyw0
-crw-rw-rw-  1 root  wheel            4,   113 Nov 25 21:39 ttyw1
-crw-rw-rw-  1 root  wheel            4,   114 Nov 25 21:39 ttyw2
-crw-rw-rw-  1 root  wheel            4,   115 Nov 25 21:39 ttyw3
-crw-rw-rw-  1 root  wheel            4,   116 Nov 25 21:39 ttyw4
-crw-rw-rw-  1 root  wheel            4,   117 Nov 25 21:39 ttyw5
-crw-rw-rw-  1 root  wheel            4,   118 Nov 25 21:39 ttyw6
-crw-rw-rw-  1 root  wheel            4,   119 Nov 25 21:39 ttyw7
-crw-rw-rw-  1 root  wheel            4,   120 Nov 25 21:39 ttyw8
-crw-rw-rw-  1 root  wheel            4,   121 Nov 25 21:39 ttyw9
-crw-rw-rw-  1 root  wheel            4,   122 Nov 25 21:39 ttywa
-crw-rw-rw-  1 root  wheel            4,   123 Nov 25 21:39 ttywb
-crw-rw-rw-  1 root  wheel            4,   124 Nov 25 21:39 ttywc
-crw-rw-rw-  1 root  wheel            4,   125 Nov 25 21:39 ttywd
-crw-rw-rw-  1 root  wheel            4,   126 Nov 25 21:39 ttywe
-crw-rw-rw-  1 root  wheel            4,   127 Nov 25 21:39 ttywf
-crw-rw-rw-  1 root  wheel           14,     1 Nov 25 21:39 urandom
-crw-rw----  1 root  _windowserver   21,     0 Nov 25 21:39 xcpm
-crw-rw-rw-  1 root  wheel            3,     3 Nov 25 21:39 zero
-Looking at : /dev/fd/0
-0 is not a link
-0 is not an anchor
-Looking at : /dev/fd/1
-1 is not a link
-1 is not an anchor
-Looking at : /dev/fd/2
-2 is not a link
-2 is not an anchor
-Looking at : /dev/fd/3
-3 is not a link
-3 is not an anchor
-Looking at : /dev/fd/4
-4 is not a link
-4 is not an anchor
-Looking at : /dev/fd/5
-5 is not a link
-5 is not an anchor
-ft_ls: ft_ls: /dev/fd: ft_ls: /dev: 
+Starting print loop
+drwxr-xr-x  9 Hugo  staff  288 Jan 19 09:54 libftprintf
+Entering ./libft/libs/libftprintf
+Entering print
+Getting stats for ./libft/libs/libftprintf/Makefile
+Stats OK./libft/libs/libftprintf/Makefile
+Getting stats for ./libft/libs/libftprintf/README
+Stats OK./libft/libs/libftprintf/README
+Getting stats for ./libft/libs/libftprintf/_test
+Stats OK./libft/libs/libftprintf/_test
+Getting stats for ./libft/libs/libftprintf/includes
+Stats OK./libft/libs/libftprintf/includes
+Getting stats for ./libft/libs/libftprintf/libftprintf.a
+Stats OK./libft/libs/libftprintf/libftprintf.a
+Getting stats for ./libft/libs/libftprintf/objs
+Stats OK./libft/libs/libftprintf/objs
+Getting stats for ./libft/libs/libftprintf/srcs
+Stats OK./libft/libs/libftprintf/srcs
+
+./libft/libs/libftprintf:
+total 80
+Starting print loop
+-rw-r--r--   1 Hugo  staff   2270 Jan 19 09:15 Makefile
+-rw-r--r--   1 Hugo  staff     76 Jan 19 09:15 README
+drwxr-xr-x   8 Hugo  staff    256 Jan 19 09:15 _test
+drwxr-xr-x   3 Hugo  staff     96 Jan 19 09:15 includes
+-rw-r--r--   1 Hugo  staff  30208 Jan 19 09:54 libftprintf.a
+drwxr-xr-x  42 Hugo  staff   1344 Jan 19 09:54 objs
+drwxr-xr-x  22 Hugo  staff    704 Jan 19 09:15 srcs
+Entering ./libft/libs/libftprintf/_test
+Entering print
+Getting stats for ./libft/libs/libftprintf/_test/Makefile
+Stats OK./libft/libs/libftprintf/_test/Makefile
+Getting stats for ./libft/libs/libftprintf/_test/diff
+Stats OK./libft/libs/libftprintf/_test/diff
+Getting stats for ./libft/libs/libftprintf/_test/ftprintf_test
+Stats OK./libft/libs/libftprintf/_test/ftprintf_test
+Getting stats for ./libft/libs/libftprintf/_test/includes
+Stats OK./libft/libs/libftprintf/_test/includes
+Getting stats for ./libft/libs/libftprintf/_test/libft
+Stats OK./libft/libs/libftprintf/_test/libft
+Getting stats for ./libft/libs/libftprintf/_test/srcs
+Stats OK./libft/libs/libftprintf/_test/srcs
+
+./libft/libs/libftprintf/_test:
+total 112
+Starting print loop
+-rw-r--r--  1 Hugo  staff   2230 Jan 19 09:15 Makefile
+-rw-r--r--  1 Hugo  staff      0 Jan 19 09:15 diff
+-rwxr-xr-x  1 Hugo  staff  49544 Jan 19 09:15 ftprintf_test
+drwxr-xr-x  3 Hugo  staff     96 Jan 19 09:15 includes
+lrwxr-xr-x  1 Hugo  staff      8 Jan 19 09:15 libft -> ../../..
+drwxr-xr-x  8 Hugo  staff    256 Jan 19 09:15 srcs
+Entering ./libft/libs/libftprintf/_test/includes
+Entering print
+Getting stats for ./libft/libs/libftprintf/_test/includes/ft_printf_test.h
+Stats OK./libft/libs/libftprintf/_test/includes/ft_printf_test.h
+
+./libft/libs/libftprintf/_test/includes:
+total 8
+Starting print loop
+-rw-r--r--  1 Hugo  staff  2192 Jan 19 09:15 ft_printf_test.h
+Entering ./libft/libs/libftprintf/_test/srcs
+Entering print
+Getting stats for ./libft/libs/libftprintf/_test/srcs/debug_print_memory.c
+Stats OK./libft/libs/libftprintf/_test/srcs/debug_print_memory.c
+Getting stats for ./libft/libs/libftprintf/_test/srcs/loops.c
+Stats OK./libft/libs/libftprintf/_test/srcs/loops.c
+Getting stats for ./libft/libs/libftprintf/_test/srcs/main.c
+Stats OK./libft/libs/libftprintf/_test/srcs/main.c
+Getting stats for ./libft/libs/libftprintf/_test/srcs/test_double.c
+Stats OK./libft/libs/libftprintf/_test/srcs/test_double.c
+Getting stats for ./libft/libs/libftprintf/_test/srcs/test_int.c
+Stats OK./libft/libs/libftprintf/_test/srcs/test_int.c
+Getting stats for ./libft/libs/libftprintf/_test/srcs/test_string.c
+Stats OK./libft/libs/libftprintf/_test/srcs/test_string.c
+
+./libft/libs/libftprintf/_test/srcs:
+total 80
+Starting print loop
+-rw-r--r--  1 Hugo  staff   1229 Jan 19 09:15 debug_print_memory.c
+-rw-r--r--  1 Hugo  staff   3495 Jan 19 09:15 loops.c
+-rw-r--r--  1 Hugo  staff    925 Jan 19 09:15 main.c
+-rw-r--r--  1 Hugo  staff    585 Jan 19 09:15 test_double.c
+-rw-r--r--  1 Hugo  staff  18655 Jan 19 09:15 test_int.c
+-rw-r--r--  1 Hugo  staff   1362 Jan 19 09:15 test_string.c
+Entering ./libft/libs/libftprintf/includes
+Entering print
+Getting stats for ./libft/libs/libftprintf/includes/ft_printf.h
+Stats OK./libft/libs/libftprintf/includes/ft_printf.h
+
+./libft/libs/libftprintf/includes:
+total 8
+Starting print loop
+-rw-r--r--  1 Hugo  staff  3099 Jan 19 09:15 ft_printf.h
+Entering ./libft/libs/libftprintf/objs
+Entering print
+Getting stats for ./libft/libs/libftprintf/objs/baker_char.d
+Stats OK./libft/libs/libftprintf/objs/baker_char.d
+Getting stats for ./libft/libs/libftprintf/objs/baker_char.o
+Stats OK./libft/libs/libftprintf/objs/baker_char.o
+Getting stats for ./libft/libs/libftprintf/objs/baker_double.d
+Stats OK./libft/libs/libftprintf/objs/baker_double.d
+Getting stats for ./libft/libs/libftprintf/objs/baker_double.o
+Stats OK./libft/libs/libftprintf/objs/baker_double.o
+Getting stats for ./libft/libs/libftprintf/objs/baker_int.d
+Stats OK./libft/libs/libftprintf/objs/baker_int.d
+Getting stats for ./libft/libs/libftprintf/objs/baker_int.o
+Stats OK./libft/libs/libftprintf/objs/baker_int.o
+Getting stats for ./libft/libs/libftprintf/objs/baker_long.d
+Stats OK./libft/libs/libftprintf/objs/baker_long.d
+Getting stats for ./libft/libs/libftprintf/objs/baker_long.o
+Stats OK./libft/libs/libftprintf/objs/baker_long.o
+Getting stats for ./libft/libs/libftprintf/objs/baker_longdouble.d
+Stats OK./libft/libs/libftprintf/objs/baker_longdouble.d
+Getting stats for ./libft/libs/libftprintf/objs/baker_longdouble.o
+Stats OK./libft/libs/libftprintf/objs/baker_longdouble.o
+Getting stats for ./libft/libs/libftprintf/objs/baker_longlong.d
+Stats OK./libft/libs/libftprintf/objs/baker_longlong.d
+Getting stats for ./libft/libs/libftprintf/objs/baker_longlong.o
+Stats OK./libft/libs/libftprintf/objs/baker_longlong.o
+Getting stats for ./libft/libs/libftprintf/objs/baker_pointer.d
+Stats OK./libft/libs/libftprintf/objs/baker_pointer.d
+Getting stats for ./libft/libs/libftprintf/objs/baker_pointer.o
+Stats OK./libft/libs/libftprintf/objs/baker_pointer.o
+Getting stats for ./libft/libs/libftprintf/objs/baker_string.d
+Stats OK./libft/libs/libftprintf/objs/baker_string.d
+Getting stats for ./libft/libs/libftprintf/objs/baker_string.o
+Stats OK./libft/libs/libftprintf/objs/baker_string.o
+Getting stats for ./libft/libs/libftprintf/objs/dispatcher.d
+Stats OK./libft/libs/libftprintf/objs/dispatcher.d
+Getting stats for ./libft/libs/libftprintf/objs/dispatcher.o
+Stats OK./libft/libs/libftprintf/objs/dispatcher.o
+Getting stats for ./libft/libs/libftprintf/objs/exit_clean.d
+Stats OK./libft/libs/libftprintf/objs/exit_clean.d
+Getting stats for ./libft/libs/libftprintf/objs/exit_clean.o
+Stats OK./libft/libs/libftprintf/objs/exit_clean.o
+Getting stats for ./libft/libs/libftprintf/objs/ft_asprintf.d
+Stats OK./libft/libs/libftprintf/objs/ft_asprintf.d
+Getting stats for ./libft/libs/libftprintf/objs/ft_asprintf.o
+Stats OK./libft/libs/libftprintf/objs/ft_asprintf.o
+Getting stats for ./libft/libs/libftprintf/objs/ft_printf.d
+Stats OK./libft/libs/libftprintf/objs/ft_printf.d
+Getting stats for ./libft/libs/libftprintf/objs/ft_printf.o
+Stats OK./libft/libs/libftprintf/objs/ft_printf.o
+Getting stats for ./libft/libs/libftprintf/objs/parser.d
+Stats OK./libft/libs/libftprintf/objs/parser.d
+Getting stats for ./libft/libs/libftprintf/objs/parser.o
+Stats OK./libft/libs/libftprintf/objs/parser.o
+Getting stats for ./libft/libs/libftprintf/objs/parser_checks.d
+Stats OK./libft/libs/libftprintf/objs/parser_checks.d
+Getting stats for ./libft/libs/libftprintf/objs/parser_checks.o
+Stats OK./libft/libs/libftprintf/objs/parser_checks.o
+Getting stats for ./libft/libs/libftprintf/objs/precision.d
+Stats OK./libft/libs/libftprintf/objs/precision.d
+Getting stats for ./libft/libs/libftprintf/objs/precision.o
+Stats OK./libft/libs/libftprintf/objs/precision.o
+Getting stats for ./libft/libs/libftprintf/objs/prefix.d
+Stats OK./libft/libs/libftprintf/objs/prefix.d
+Getting stats for ./libft/libs/libftprintf/objs/prefix.o
+Stats OK./libft/libs/libftprintf/objs/prefix.o
+Getting stats for ./libft/libs/libftprintf/objs/printers.d
+Stats OK./libft/libs/libftprintf/objs/printers.d
+Getting stats for ./libft/libs/libftprintf/objs/printers.o
+Stats OK./libft/libs/libftprintf/objs/printers.o
+Getting stats for ./libft/libs/libftprintf/objs/reset.d
+Stats OK./libft/libs/libftprintf/objs/reset.d
+Getting stats for ./libft/libs/libftprintf/objs/reset.o
+Stats OK./libft/libs/libftprintf/objs/reset.o
+Getting stats for ./libft/libs/libftprintf/objs/special_handler.d
+Stats OK./libft/libs/libftprintf/objs/special_handler.d
+Getting stats for ./libft/libs/libftprintf/objs/special_handler.o
+Stats OK./libft/libs/libftprintf/objs/special_handler.o
+Getting stats for ./libft/libs/libftprintf/objs/width.d
+Stats OK./libft/libs/libftprintf/objs/width.d
+Getting stats for ./libft/libs/libftprintf/objs/width.o
+Stats OK./libft/libs/libftprintf/objs/width.o
+
+./libft/libs/libftprintf/objs:
+total 320
+Starting print loop
+-rw-r--r--  1 Hugo  staff    85 Jan 19 09:53 baker_char.d
+-rw-r--r--  1 Hugo  staff   708 Jan 19 09:53 baker_char.o
+-rw-r--r--  1 Hugo  staff    89 Jan 19 09:53 baker_double.d
+-rw-r--r--  1 Hugo  staff  1844 Jan 19 09:53 baker_double.o
+-rw-r--r--  1 Hugo  staff    83 Jan 19 09:53 baker_int.d
+-rw-r--r--  1 Hugo  staff  1516 Jan 19 09:53 baker_int.o
+-rw-r--r--  1 Hugo  staff    85 Jan 19 09:53 baker_long.d
+-rw-r--r--  1 Hugo  staff  1180 Jan 19 09:53 baker_long.o
+-rw-r--r--  1 Hugo  staff    97 Jan 19 09:53 baker_longdouble.d
+-rw-r--r--  1 Hugo  staff  1020 Jan 19 09:53 baker_longdouble.o
+-rw-r--r--  1 Hugo  staff    93 Jan 19 09:53 baker_longlong.d
+-rw-r--r--  1 Hugo  staff  1188 Jan 19 09:53 baker_longlong.o
+-rw-r--r--  1 Hugo  staff    91 Jan 19 09:53 baker_pointer.d
+-rw-r--r--  1 Hugo  staff   924 Jan 19 09:53 baker_pointer.o
+-rw-r--r--  1 Hugo  staff    89 Jan 19 09:53 baker_string.d
+-rw-r--r--  1 Hugo  staff  1076 Jan 19 09:53 baker_string.o
+-rw-r--r--  1 Hugo  staff    58 Jan 19 09:53 dispatcher.d
+-rw-r--r--  1 Hugo  staff  2564 Jan 19 09:53 dispatcher.o
+-rw-r--r--  1 Hugo  staff    85 Jan 19 09:54 exit_clean.d
+-rw-r--r--  1 Hugo  staff   808 Jan 19 09:54 exit_clean.o
+-rw-r--r--  1 Hugo  staff    87 Jan 19 09:53 ft_asprintf.d
+-rw-r--r--  1 Hugo  staff  1520 Jan 19 09:53 ft_asprintf.o
+-rw-r--r--  1 Hugo  staff    83 Jan 19 09:53 ft_printf.d
+-rw-r--r--  1 Hugo  staff  1444 Jan 19 09:53 ft_printf.o
+-rw-r--r--  1 Hugo  staff    73 Jan 19 09:53 parser.d
+-rw-r--r--  1 Hugo  staff  1112 Jan 19 09:53 parser.o
+-rw-r--r--  1 Hugo  staff    91 Jan 19 09:53 parser_checks.d
+-rw-r--r--  1 Hugo  staff  2080 Jan 19 09:53 parser_checks.o
+-rw-r--r--  1 Hugo  staff    83 Jan 19 09:54 precision.d
+-rw-r--r--  1 Hugo  staff  1548 Jan 19 09:54 precision.o
+-rw-r--r--  1 Hugo  staff    73 Jan 19 09:54 prefix.d
+-rw-r--r--  1 Hugo  staff  1536 Jan 19 09:54 prefix.o
+-rw-r--r--  1 Hugo  staff    81 Jan 19 09:53 printers.d
+-rw-r--r--  1 Hugo  staff  2524 Jan 19 09:53 printers.o
+-rw-r--r--  1 Hugo  staff    71 Jan 19 09:54 reset.d
+-rw-r--r--  1 Hugo  staff   828 Jan 19 09:54 reset.o
+-rw-r--r--  1 Hugo  staff    68 Jan 19 09:54 special_handler.d
+-rw-r--r--  1 Hugo  staff  1028 Jan 19 09:54 special_handler.o
+-rw-r--r--  1 Hugo  staff    48 Jan 19 09:54 width.d
+-rw-r--r--  1 Hugo  staff  1428 Jan 19 09:54 width.o
+Entering ./libft/libs/libftprintf/srcs
+Entering print
+Getting stats for ./libft/libs/libftprintf/srcs/baker_char.c
+Stats OK./libft/libs/libftprintf/srcs/baker_char.c
+Getting stats for ./libft/libs/libftprintf/srcs/baker_double.c
+Stats OK./libft/libs/libftprintf/srcs/baker_double.c
+Getting stats for ./libft/libs/libftprintf/srcs/baker_int.c
+Stats OK./libft/libs/libftprintf/srcs/baker_int.c
+Getting stats for ./libft/libs/libftprintf/srcs/baker_long.c
+Stats OK./libft/libs/libftprintf/srcs/baker_long.c
+Getting stats for ./libft/libs/libftprintf/srcs/baker_longdouble.c
+Stats OK./libft/libs/libftprintf/srcs/baker_longdouble.c
+Getting stats for ./libft/libs/libftprintf/srcs/baker_longlong.c
+Stats OK./libft/libs/libftprintf/srcs/baker_longlong.c
+Getting stats for ./libft/libs/libftprintf/srcs/baker_pointer.c
+Stats OK./libft/libs/libftprintf/srcs/baker_pointer.c
+Getting stats for ./libft/libs/libftprintf/srcs/baker_string.c
+Stats OK./libft/libs/libftprintf/srcs/baker_string.c
+Getting stats for ./libft/libs/libftprintf/srcs/dispatcher.c
+Stats OK./libft/libs/libftprintf/srcs/dispatcher.c
+Getting stats for ./libft/libs/libftprintf/srcs/exit_clean.c
+Stats OK./libft/libs/libftprintf/srcs/exit_clean.c
+Getting stats for ./libft/libs/libftprintf/srcs/ft_asprintf.c
+Stats OK./libft/libs/libftprintf/srcs/ft_asprintf.c
+Getting stats for ./libft/libs/libftprintf/srcs/ft_printf.c
+Stats OK./libft/libs/libftprintf/srcs/ft_printf.c
+Getting stats for ./libft/libs/libftprintf/srcs/parser.c
+Stats OK./libft/libs/libftprintf/srcs/parser.c
+Getting stats for ./libft/libs/libftprintf/srcs/parser_checks.c
+Stats OK./libft/libs/libftprintf/srcs/parser_checks.c
+Getting stats for ./libft/libs/libftprintf/srcs/precision.c
+Stats OK./libft/libs/libftprintf/srcs/precision.c
+Getting stats for ./libft/libs/libftprintf/srcs/prefix.c
+Stats OK./libft/libs/libftprintf/srcs/prefix.c
+Getting stats for ./libft/libs/libftprintf/srcs/printers.c
+Stats OK./libft/libs/libftprintf/srcs/printers.c
+Getting stats for ./libft/libs/libftprintf/srcs/reset.c
+Stats OK./libft/libs/libftprintf/srcs/reset.c
+Getting stats for ./libft/libs/libftprintf/srcs/special_handler.c
+Stats OK./libft/libs/libftprintf/srcs/special_handler.c
+Getting stats for ./libft/libs/libftprintf/srcs/width.c
+Stats OK./libft/libs/libftprintf/srcs/width.c
+
+./libft/libs/libftprintf/srcs:
+total 160
+Starting print loop
+-rw-r--r--  1 Hugo  staff  1054 Jan 19 09:15 baker_char.c
+-rw-r--r--  1 Hugo  staff  2022 Jan 19 09:15 baker_double.c
+-rw-r--r--  1 Hugo  staff  2089 Jan 19 09:15 baker_int.c
+-rw-r--r--  1 Hugo  staff  1572 Jan 19 09:15 baker_long.c
+-rw-r--r--  1 Hugo  staff  1371 Jan 19 09:15 baker_longdouble.c
+-rw-r--r--  1 Hugo  staff  1605 Jan 19 09:15 baker_longlong.c
+-rw-r--r--  1 Hugo  staff  1327 Jan 19 09:15 baker_pointer.c
+-rw-r--r--  1 Hugo  staff  1467 Jan 19 09:15 baker_string.c
+-rw-r--r--  1 Hugo  staff  2447 Jan 19 09:15 dispatcher.c
+-rw-r--r--  1 Hugo  staff  1190 Jan 19 09:15 exit_clean.c
+-rw-r--r--  1 Hugo  staff  1448 Jan 19 09:15 ft_asprintf.c
+-rw-r--r--  1 Hugo  staff  1385 Jan 19 09:15 ft_printf.c
+-rw-r--r--  1 Hugo  staff  1501 Jan 19 09:15 parser.c
+-rw-r--r--  1 Hugo  staff  2725 Jan 19 09:15 parser_checks.c
+-rw-r--r--  1 Hugo  staff  1827 Jan 19 09:15 precision.c
+-rw-r--r--  1 Hugo  staff  2025 Jan 19 09:15 prefix.c
+-rw-r--r--  1 Hugo  staff  3549 Jan 19 09:15 printers.c
+-rw-r--r--  1 Hugo  staff  1251 Jan 19 09:15 reset.c
+-rw-r--r--  1 Hugo  staff  1501 Jan 19 09:15 special_handler.c
+-rw-r--r--  1 Hugo  staff  1920 Jan 19 09:15 width.c
+Entering ./libft/objs
+Entering print
+Getting stats for ./libft/objs/ft_abs16.d
+Stats OK./libft/objs/ft_abs16.d
+Getting stats for ./libft/objs/ft_abs16.o
+Stats OK./libft/objs/ft_abs16.o
+Getting stats for ./libft/objs/ft_abs32.d
+Stats OK./libft/objs/ft_abs32.d
+Getting stats for ./libft/objs/ft_abs32.o
+Stats OK./libft/objs/ft_abs32.o
+Getting stats for ./libft/objs/ft_abs64.d
+Stats OK./libft/objs/ft_abs64.d
+Getting stats for ./libft/objs/ft_abs64.o
+Stats OK./libft/objs/ft_abs64.o
+Getting stats for ./libft/objs/ft_abstime.d
+Stats OK./libft/objs/ft_abstime.d
+Getting stats for ./libft/objs/ft_abstime.o
+Stats OK./libft/objs/ft_abstime.o
+Getting stats for ./libft/objs/ft_atoi.d
+Stats OK./libft/objs/ft_atoi.d
+Getting stats for ./libft/objs/ft_atoi.o
+Stats OK./libft/objs/ft_atoi.o
+Getting stats for ./libft/objs/ft_atol.d
+Stats OK./libft/objs/ft_atol.d
+Getting stats for ./libft/objs/ft_atol.o
+Stats OK./libft/objs/ft_atol.o
+Getting stats for ./libft/objs/ft_atoll.d
+Stats OK./libft/objs/ft_atoll.d
+Getting stats for ./libft/objs/ft_atoll.o
+Stats OK./libft/objs/ft_atoll.o
+Getting stats for ./libft/objs/ft_bzero.d
+Stats OK./libft/objs/ft_bzero.d
+Getting stats for ./libft/objs/ft_bzero.o
+Stats OK./libft/objs/ft_bzero.o
+Getting stats for ./libft/objs/ft_dtoa.d
+Stats OK./libft/objs/ft_dtoa.d
+Getting stats for ./libft/objs/ft_dtoa.o
+Stats OK./libft/objs/ft_dtoa.o
+Getting stats for ./libft/objs/ft_int_swap.d
+Stats OK./libft/objs/ft_int_swap.d
+Getting stats for ./libft/objs/ft_int_swap.o
+Stats OK./libft/objs/ft_int_swap.o
+Getting stats for ./libft/objs/ft_isalnum.d
+Stats OK./libft/objs/ft_isalnum.d
+Getting stats for ./libft/objs/ft_isalnum.o
+Stats OK./libft/objs/ft_isalnum.o
+Getting stats for ./libft/objs/ft_isalpha.d
+Stats OK./libft/objs/ft_isalpha.d
+Getting stats for ./libft/objs/ft_isalpha.o
+Stats OK./libft/objs/ft_isalpha.o
+Getting stats for ./libft/objs/ft_isascii.d
+Stats OK./libft/objs/ft_isascii.d
+Getting stats for ./libft/objs/ft_isascii.o
+Stats OK./libft/objs/ft_isascii.o
+Getting stats for ./libft/objs/ft_isdigit.d
+Stats OK./libft/objs/ft_isdigit.d
+Getting stats for ./libft/objs/ft_isdigit.o
+Stats OK./libft/objs/ft_isdigit.o
+Getting stats for ./libft/objs/ft_isprint.d
+Stats OK./libft/objs/ft_isprint.d
+Getting stats for ./libft/objs/ft_isprint.o
+Stats OK./libft/objs/ft_isprint.o
+Getting stats for ./libft/objs/ft_itoa.d
+Stats OK./libft/objs/ft_itoa.d
+Getting stats for ./libft/objs/ft_itoa.o
+Stats OK./libft/objs/ft_itoa.o
+Getting stats for ./libft/objs/ft_ldtoa.d
+Stats OK./libft/objs/ft_ldtoa.d
+Getting stats for ./libft/objs/ft_ldtoa.o
+Stats OK./libft/objs/ft_ldtoa.o
+Getting stats for ./libft/objs/ft_lstadd.d
+Stats OK./libft/objs/ft_lstadd.d
+Getting stats for ./libft/objs/ft_lstadd.o
+Stats OK./libft/objs/ft_lstadd.o
+Getting stats for ./libft/objs/ft_lstdel.d
+Stats OK./libft/objs/ft_lstdel.d
+Getting stats for ./libft/objs/ft_lstdel.o
+Stats OK./libft/objs/ft_lstdel.o
+Getting stats for ./libft/objs/ft_lstdelone.d
+Stats OK./libft/objs/ft_lstdelone.d
+Getting stats for ./libft/objs/ft_lstdelone.o
+Stats OK./libft/objs/ft_lstdelone.o
+Getting stats for ./libft/objs/ft_lstiter.d
+Stats OK./libft/objs/ft_lstiter.d
+Getting stats for ./libft/objs/ft_lstiter.o
+Stats OK./libft/objs/ft_lstiter.o
+Getting stats for ./libft/objs/ft_lstmap.d
+Stats OK./libft/objs/ft_lstmap.d
+Getting stats for ./libft/objs/ft_lstmap.o
+Stats OK./libft/objs/ft_lstmap.o
+Getting stats for ./libft/objs/ft_lstnew.d
+Stats OK./libft/objs/ft_lstnew.d
+Getting stats for ./libft/objs/ft_lstnew.o
+Stats OK./libft/objs/ft_lstnew.o
+Getting stats for ./libft/objs/ft_ltoa.d
+Stats OK./libft/objs/ft_ltoa.d
+Getting stats for ./libft/objs/ft_ltoa.o
+Stats OK./libft/objs/ft_ltoa.o
+Getting stats for ./libft/objs/ft_memalloc.d
+Stats OK./libft/objs/ft_memalloc.d
+Getting stats for ./libft/objs/ft_memalloc.o
+Stats OK./libft/objs/ft_memalloc.o
+Getting stats for ./libft/objs/ft_memccpy.d
+Stats OK./libft/objs/ft_memccpy.d
+Getting stats for ./libft/objs/ft_memccpy.o
+Stats OK./libft/objs/ft_memccpy.o
+Getting stats for ./libft/objs/ft_memchr.d
+Stats OK./libft/objs/ft_memchr.d
+Getting stats for ./libft/objs/ft_memchr.o
+Stats OK./libft/objs/ft_memchr.o
+Getting stats for ./libft/objs/ft_memcmp.d
+Stats OK./libft/objs/ft_memcmp.d
+Getting stats for ./libft/objs/ft_memcmp.o
+Stats OK./libft/objs/ft_memcmp.o
+Getting stats for ./libft/objs/ft_memcpy.d
+Stats OK./libft/objs/ft_memcpy.d
+Getting stats for ./libft/objs/ft_memcpy.o
+Stats OK./libft/objs/ft_memcpy.o
+Getting stats for ./libft/objs/ft_memdel.d
+Stats OK./libft/objs/ft_memdel.d
+Getting stats for ./libft/objs/ft_memdel.o
+Stats OK./libft/objs/ft_memdel.o
+Getting stats for ./libft/objs/ft_memmove.d
+Stats OK./libft/objs/ft_memmove.d
+Getting stats for ./libft/objs/ft_memmove.o
+Stats OK./libft/objs/ft_memmove.o
+Getting stats for ./libft/objs/ft_memrealloc.d
+Stats OK./libft/objs/ft_memrealloc.d
+Getting stats for ./libft/objs/ft_memrealloc.o
+Stats OK./libft/objs/ft_memrealloc.o
+Getting stats for ./libft/objs/ft_memset.d
+Stats OK./libft/objs/ft_memset.d
+Getting stats for ./libft/objs/ft_memset.o
+Stats OK./libft/objs/ft_memset.o
+Getting stats for ./libft/objs/ft_putchar.d
+Stats OK./libft/objs/ft_putchar.d
+Getting stats for ./libft/objs/ft_putchar.o
+Stats OK./libft/objs/ft_putchar.o
+Getting stats for ./libft/objs/ft_putchar_fd.d
+Stats OK./libft/objs/ft_putchar_fd.d
+Getting stats for ./libft/objs/ft_putchar_fd.o
+Stats OK./libft/objs/ft_putchar_fd.o
+Getting stats for ./libft/objs/ft_putendl.d
+Stats OK./libft/objs/ft_putendl.d
+Getting stats for ./libft/objs/ft_putendl.o
+Stats OK./libft/objs/ft_putendl.o
+Getting stats for ./libft/objs/ft_putendl_fd.d
+Stats OK./libft/objs/ft_putendl_fd.d
+Getting stats for ./libft/objs/ft_putendl_fd.o
+Stats OK./libft/objs/ft_putendl_fd.o
+Getting stats for ./libft/objs/ft_putnbr.d
+Stats OK./libft/objs/ft_putnbr.d
+Getting stats for ./libft/objs/ft_putnbr.o
+Stats OK./libft/objs/ft_putnbr.o
+Getting stats for ./libft/objs/ft_putnbr_fd.d
+Stats OK./libft/objs/ft_putnbr_fd.d
+Getting stats for ./libft/objs/ft_putnbr_fd.o
+Stats OK./libft/objs/ft_putnbr_fd.o
+Getting stats for ./libft/objs/ft_putstr.d
+Stats OK./libft/objs/ft_putstr.d
+Getting stats for ./libft/objs/ft_putstr.o
+Stats OK./libft/objs/ft_putstr.o
+Getting stats for ./libft/objs/ft_putstr_fd.d
+Stats OK./libft/objs/ft_putstr_fd.d
+Getting stats for ./libft/objs/ft_putstr_fd.o
+Stats OK./libft/objs/ft_putstr_fd.o
+Getting stats for ./libft/objs/ft_round_double.d
+Stats OK./libft/objs/ft_round_double.d
+Getting stats for ./libft/objs/ft_round_double.o
+Stats OK./libft/objs/ft_round_double.o
+Getting stats for ./libft/objs/ft_sqrt.d
+Stats OK./libft/objs/ft_sqrt.d
+Getting stats for ./libft/objs/ft_sqrt.o
+Stats OK./libft/objs/ft_sqrt.o
+Getting stats for ./libft/objs/ft_str_realloc.d
+Stats OK./libft/objs/ft_str_realloc.d
+Getting stats for ./libft/objs/ft_str_realloc.o
+Stats OK./libft/objs/ft_str_realloc.o
+Getting stats for ./libft/objs/ft_strcat.d
+Stats OK./libft/objs/ft_strcat.d
+Getting stats for ./libft/objs/ft_strcat.o
+Stats OK./libft/objs/ft_strcat.o
+Getting stats for ./libft/objs/ft_strchr.d
+Stats OK./libft/objs/ft_strchr.d
+Getting stats for ./libft/objs/ft_strchr.o
+Stats OK./libft/objs/ft_strchr.o
+Getting stats for ./libft/objs/ft_strchri.d
+Stats OK./libft/objs/ft_strchri.d
+Getting stats for ./libft/objs/ft_strchri.o
+Stats OK./libft/objs/ft_strchri.o
+Getting stats for ./libft/objs/ft_strclr.d
+Stats OK./libft/objs/ft_strclr.d
+Getting stats for ./libft/objs/ft_strclr.o
+Stats OK./libft/objs/ft_strclr.o
+Getting stats for ./libft/objs/ft_strcmp.d
+Stats OK./libft/objs/ft_strcmp.d
+Getting stats for ./libft/objs/ft_strcmp.o
+Stats OK./libft/objs/ft_strcmp.o
+Getting stats for ./libft/objs/ft_strcpy.d
+Stats OK./libft/objs/ft_strcpy.d
+Getting stats for ./libft/objs/ft_strcpy.o
+Stats OK./libft/objs/ft_strcpy.o
+Getting stats for ./libft/objs/ft_strdel.d
+Stats OK./libft/objs/ft_strdel.d
+Getting stats for ./libft/objs/ft_strdel.o
+Stats OK./libft/objs/ft_strdel.o
+Getting stats for ./libft/objs/ft_strdup.d
+Stats OK./libft/objs/ft_strdup.d
+Getting stats for ./libft/objs/ft_strdup.o
+Stats OK./libft/objs/ft_strdup.o
+Getting stats for ./libft/objs/ft_strequ.d
+Stats OK./libft/objs/ft_strequ.d
+Getting stats for ./libft/objs/ft_strequ.o
+Stats OK./libft/objs/ft_strequ.o
+Getting stats for ./libft/objs/ft_striter.d
+Stats OK./libft/objs/ft_striter.d
+Getting stats for ./libft/objs/ft_striter.o
+Stats OK./libft/objs/ft_striter.o
+Getting stats for ./libft/objs/ft_striteri.d
+Stats OK./libft/objs/ft_striteri.d
+Getting stats for ./libft/objs/ft_striteri.o
+Stats OK./libft/objs/ft_striteri.o
+Getting stats for ./libft/objs/ft_strjoin.d
+Stats OK./libft/objs/ft_strjoin.d
+Getting stats for ./libft/objs/ft_strjoin.o
+Stats OK./libft/objs/ft_strjoin.o
+Getting stats for ./libft/objs/ft_strlcat.d
+Stats OK./libft/objs/ft_strlcat.d
+Getting stats for ./libft/objs/ft_strlcat.o
+Stats OK./libft/objs/ft_strlcat.o
+Getting stats for ./libft/objs/ft_strlen.d
+Stats OK./libft/objs/ft_strlen.d
+Getting stats for ./libft/objs/ft_strlen.o
+Stats OK./libft/objs/ft_strlen.o
+Getting stats for ./libft/objs/ft_strmap.d
+Stats OK./libft/objs/ft_strmap.d
+Getting stats for ./libft/objs/ft_strmap.o
+Stats OK./libft/objs/ft_strmap.o
+Getting stats for ./libft/objs/ft_strmapi.d
+Stats OK./libft/objs/ft_strmapi.d
+Getting stats for ./libft/objs/ft_strmapi.o
+Stats OK./libft/objs/ft_strmapi.o
+Getting stats for ./libft/objs/ft_strncat.d
+Stats OK./libft/objs/ft_strncat.d
+Getting stats for ./libft/objs/ft_strncat.o
+Stats OK./libft/objs/ft_strncat.o
+Getting stats for ./libft/objs/ft_strncmp.d
+Stats OK./libft/objs/ft_strncmp.d
+Getting stats for ./libft/objs/ft_strncmp.o
+Stats OK./libft/objs/ft_strncmp.o
+Getting stats for ./libft/objs/ft_strncpy.d
+Stats OK./libft/objs/ft_strncpy.d
+Getting stats for ./libft/objs/ft_strncpy.o
+Stats OK./libft/objs/ft_strncpy.o
+Getting stats for ./libft/objs/ft_strnequ.d
+Stats OK./libft/objs/ft_strnequ.d
+Getting stats for ./libft/objs/ft_strnequ.o
+Stats OK./libft/objs/ft_strnequ.o
+Getting stats for ./libft/objs/ft_strnew.d
+Stats OK./libft/objs/ft_strnew.d
+Getting stats for ./libft/objs/ft_strnew.o
+Stats OK./libft/objs/ft_strnew.o
+Getting stats for ./libft/objs/ft_strnstr.d
+Stats OK./libft/objs/ft_strnstr.d
+Getting stats for ./libft/objs/ft_strnstr.o
+Stats OK./libft/objs/ft_strnstr.o
+Getting stats for ./libft/objs/ft_strrchr.d
+Stats OK./libft/objs/ft_strrchr.d
+Getting stats for ./libft/objs/ft_strrchr.o
+Stats OK./libft/objs/ft_strrchr.o
+Getting stats for ./libft/objs/ft_strsplit.d
+Stats OK./libft/objs/ft_strsplit.d
+Getting stats for ./libft/objs/ft_strsplit.o
+Stats OK./libft/objs/ft_strsplit.o
+Getting stats for ./libft/objs/ft_strstr.d
+Stats OK./libft/objs/ft_strstr.d
+Getting stats for ./libft/objs/ft_strstr.o
+Stats OK./libft/objs/ft_strstr.o
+Getting stats for ./libft/objs/ft_strsub.d
+Stats OK./libft/objs/ft_strsub.d
+Getting stats for ./libft/objs/ft_strsub.o
+Stats OK./libft/objs/ft_strsub.o
+Getting stats for ./libft/objs/ft_strtrim.d
+Stats OK./libft/objs/ft_strtrim.d
+Getting stats for ./libft/objs/ft_strtrim.o
+Stats OK./libft/objs/ft_strtrim.o
+Getting stats for ./libft/objs/ft_tolower.d
+Stats OK./libft/objs/ft_tolower.d
+Getting stats for ./libft/objs/ft_tolower.o
+Stats OK./libft/objs/ft_tolower.o
+Getting stats for ./libft/objs/ft_toupper.d
+Stats OK./libft/objs/ft_toupper.d
+Getting stats for ./libft/objs/ft_toupper.o
+Stats OK./libft/objs/ft_toupper.o
+Getting stats for ./libft/objs/ft_uitoa.d
+Stats OK./libft/objs/ft_uitoa.d
+Getting stats for ./libft/objs/ft_uitoa.o
+Stats OK./libft/objs/ft_uitoa.o
+Getting stats for ./libft/objs/ft_uitooa.d
+Stats OK./libft/objs/ft_uitooa.d
+Getting stats for ./libft/objs/ft_uitooa.o
+Stats OK./libft/objs/ft_uitooa.o
+Getting stats for ./libft/objs/ft_uitoxa.d
+Stats OK./libft/objs/ft_uitoxa.d
+Getting stats for ./libft/objs/ft_uitoxa.o
+Stats OK./libft/objs/ft_uitoxa.o
+Getting stats for ./libft/objs/ft_ulltoa.d
+Stats OK./libft/objs/ft_ulltoa.d
+Getting stats for ./libft/objs/ft_ulltoa.o
+Stats OK./libft/objs/ft_ulltoa.o
+Getting stats for ./libft/objs/ft_ulltooa.d
+Stats OK./libft/objs/ft_ulltooa.d
+Getting stats for ./libft/objs/ft_ulltooa.o
+Stats OK./libft/objs/ft_ulltooa.o
+Getting stats for ./libft/objs/ft_ulltoxa.d
+Stats OK./libft/objs/ft_ulltoxa.d
+Getting stats for ./libft/objs/ft_ulltoxa.o
+Stats OK./libft/objs/ft_ulltoxa.o
+Getting stats for ./libft/objs/ft_ultoa.d
+Stats OK./libft/objs/ft_ultoa.d
+Getting stats for ./libft/objs/ft_ultoa.o
+Stats OK./libft/objs/ft_ultoa.o
+Getting stats for ./libft/objs/ft_ultooa.d
+Stats OK./libft/objs/ft_ultooa.d
+Getting stats for ./libft/objs/ft_ultooa.o
+Stats OK./libft/objs/ft_ultooa.o
+Getting stats for ./libft/objs/ft_ultoxa.d
+Stats OK./libft/objs/ft_ultoxa.d
+Getting stats for ./libft/objs/ft_ultoxa.o
+Stats OK./libft/objs/ft_ultoxa.o
+
+./libft/objs:
+total 1312
+Starting print loop
+-rw-r--r--  1 Hugo  staff    50 Jan 19 09:54 ft_abs16.d
+-rw-r--r--  1 Hugo  staff   668 Jan 19 09:54 ft_abs16.o
+-rw-r--r--  1 Hugo  staff    50 Jan 19 09:54 ft_abs32.d
+-rw-r--r--  1 Hugo  staff   644 Jan 19 09:54 ft_abs32.o
+-rw-r--r--  1 Hugo  staff    50 Jan 19 09:54 ft_abs64.d
+-rw-r--r--  1 Hugo  staff   652 Jan 19 09:54 ft_abs64.o
+-rw-r--r--  1 Hugo  staff    54 Jan 19 09:54 ft_abstime.d
+-rw-r--r--  1 Hugo  staff   656 Jan 19 09:54 ft_abstime.o
+-rw-r--r--  1 Hugo  staff    48 Jan 19 09:54 ft_atoi.d
+-rw-r--r--  1 Hugo  staff  1056 Jan 19 09:54 ft_atoi.o
+-rw-r--r--  1 Hugo  staff    48 Jan 19 09:54 ft_atol.d
+-rw-r--r--  1 Hugo  staff  1080 Jan 19 09:54 ft_atol.o
+-rw-r--r--  1 Hugo  staff    50 Jan 19 09:54 ft_atoll.d
+-rw-r--r--  1 Hugo  staff  1080 Jan 19 09:54 ft_atoll.o
+-rw-r--r--  1 Hugo  staff    33 Jan 19 09:54 ft_bzero.d
+-rw-r--r--  1 Hugo  staff   676 Jan 19 09:54 ft_bzero.o
+-rw-r--r--  1 Hugo  staff    48 Jan 19 09:54 ft_dtoa.d
+-rw-r--r--  1 Hugo  staff  1924 Jan 19 09:54 ft_dtoa.o
+-rw-r--r--  1 Hugo  staff    39 Jan 19 09:54 ft_int_swap.d
+-rw-r--r--  1 Hugo  staff   656 Jan 19 09:54 ft_int_swap.o
+-rw-r--r--  1 Hugo  staff    54 Jan 19 09:54 ft_isalnum.d
+-rw-r--r--  1 Hugo  staff   760 Jan 19 09:54 ft_isalnum.o
+-rw-r--r--  1 Hugo  staff    37 Jan 19 09:54 ft_isalpha.d
+-rw-r--r--  1 Hugo  staff   680 Jan 19 09:54 ft_isalpha.o
+-rw-r--r--  1 Hugo  staff    37 Jan 19 09:54 ft_isascii.d
+-rw-r--r--  1 Hugo  staff   664 Jan 19 09:54 ft_isascii.o
+-rw-r--r--  1 Hugo  staff    37 Jan 19 09:54 ft_isdigit.d
+-rw-r--r--  1 Hugo  staff   664 Jan 19 09:54 ft_isdigit.o
+-rw-r--r--  1 Hugo  staff    37 Jan 19 09:54 ft_isprint.d
+-rw-r--r--  1 Hugo  staff   664 Jan 19 09:54 ft_isprint.o
+-rw-r--r--  1 Hugo  staff    48 Jan 19 09:54 ft_itoa.d
+-rw-r--r--  1 Hugo  staff  1204 Jan 19 09:54 ft_itoa.o
+-rw-r--r--  1 Hugo  staff    50 Jan 19 09:54 ft_ldtoa.d
+-rw-r--r--  1 Hugo  staff  1884 Jan 19 09:54 ft_ldtoa.o
+-rw-r--r--  1 Hugo  staff    52 Jan 19 09:54 ft_lstadd.d
+-rw-r--r--  1 Hugo  staff   684 Jan 19 09:54 ft_lstadd.o
+-rw-r--r--  1 Hugo  staff    52 Jan 19 09:54 ft_lstdel.d
+-rw-r--r--  1 Hugo  staff   804 Jan 19 09:54 ft_lstdel.o
+-rw-r--r--  1 Hugo  staff    58 Jan 19 09:54 ft_lstdelone.d
+-rw-r--r--  1 Hugo  staff   768 Jan 19 09:54 ft_lstdelone.o
+-rw-r--r--  1 Hugo  staff    54 Jan 19 09:54 ft_lstiter.d
+-rw-r--r--  1 Hugo  staff   696 Jan 19 09:54 ft_lstiter.o
+-rw-r--r--  1 Hugo  staff    52 Jan 19 09:54 ft_lstmap.d
+-rw-r--r--  1 Hugo  staff   860 Jan 19 09:54 ft_lstmap.o
+-rw-r--r--  1 Hugo  staff    52 Jan 19 09:54 ft_lstnew.d
+-rw-r--r--  1 Hugo  staff   864 Jan 19 09:54 ft_lstnew.o
+-rw-r--r--  1 Hugo  staff    48 Jan 19 09:54 ft_ltoa.d
+-rw-r--r--  1 Hugo  staff  1220 Jan 19 09:54 ft_ltoa.o
+-rw-r--r--  1 Hugo  staff    39 Jan 19 09:54 ft_memalloc.d
+-rw-r--r--  1 Hugo  staff   760 Jan 19 09:54 ft_memalloc.o
+-rw-r--r--  1 Hugo  staff    37 Jan 19 09:54 ft_memccpy.d
+-rw-r--r--  1 Hugo  staff   760 Jan 19 09:54 ft_memccpy.o
+-rw-r--r--  1 Hugo  staff    35 Jan 19 09:54 ft_memchr.d
+-rw-r--r--  1 Hugo  staff   724 Jan 19 09:54 ft_memchr.o
+-rw-r--r--  1 Hugo  staff    35 Jan 19 09:54 ft_memcmp.d
+-rw-r--r--  1 Hugo  staff   724 Jan 19 09:54 ft_memcmp.o
+-rw-r--r--  1 Hugo  staff    35 Jan 19 09:54 ft_memcpy.d
+-rw-r--r--  1 Hugo  staff   692 Jan 19 09:54 ft_memcpy.o
+-rw-r--r--  1 Hugo  staff    35 Jan 19 09:54 ft_memdel.d
+-rw-r--r--  1 Hugo  staff   708 Jan 19 09:54 ft_memdel.o
+-rw-r--r--  1 Hugo  staff    37 Jan 19 09:54 ft_memmove.d
+-rw-r--r--  1 Hugo  staff   792 Jan 19 09:54 ft_memmove.o
+-rw-r--r--  1 Hugo  staff    60 Jan 19 09:54 ft_memrealloc.d
+-rw-r--r--  1 Hugo  staff   848 Jan 19 09:54 ft_memrealloc.o
+-rw-r--r--  1 Hugo  staff    35 Jan 19 09:54 ft_memset.d
+-rw-r--r--  1 Hugo  staff   684 Jan 19 09:54 ft_memset.o
+-rw-r--r--  1 Hugo  staff    37 Jan 19 09:54 ft_putchar.d
+-rw-r--r--  1 Hugo  staff   684 Jan 19 09:54 ft_putchar.o
+-rw-r--r--  1 Hugo  staff    43 Jan 19 09:54 ft_putchar_fd.d
+-rw-r--r--  1 Hugo  staff   696 Jan 19 09:54 ft_putchar_fd.o
+-rw-r--r--  1 Hugo  staff    37 Jan 19 09:54 ft_putendl.d
+-rw-r--r--  1 Hugo  staff   876 Jan 19 09:54 ft_putendl.o
+-rw-r--r--  1 Hugo  staff    43 Jan 19 09:54 ft_putendl_fd.d
+-rw-r--r--  1 Hugo  staff   888 Jan 19 09:54 ft_putendl_fd.o
+-rw-r--r--  1 Hugo  staff    52 Jan 19 09:54 ft_putnbr.d
+-rw-r--r--  1 Hugo  staff   832 Jan 19 09:54 ft_putnbr.o
+-rw-r--r--  1 Hugo  staff    58 Jan 19 09:54 ft_putnbr_fd.d
+-rw-r--r--  1 Hugo  staff   856 Jan 19 09:54 ft_putnbr_fd.o
+-rw-r--r--  1 Hugo  staff    52 Jan 19 09:54 ft_putstr.d
+-rw-r--r--  1 Hugo  staff   744 Jan 19 09:54 ft_putstr.o
+-rw-r--r--  1 Hugo  staff    58 Jan 19 09:54 ft_putstr_fd.d
+-rw-r--r--  1 Hugo  staff   756 Jan 19 09:54 ft_putstr_fd.o
+-rw-r--r--  1 Hugo  staff    64 Jan 19 09:54 ft_round_double.d
+-rw-r--r--  1 Hugo  staff  2628 Jan 19 09:54 ft_round_double.o
+-rw-r--r--  1 Hugo  staff    31 Jan 19 09:54 ft_sqrt.d
+-rw-r--r--  1 Hugo  staff   796 Jan 19 09:54 ft_sqrt.o
+-rw-r--r--  1 Hugo  staff    62 Jan 19 09:54 ft_str_realloc.d
+-rw-r--r--  1 Hugo  staff   980 Jan 19 09:54 ft_str_realloc.o
+-rw-r--r--  1 Hugo  staff    52 Jan 19 09:54 ft_strcat.d
+-rw-r--r--  1 Hugo  staff   784 Jan 19 09:54 ft_strcat.o
+-rw-r--r--  1 Hugo  staff    35 Jan 19 09:54 ft_strchr.d
+-rw-r--r--  1 Hugo  staff   788 Jan 19 09:54 ft_strchr.o
+-rw-r--r--  1 Hugo  staff    37 Jan 19 09:54 ft_strchri.d
+-rw-r--r--  1 Hugo  staff   760 Jan 19 09:54 ft_strchri.o
+-rw-r--r--  1 Hugo  staff    35 Jan 19 09:54 ft_strclr.d
+-rw-r--r--  1 Hugo  staff   684 Jan 19 09:54 ft_strclr.o
+-rw-r--r--  1 Hugo  staff    35 Jan 19 09:54 ft_strcmp.d
+-rw-r--r--  1 Hugo  staff   780 Jan 19 09:54 ft_strcmp.o
+-rw-r--r--  1 Hugo  staff    35 Jan 19 09:54 ft_strcpy.d
+-rw-r--r--  1 Hugo  staff   700 Jan 19 09:54 ft_strcpy.o
+-rw-r--r--  1 Hugo  staff    35 Jan 19 09:54 ft_strdel.d
+-rw-r--r--  1 Hugo  staff   708 Jan 19 09:54 ft_strdel.o
+-rw-r--r--  1 Hugo  staff    52 Jan 19 09:54 ft_strdup.d
+-rw-r--r--  1 Hugo  staff   840 Jan 19 09:54 ft_strdup.o
+-rw-r--r--  1 Hugo  staff    35 Jan 19 09:54 ft_strequ.d
+-rw-r--r--  1 Hugo  staff   796 Jan 19 09:54 ft_strequ.o
+-rw-r--r--  1 Hugo  staff    37 Jan 19 09:54 ft_striter.d
+-rw-r--r--  1 Hugo  staff   720 Jan 19 09:54 ft_striter.o
+-rw-r--r--  1 Hugo  staff    39 Jan 19 09:54 ft_striteri.d
+-rw-r--r--  1 Hugo  staff   728 Jan 19 09:54 ft_striteri.o
+-rw-r--r--  1 Hugo  staff    54 Jan 19 09:54 ft_strjoin.d
+-rw-r--r--  1 Hugo  staff   964 Jan 19 09:54 ft_strjoin.o
+-rw-r--r--  1 Hugo  staff    54 Jan 19 09:54 ft_strlcat.d
+-rw-r--r--  1 Hugo  staff   960 Jan 19 09:54 ft_strlcat.o
+-rw-r--r--  1 Hugo  staff    35 Jan 19 09:54 ft_strlen.d
+-rw-r--r--  1 Hugo  staff   700 Jan 19 09:54 ft_strlen.o
+-rw-r--r--  1 Hugo  staff    52 Jan 19 09:54 ft_strmap.d
+-rw-r--r--  1 Hugo  staff   868 Jan 19 09:54 ft_strmap.o
+-rw-r--r--  1 Hugo  staff    54 Jan 19 09:54 ft_strmapi.d
+-rw-r--r--  1 Hugo  staff   868 Jan 19 09:54 ft_strmapi.o
+-rw-r--r--  1 Hugo  staff    54 Jan 19 09:54 ft_strncat.d
+-rw-r--r--  1 Hugo  staff   824 Jan 19 09:54 ft_strncat.o
+-rw-r--r--  1 Hugo  staff    37 Jan 19 09:54 ft_strncmp.d
+-rw-r--r--  1 Hugo  staff   840 Jan 19 09:54 ft_strncmp.o
+-rw-r--r--  1 Hugo  staff    54 Jan 19 09:54 ft_strncpy.d
+-rw-r--r--  1 Hugo  staff   912 Jan 19 09:54 ft_strncpy.o
+-rw-r--r--  1 Hugo  staff    37 Jan 19 09:54 ft_strnequ.d
+-rw-r--r--  1 Hugo  staff   888 Jan 19 09:54 ft_strnequ.o
+-rw-r--r--  1 Hugo  staff    35 Jan 19 09:54 ft_strnew.d
+-rw-r--r--  1 Hugo  staff   764 Jan 19 09:54 ft_strnew.o
+-rw-r--r--  1 Hugo  staff    54 Jan 19 09:54 ft_strnstr.d
+-rw-r--r--  1 Hugo  staff   972 Jan 19 09:54 ft_strnstr.o
+-rw-r--r--  1 Hugo  staff    54 Jan 19 09:54 ft_strrchr.d
+-rw-r--r--  1 Hugo  staff   832 Jan 19 09:54 ft_strrchr.o
+-rw-r--r--  1 Hugo  staff    56 Jan 19 09:54 ft_strsplit.d
+-rw-r--r--  1 Hugo  staff  1876 Jan 19 09:54 ft_strsplit.o
+-rw-r--r--  1 Hugo  staff    52 Jan 19 09:54 ft_strstr.d
+-rw-r--r--  1 Hugo  staff   948 Jan 19 09:54 ft_strstr.o
+-rw-r--r--  1 Hugo  staff    52 Jan 19 09:54 ft_strsub.d
+-rw-r--r--  1 Hugo  staff   808 Jan 19 09:54 ft_strsub.o
+-rw-r--r--  1 Hugo  staff    54 Jan 19 09:54 ft_strtrim.d
+-rw-r--r--  1 Hugo  staff  1208 Jan 19 09:54 ft_strtrim.o
+-rw-r--r--  1 Hugo  staff    37 Jan 19 09:54 ft_tolower.d
+-rw-r--r--  1 Hugo  staff   664 Jan 19 09:54 ft_tolower.o
+-rw-r--r--  1 Hugo  staff    37 Jan 19 09:54 ft_toupper.d
+-rw-r--r--  1 Hugo  staff   664 Jan 19 09:54 ft_toupper.o
+-rw-r--r--  1 Hugo  staff    50 Jan 19 09:54 ft_uitoa.d
+-rw-r--r--  1 Hugo  staff   964 Jan 19 09:54 ft_uitoa.o
+-rw-r--r--  1 Hugo  staff    52 Jan 19 09:54 ft_uitooa.d
+-rw-r--r--  1 Hugo  staff  1040 Jan 19 09:54 ft_uitooa.o
+-rw-r--r--  1 Hugo  staff    52 Jan 19 09:54 ft_uitoxa.d
+-rw-r--r--  1 Hugo  staff  1056 Jan 19 09:54 ft_uitoxa.o
+-rw-r--r--  1 Hugo  staff    52 Jan 19 09:54 ft_ulltoa.d
+-rw-r--r--  1 Hugo  staff   988 Jan 19 09:54 ft_ulltoa.o
+-rw-r--r--  1 Hugo  staff    54 Jan 19 09:54 ft_ulltooa.d
+-rw-r--r--  1 Hugo  staff  1084 Jan 19 09:54 ft_ulltooa.o
+-rw-r--r--  1 Hugo  staff    54 Jan 19 09:54 ft_ulltoxa.d
+-rw-r--r--  1 Hugo  staff  1116 Jan 19 09:54 ft_ulltoxa.o
+-rw-r--r--  1 Hugo  staff    50 Jan 19 09:54 ft_ultoa.d
+-rw-r--r--  1 Hugo  staff   988 Jan 19 09:54 ft_ultoa.o
+-rw-r--r--  1 Hugo  staff    52 Jan 19 09:54 ft_ultooa.d
+-rw-r--r--  1 Hugo  staff  1080 Jan 19 09:54 ft_ultooa.o
+-rw-r--r--  1 Hugo  staff    52 Jan 19 09:54 ft_ultoxa.d
+-rw-r--r--  1 Hugo  staff  1112 Jan 19 09:54 ft_ultoxa.o
+Entering ./libft/srcs
+Entering print
+Getting stats for ./libft/srcs/ft_abs16.c
+Stats OK./libft/srcs/ft_abs16.c
+Getting stats for ./libft/srcs/ft_abs32.c
+Stats OK./libft/srcs/ft_abs32.c
+Getting stats for ./libft/srcs/ft_abs64.c
+Stats OK./libft/srcs/ft_abs64.c
+Getting stats for ./libft/srcs/ft_abstime.c
+Stats OK./libft/srcs/ft_abstime.c
+Getting stats for ./libft/srcs/ft_atoi.c
+Stats OK./libft/srcs/ft_atoi.c
+Getting stats for ./libft/srcs/ft_atol.c
+Stats OK./libft/srcs/ft_atol.c
+Getting stats for ./libft/srcs/ft_atoll.c
+Stats OK./libft/srcs/ft_atoll.c
+Getting stats for ./libft/srcs/ft_bzero.c
+Stats OK./libft/srcs/ft_bzero.c
+Getting stats for ./libft/srcs/ft_dtoa.c
+Stats OK./libft/srcs/ft_dtoa.c
+Getting stats for ./libft/srcs/ft_int_swap.c
+Stats OK./libft/srcs/ft_int_swap.c
+Getting stats for ./libft/srcs/ft_isalnum.c
+Stats OK./libft/srcs/ft_isalnum.c
+Getting stats for ./libft/srcs/ft_isalpha.c
+Stats OK./libft/srcs/ft_isalpha.c
+Getting stats for ./libft/srcs/ft_isascii.c
+Stats OK./libft/srcs/ft_isascii.c
+Getting stats for ./libft/srcs/ft_isdigit.c
+Stats OK./libft/srcs/ft_isdigit.c
+Getting stats for ./libft/srcs/ft_isprint.c
+Stats OK./libft/srcs/ft_isprint.c
+Getting stats for ./libft/srcs/ft_itoa.c
+Stats OK./libft/srcs/ft_itoa.c
+Getting stats for ./libft/srcs/ft_ldtoa.c
+Stats OK./libft/srcs/ft_ldtoa.c
+Getting stats for ./libft/srcs/ft_lltoa.c
+Stats OK./libft/srcs/ft_lltoa.c
+Getting stats for ./libft/srcs/ft_lstadd.c
+Stats OK./libft/srcs/ft_lstadd.c
+Getting stats for ./libft/srcs/ft_lstdel.c
+Stats OK./libft/srcs/ft_lstdel.c
+Getting stats for ./libft/srcs/ft_lstdelone.c
+Stats OK./libft/srcs/ft_lstdelone.c
+Getting stats for ./libft/srcs/ft_lstiter.c
+Stats OK./libft/srcs/ft_lstiter.c
+Getting stats for ./libft/srcs/ft_lstmap.c
+Stats OK./libft/srcs/ft_lstmap.c
+Getting stats for ./libft/srcs/ft_lstnew.c
+Stats OK./libft/srcs/ft_lstnew.c
+Getting stats for ./libft/srcs/ft_ltoa.c
+Stats OK./libft/srcs/ft_ltoa.c
+Getting stats for ./libft/srcs/ft_memalloc.c
+Stats OK./libft/srcs/ft_memalloc.c
+Getting stats for ./libft/srcs/ft_memccpy.c
+Stats OK./libft/srcs/ft_memccpy.c
+Getting stats for ./libft/srcs/ft_memchr.c
+Stats OK./libft/srcs/ft_memchr.c
+Getting stats for ./libft/srcs/ft_memcmp.c
+Stats OK./libft/srcs/ft_memcmp.c
+Getting stats for ./libft/srcs/ft_memcpy.c
+Stats OK./libft/srcs/ft_memcpy.c
+Getting stats for ./libft/srcs/ft_memdel.c
+Stats OK./libft/srcs/ft_memdel.c
+Getting stats for ./libft/srcs/ft_memmove.c
+Stats OK./libft/srcs/ft_memmove.c
+Getting stats for ./libft/srcs/ft_memrealloc.c
+Stats OK./libft/srcs/ft_memrealloc.c
+Getting stats for ./libft/srcs/ft_memset.c
+Stats OK./libft/srcs/ft_memset.c
+Getting stats for ./libft/srcs/ft_putchar.c
+Stats OK./libft/srcs/ft_putchar.c
+Getting stats for ./libft/srcs/ft_putchar_fd.c
+Stats OK./libft/srcs/ft_putchar_fd.c
+Getting stats for ./libft/srcs/ft_putendl.c
+Stats OK./libft/srcs/ft_putendl.c
+Getting stats for ./libft/srcs/ft_putendl_fd.c
+Stats OK./libft/srcs/ft_putendl_fd.c
+Getting stats for ./libft/srcs/ft_putnbr.c
+Stats OK./libft/srcs/ft_putnbr.c
+Getting stats for ./libft/srcs/ft_putnbr_fd.c
+Stats OK./libft/srcs/ft_putnbr_fd.c
+Getting stats for ./libft/srcs/ft_putstr.c
+Stats OK./libft/srcs/ft_putstr.c
+Getting stats for ./libft/srcs/ft_putstr_fd.c
+Stats OK./libft/srcs/ft_putstr_fd.c
+Getting stats for ./libft/srcs/ft_round_double.c
+Stats OK./libft/srcs/ft_round_double.c
+Getting stats for ./libft/srcs/ft_sqrt.c
+Stats OK./libft/srcs/ft_sqrt.c
+Getting stats for ./libft/srcs/ft_str_realloc.c
+Stats OK./libft/srcs/ft_str_realloc.c
+Getting stats for ./libft/srcs/ft_strcat.c
+Stats OK./libft/srcs/ft_strcat.c
+Getting stats for ./libft/srcs/ft_strchr.c
+Stats OK./libft/srcs/ft_strchr.c
+Getting stats for ./libft/srcs/ft_strchri.c
+Stats OK./libft/srcs/ft_strchri.c
+Getting stats for ./libft/srcs/ft_strclr.c
+Stats OK./libft/srcs/ft_strclr.c
+Getting stats for ./libft/srcs/ft_strcmp.c
+Stats OK./libft/srcs/ft_strcmp.c
+Getting stats for ./libft/srcs/ft_strcpy.c
+Stats OK./libft/srcs/ft_strcpy.c
+Getting stats for ./libft/srcs/ft_strdel.c
+Stats OK./libft/srcs/ft_strdel.c
+Getting stats for ./libft/srcs/ft_strdup.c
+Stats OK./libft/srcs/ft_strdup.c
+Getting stats for ./libft/srcs/ft_strequ.c
+Stats OK./libft/srcs/ft_strequ.c
+Getting stats for ./libft/srcs/ft_striter.c
+Stats OK./libft/srcs/ft_striter.c
+Getting stats for ./libft/srcs/ft_striteri.c
+Stats OK./libft/srcs/ft_striteri.c
+Getting stats for ./libft/srcs/ft_strjoin.c
+Stats OK./libft/srcs/ft_strjoin.c
+Getting stats for ./libft/srcs/ft_strlcat.c
+Stats OK./libft/srcs/ft_strlcat.c
+Getting stats for ./libft/srcs/ft_strlen.c
+Stats OK./libft/srcs/ft_strlen.c
+Getting stats for ./libft/srcs/ft_strmap.c
+Stats OK./libft/srcs/ft_strmap.c
+Getting stats for ./libft/srcs/ft_strmapi.c
+Stats OK./libft/srcs/ft_strmapi.c
+Getting stats for ./libft/srcs/ft_strncat.c
+Stats OK./libft/srcs/ft_strncat.c
+Getting stats for ./libft/srcs/ft_strncmp.c
+Stats OK./libft/srcs/ft_strncmp.c
+Getting stats for ./libft/srcs/ft_strncpy.c
+Stats OK./libft/srcs/ft_strncpy.c
+Getting stats for ./libft/srcs/ft_strnequ.c
+Stats OK./libft/srcs/ft_strnequ.c
+Getting stats for ./libft/srcs/ft_strnew.c
+Stats OK./libft/srcs/ft_strnew.c
+Getting stats for ./libft/srcs/ft_strnstr.c
+Stats OK./libft/srcs/ft_strnstr.c
+Getting stats for ./libft/srcs/ft_strrchr.c
+Stats OK./libft/srcs/ft_strrchr.c
+Getting stats for ./libft/srcs/ft_strsplit.c
+Stats OK./libft/srcs/ft_strsplit.c
+Getting stats for ./libft/srcs/ft_strstr.c
+Stats OK./libft/srcs/ft_strstr.c
+Getting stats for ./libft/srcs/ft_strsub.c
+Stats OK./libft/srcs/ft_strsub.c
+Getting stats for ./libft/srcs/ft_strtrim.c
+Stats OK./libft/srcs/ft_strtrim.c
+Getting stats for ./libft/srcs/ft_tolower.c
+Stats OK./libft/srcs/ft_tolower.c
+Getting stats for ./libft/srcs/ft_toupper.c
+Stats OK./libft/srcs/ft_toupper.c
+Getting stats for ./libft/srcs/ft_uitoa.c
+Stats OK./libft/srcs/ft_uitoa.c
+Getting stats for ./libft/srcs/ft_uitooa.c
+Stats OK./libft/srcs/ft_uitooa.c
+Getting stats for ./libft/srcs/ft_uitoxa.c
+Stats OK./libft/srcs/ft_uitoxa.c
+Getting stats for ./libft/srcs/ft_ulltoa.c
+Stats OK./libft/srcs/ft_ulltoa.c
+Getting stats for ./libft/srcs/ft_ulltooa.c
+Stats OK./libft/srcs/ft_ulltooa.c
+Getting stats for ./libft/srcs/ft_ulltoxa.c
+Stats OK./libft/srcs/ft_ulltoxa.c
+Getting stats for ./libft/srcs/ft_ultoa.c
+Stats OK./libft/srcs/ft_ultoa.c
+Getting stats for ./libft/srcs/ft_ultooa.c
+Stats OK./libft/srcs/ft_ultooa.c
+Getting stats for ./libft/srcs/ft_ultoxa.c
+Stats OK./libft/srcs/ft_ultoxa.c
+
+./libft/srcs:
+total 664
+Starting print loop
+-rw-r--r--  1 Hugo  staff   998 Jan 19 09:15 ft_abs16.c
+-rw-r--r--  1 Hugo  staff   998 Jan 19 09:15 ft_abs32.c
+-rw-r--r--  1 Hugo  staff   998 Jan 19 09:15 ft_abs64.c
+-rw-r--r--  1 Hugo  staff   998 Jan 19 09:15 ft_abstime.c
+-rw-r--r--  1 Hugo  staff  1390 Jan 19 09:15 ft_atoi.c
+-rw-r--r--  1 Hugo  staff  1391 Jan 19 09:15 ft_atol.c
+-rw-r--r--  1 Hugo  staff  1409 Jan 19 09:15 ft_atoll.c
+-rw-r--r--  1 Hugo  staff  1030 Jan 19 09:15 ft_bzero.c
+-rw-r--r--  1 Hugo  staff  2337 Jan 19 09:15 ft_dtoa.c
+-rw-r--r--  1 Hugo  staff   977 Jan 19 09:15 ft_int_swap.c
+-rw-r--r--  1 Hugo  staff  1010 Jan 19 09:15 ft_isalnum.c
+-rw-r--r--  1 Hugo  staff  1008 Jan 19 09:15 ft_isalpha.c
+-rw-r--r--  1 Hugo  staff   982 Jan 19 09:15 ft_isascii.c
+-rw-r--r--  1 Hugo  staff   980 Jan 19 09:15 ft_isdigit.c
+-rw-r--r--  1 Hugo  staff   981 Jan 19 09:15 ft_isprint.c
+-rw-r--r--  1 Hugo  staff  1370 Jan 19 09:15 ft_itoa.c
+-rw-r--r--  1 Hugo  staff  2200 Jan 19 09:15 ft_ldtoa.c
+-rw-r--r--  1 Hugo  staff  1363 Jan 19 09:15 ft_lltoa.c
+-rw-r--r--  1 Hugo  staff  1021 Jan 19 09:15 ft_lstadd.c
+-rw-r--r--  1 Hugo  staff  1259 Jan 19 09:15 ft_lstdel.c
+-rw-r--r--  1 Hugo  staff  1154 Jan 19 09:15 ft_lstdelone.c
+-rw-r--r--  1 Hugo  staff  1037 Jan 19 09:15 ft_lstiter.c
+-rw-r--r--  1 Hugo  staff  1253 Jan 19 09:15 ft_lstmap.c
+-rw-r--r--  1 Hugo  staff  1395 Jan 19 09:15 ft_lstnew.c
+-rw-r--r--  1 Hugo  staff  1373 Jan 19 09:15 ft_ltoa.c
+-rw-r--r--  1 Hugo  staff  1134 Jan 19 09:15 ft_memalloc.c
+-rw-r--r--  1 Hugo  staff  1223 Jan 19 09:15 ft_memccpy.c
+-rw-r--r--  1 Hugo  staff  1118 Jan 19 09:15 ft_memchr.c
+-rw-r--r--  1 Hugo  staff  1142 Jan 19 09:15 ft_memcmp.c
+-rw-r--r--  1 Hugo  staff  1093 Jan 19 09:15 ft_memcpy.c
+-rw-r--r--  1 Hugo  staff  1008 Jan 19 09:15 ft_memdel.c
+-rw-r--r--  1 Hugo  staff  1219 Jan 19 09:15 ft_memmove.c
+-rw-r--r--  1 Hugo  staff  1186 Jan 19 09:15 ft_memrealloc.c
+-rw-r--r--  1 Hugo  staff  1072 Jan 19 09:15 ft_memset.c
+-rw-r--r--  1 Hugo  staff   959 Jan 19 09:15 ft_putchar.c
+-rw-r--r--  1 Hugo  staff   986 Jan 19 09:15 ft_putchar_fd.c
+-rw-r--r--  1 Hugo  staff  1059 Jan 19 09:15 ft_putendl.c
+-rw-r--r--  1 Hugo  staff  1083 Jan 19 09:15 ft_putendl_fd.c
+-rw-r--r--  1 Hugo  staff  1163 Jan 19 09:15 ft_putnbr.c
+-rw-r--r--  1 Hugo  staff  1202 Jan 19 09:15 ft_putnbr_fd.c
+-rw-r--r--  1 Hugo  staff  1003 Jan 19 09:15 ft_putstr.c
+-rw-r--r--  1 Hugo  staff  1015 Jan 19 09:15 ft_putstr_fd.c
+-rw-r--r--  1 Hugo  staff  2673 Jan 19 09:15 ft_round_double.c
+-rw-r--r--  1 Hugo  staff  1191 Jan 19 09:15 ft_sqrt.c
+-rw-r--r--  1 Hugo  staff  1283 Jan 19 09:15 ft_str_realloc.c
+-rw-r--r--  1 Hugo  staff  1113 Jan 19 09:15 ft_strcat.c
+-rw-r--r--  1 Hugo  staff  1143 Jan 19 09:15 ft_strchr.c
+-rw-r--r--  1 Hugo  staff  1086 Jan 19 09:15 ft_strchri.c
+-rw-r--r--  1 Hugo  staff  1005 Jan 19 09:15 ft_strclr.c
+-rw-r--r--  1 Hugo  staff  1073 Jan 19 09:15 ft_strcmp.c
+-rw-r--r--  1 Hugo  staff  1037 Jan 19 09:15 ft_strcpy.c
+-rw-r--r--  1 Hugo  staff  1008 Jan 19 09:15 ft_strdel.c
+-rw-r--r--  1 Hugo  staff  1181 Jan 19 09:15 ft_strdup.c
+-rw-r--r--  1 Hugo  staff  1131 Jan 19 09:15 ft_strequ.c
+-rw-r--r--  1 Hugo  staff  1032 Jan 19 09:15 ft_striter.c
+-rw-r--r--  1 Hugo  staff  1058 Jan 19 09:15 ft_striteri.c
+-rw-r--r--  1 Hugo  staff  1308 Jan 19 09:15 ft_strjoin.c
+-rw-r--r--  1 Hugo  staff  1237 Jan 19 09:15 ft_strlcat.c
+-rw-r--r--  1 Hugo  staff  1036 Jan 19 09:15 ft_strlen.c
+-rw-r--r--  1 Hugo  staff  1188 Jan 19 09:15 ft_strmap.c
+-rw-r--r--  1 Hugo  staff  1203 Jan 19 09:15 ft_strmapi.c
+-rw-r--r--  1 Hugo  staff  1133 Jan 19 09:15 ft_strncat.c
+-rw-r--r--  1 Hugo  staff  1142 Jan 19 09:15 ft_strncmp.c
+-rw-r--r--  1 Hugo  staff  1276 Jan 19 09:15 ft_strncpy.c
+-rw-r--r--  1 Hugo  staff  1181 Jan 19 09:15 ft_strnequ.c
+-rw-r--r--  1 Hugo  staff  1133 Jan 19 09:15 ft_strnew.c
+-rw-r--r--  1 Hugo  staff  1386 Jan 19 09:15 ft_strnstr.c
+-rw-r--r--  1 Hugo  staff  1157 Jan 19 09:15 ft_strrchr.c
+-rw-r--r--  1 Hugo  staff  2018 Jan 19 09:15 ft_strsplit.c
+-rw-r--r--  1 Hugo  staff  1353 Jan 19 09:15 ft_strstr.c
+-rw-r--r--  1 Hugo  staff  1204 Jan 19 09:15 ft_strsub.c
+-rw-r--r--  1 Hugo  staff  1362 Jan 19 09:15 ft_strtrim.c
+-rw-r--r--  1 Hugo  staff   987 Jan 19 09:15 ft_tolower.c
+-rw-r--r--  1 Hugo  staff   989 Jan 19 09:15 ft_toupper.c
+-rw-r--r--  1 Hugo  staff  1240 Jan 19 09:15 ft_uitoa.c
+-rw-r--r--  1 Hugo  staff  1429 Jan 19 09:15 ft_uitooa.c
+-rw-r--r--  1 Hugo  staff  1400 Jan 19 09:15 ft_uitoxa.c
+-rw-r--r--  1 Hugo  staff  1251 Jan 19 09:15 ft_ulltoa.c
+-rw-r--r--  1 Hugo  staff  1450 Jan 19 09:15 ft_ulltooa.c
+-rw-r--r--  1 Hugo  staff  1424 Jan 19 09:15 ft_ulltoxa.c
+-rw-r--r--  1 Hugo  staff  1243 Jan 19 09:15 ft_ultoa.c
+-rw-r--r--  1 Hugo  staff  1434 Jan 19 09:15 ft_ultooa.c
+-rw-r--r--  1 Hugo  staff  1404 Jan 19 09:15 ft_ultoxa.c
+Entering ./objs
+Entering print
+Getting stats for ./objs/display_dir.d
+Stats OK./objs/display_dir.d
+Getting stats for ./objs/display_dir.o
+Stats OK./objs/display_dir.o
+Getting stats for ./objs/error_handler.d
+Stats OK./objs/error_handler.d
+Getting stats for ./objs/error_handler.o
+Stats OK./objs/error_handler.o
+Getting stats for ./objs/exit_dir.d
+Stats OK./objs/exit_dir.d
+Getting stats for ./objs/exit_dir.o
+Stats OK./objs/exit_dir.o
+Getting stats for ./objs/get_dirlist.d
+Stats OK./objs/get_dirlist.d
+Getting stats for ./objs/get_dirlist.o
+Stats OK./objs/get_dirlist.o
+Getting stats for ./objs/get_mode.d
+Stats OK./objs/get_mode.d
+Getting stats for ./objs/get_mode.o
+Stats OK./objs/get_mode.o
+Getting stats for ./objs/get_names.d
+Stats OK./objs/get_names.d
+Getting stats for ./objs/get_names.o
+Stats OK./objs/get_names.o
+Getting stats for ./objs/get_options.d
+Stats OK./objs/get_options.d
+Getting stats for ./objs/get_options.o
+Stats OK./objs/get_options.o
+Getting stats for ./objs/get_padding.d
+Stats OK./objs/get_padding.d
+Getting stats for ./objs/get_padding.o
+Stats OK./objs/get_padding.o
+Getting stats for ./objs/get_printdata.d
+Stats OK./objs/get_printdata.d
+Getting stats for ./objs/get_printdata.o
+Stats OK./objs/get_printdata.o
+Getting stats for ./objs/get_size.d
+Stats OK./objs/get_size.d
+Getting stats for ./objs/get_size.o
+Stats OK./objs/get_size.o
+Getting stats for ./objs/get_stats.d
+Stats OK./objs/get_stats.d
+Getting stats for ./objs/get_stats.o
+Stats OK./objs/get_stats.o
+Getting stats for ./objs/get_symlink.d
+Stats OK./objs/get_symlink.d
+Getting stats for ./objs/get_symlink.o
+Stats OK./objs/get_symlink.o
+Getting stats for ./objs/get_time.d
+Stats OK./objs/get_time.d
+Getting stats for ./objs/get_time.o
+Stats OK./objs/get_time.o
+Getting stats for ./objs/helpers.d
+Stats OK./objs/helpers.d
+Getting stats for ./objs/helpers.o
+Stats OK./objs/helpers.o
+Getting stats for ./objs/main.d
+Stats OK./objs/main.d
+Getting stats for ./objs/main.o
+Stats OK./objs/main.o
+Getting stats for ./objs/print_dirlist.d
+Stats OK./objs/print_dirlist.d
+Getting stats for ./objs/print_dirlist.o
+Stats OK./objs/print_dirlist.o
+Getting stats for ./objs/print_entry.d
+Stats OK./objs/print_entry.d
+Getting stats for ./objs/print_entry.o
+Stats OK./objs/print_entry.o
+Getting stats for ./objs/sort_dir.d
+Stats OK./objs/sort_dir.d
+Getting stats for ./objs/sort_dir.o
+Stats OK./objs/sort_dir.o
+
+./objs:
+total 288
+Starting print loop
+-rw-r--r--  1 Hugo  staff    80 Jan 19 10:45 display_dir.d
+-rw-r--r--  1 Hugo  staff  1560 Jan 19 10:45 display_dir.o
+-rw-r--r--  1 Hugo  staff    84 Jan 19 10:31 error_handler.d
+-rw-r--r--  1 Hugo  staff   892 Jan 19 10:31 error_handler.o
+-rw-r--r--  1 Hugo  staff    70 Jan 19 10:31 exit_dir.d
+-rw-r--r--  1 Hugo  staff  1044 Jan 19 10:31 exit_dir.o
+-rw-r--r--  1 Hugo  staff    80 Jan 19 10:40 get_dirlist.d
+-rw-r--r--  1 Hugo  staff  2268 Jan 19 10:40 get_dirlist.o
+-rw-r--r--  1 Hugo  staff    70 Jan 19 10:32 get_mode.d
+-rw-r--r--  1 Hugo  staff  1892 Jan 19 10:32 get_mode.o
+-rw-r--r--  1 Hugo  staff    72 Jan 19 10:32 get_names.d
+-rw-r--r--  1 Hugo  staff   940 Jan 19 10:32 get_names.o
+-rw-r--r--  1 Hugo  staff    80 Jan 19 10:31 get_options.d
+-rw-r--r--  1 Hugo  staff  1728 Jan 19 10:31 get_options.o
+-rw-r--r--  1 Hugo  staff    80 Jan 19 11:02 get_padding.d
+-rw-r--r--  1 Hugo  staff  2468 Jan 19 11:02 get_padding.o
+-rw-r--r--  1 Hugo  staff    84 Jan 19 11:04 get_printdata.d
+-rw-r--r--  1 Hugo  staff  1324 Jan 19 11:04 get_printdata.o
+-rw-r--r--  1 Hugo  staff    70 Jan 19 11:02 get_size.d
+-rw-r--r--  1 Hugo  staff  1244 Jan 19 11:02 get_size.o
+-rw-r--r--  1 Hugo  staff    72 Jan 19 10:32 get_stats.d
+-rw-r--r--  1 Hugo  staff  1116 Jan 19 10:32 get_stats.o
+-rw-r--r--  1 Hugo  staff    80 Jan 19 11:02 get_symlink.d
+-rw-r--r--  1 Hugo  staff   804 Jan 19 11:02 get_symlink.o
+-rw-r--r--  1 Hugo  staff    70 Jan 19 11:02 get_time.d
+-rw-r--r--  1 Hugo  staff  1004 Jan 19 11:02 get_time.o
+-rw-r--r--  1 Hugo  staff    68 Jan 19 10:32 helpers.d
+-rw-r--r--  1 Hugo  staff  1328 Jan 19 10:32 helpers.o
+-rw-r--r--  1 Hugo  staff    62 Jan 19 10:31 main.d
+-rw-r--r--  1 Hugo  staff  1784 Jan 19 10:31 main.o
+-rw-r--r--  1 Hugo  staff    84 Jan 19 10:45 print_dirlist.d
+-rw-r--r--  1 Hugo  staff  1964 Jan 19 10:45 print_dirlist.o
+-rw-r--r--  1 Hugo  staff    80 Jan 19 11:02 print_entry.d
+-rw-r--r--  1 Hugo  staff  1744 Jan 19 11:02 print_entry.o
+-rw-r--r--  1 Hugo  staff    70 Jan 19 10:31 sort_dir.d
+-rw-r--r--  1 Hugo  staff  2000 Jan 19 10:31 sort_dir.o
+Entering ./srcs
+Entering print
+Getting stats for ./srcs/display_dir.c
+Stats OK./srcs/display_dir.c
+Getting stats for ./srcs/error_handler.c
+Stats OK./srcs/error_handler.c
+Getting stats for ./srcs/exit_dir.c
+Stats OK./srcs/exit_dir.c
+Getting stats for ./srcs/get_dirlist.c
+Stats OK./srcs/get_dirlist.c
+Getting stats for ./srcs/get_mode.c
+Stats OK./srcs/get_mode.c
+Getting stats for ./srcs/get_names.c
+Stats OK./srcs/get_names.c
+Getting stats for ./srcs/get_options.c
+Stats OK./srcs/get_options.c
+Getting stats for ./srcs/get_padding.c
+Stats OK./srcs/get_padding.c
+Getting stats for ./srcs/get_printdata.c
+Stats OK./srcs/get_printdata.c
+Getting stats for ./srcs/get_size.c
+Stats OK./srcs/get_size.c
+Getting stats for ./srcs/get_stats.c
+Stats OK./srcs/get_stats.c
+Getting stats for ./srcs/get_symlink.c
+Stats OK./srcs/get_symlink.c
+Getting stats for ./srcs/get_time.c
+Stats OK./srcs/get_time.c
+Getting stats for ./srcs/helpers.c
+Stats OK./srcs/helpers.c
+Getting stats for ./srcs/main.c
+Stats OK./srcs/main.c
+Getting stats for ./srcs/print_dirlist.c
+Stats OK./srcs/print_dirlist.c
+Getting stats for ./srcs/print_entry.c
+Stats OK./srcs/print_entry.c
+Getting stats for ./srcs/sort_dir.c
+Stats OK./srcs/sort_dir.c
+
+./srcs:
+total 144
+Starting print loop
+-rw-r--r--  1 Hugo  staff  1788 Jan 19 10:44 display_dir.c
+-rw-r--r--  1 Hugo  staff  1069 Jan 19 09:14 error_handler.c
+-rw-r--r--  1 Hugo  staff  1366 Jan 19 09:40 exit_dir.c
+-rw-r--r--  1 Hugo  staff  2766 Jan 19 10:39 get_dirlist.c
+-rw-r--r--  1 Hugo  staff  2414 Jan 19 09:14 get_mode.c
+-rw-r--r--  1 Hugo  staff  1392 Jan 19 09:14 get_names.c
+-rw-r--r--  1 Hugo  staff  1629 Jan 19 09:14 get_options.c
+-rw-r--r--  1 Hugo  staff  2929 Jan 19 10:55 get_padding.c
+-rw-r--r--  1 Hugo  staff  1787 Jan 19 11:04 get_printdata.c
+-rw-r--r--  1 Hugo  staff  1706 Jan 19 10:58 get_size.c
+-rw-r--r--  1 Hugo  staff  1437 Jan 19 09:14 get_stats.c
+-rw-r--r--  1 Hugo  staff  1152 Jan 19 10:59 get_symlink.c
+-rw-r--r--  1 Hugo  staff  1358 Jan 19 11:01 get_time.c
+-rw-r--r--  1 Hugo  staff  1392 Jan 19 09:14 helpers.c
+-rw-r--r--  1 Hugo  staff  1845 Jan 19 10:02 main.c
+-rw-r--r--  1 Hugo  staff  2035 Jan 19 10:45 print_dirlist.c
+-rw-r--r--  1 Hugo  staff  1728 Jan 19 10:55 print_entry.c
+-rw-r--r--  1 Hugo  staff  2293 Jan 19 09:56 sort_dir.c

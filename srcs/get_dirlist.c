@@ -19,13 +19,15 @@ static uint8_t			is_dir(t_entry *entry)
 
 	if (!get_stats_path(entry->path, &stats, NOFOLLOW))
 	{
-//		ft_printf("Looking at : %s\n", entry->path);
-//		if ((dirp = opendir(entry->path)))
-//			ft_printf("Can open %s\n", entry->name);
-//		if (get_type(stats.st_mode) != 'l')
-//			ft_printf("%s is not a link\n", entry->name);
-//		if (!is_anchor(entry->name))
-//			ft_printf("%s is not an anchor\n", entry->name);
+		ft_printf("Looking at : %s\n", entry->path);
+		if ((dirp = opendir(entry->path)))
+			ft_printf("Can open %s\n", entry->name);
+		else
+			ft_printf("Can't open %s\n", entry->name);
+		if (get_type(stats.st_mode) != 'l')
+			ft_printf("%s is not a link\n", entry->name);
+		if (!is_anchor(entry->name))
+			ft_printf("%s is not an anchor\n", entry->name);
 		if ((dirp = opendir(entry->path)) &&
 			get_type(stats.st_mode) != 'l' &&
 			!is_anchor(entry->name))
