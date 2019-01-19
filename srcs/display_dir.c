@@ -12,7 +12,13 @@
 
 #include "ls.h"
 
-static int8_t		display_subdirs(t_dirlist *dir, t_entry *data, t_opt *opt)
+void				display_container(t_dirlist *container, t_opt *opt)
+{
+	sort_dir(container, opt);
+	print_dirlist(container, opt);
+}
+
+int8_t				display_subdirs(t_dirlist *dir, t_entry *data, t_opt *opt)
 {
 	size_t			i;
 	int8_t			status;
@@ -23,7 +29,7 @@ static int8_t		display_subdirs(t_dirlist *dir, t_entry *data, t_opt *opt)
 	{
 		if (data[i].is_subdir)
 		{
-			status = display_dir(data[i].path, opt, dir->depth + 1);
+			status = display_dir(data[i].path, opt);
 			if (status < DIR_ERR_OPEN)
 				return (status);
 		}
@@ -32,16 +38,18 @@ static int8_t		display_subdirs(t_dirlist *dir, t_entry *data, t_opt *opt)
 	return (status);
 }
 
-int8_t				display_dir(char *name, t_opt *opt, size_t depth)
+int8_t				display_dir(char *name, t_opt *opt)
 {
 	t_dirlist		dir;
+	static uint64_t	counter;
 	int8_t			status;
 	
-	ft_printf("Entering %s\n", name);//
+	if (opt->multi_arg || (opt->deep && counter != 0))
+		ft_printf("%s%s:\n", counter > 0 ? "\n" : "", name);
+	counter++;
 	ft_bzero(&dir, sizeof(dir));
 	dir.name = name;
 	dir.namlen = (uint32_t)ft_strlen(name);
-	dir.depth = depth;
 	if (!(status = get_dirlist(&dir, opt)) &&
 		!(status = sort_dir(&dir, opt)) &&
 		!(status = print_dirlist(&dir, opt)) &&

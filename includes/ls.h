@@ -26,8 +26,14 @@
 # include <grp.h>
 # include <time.h>
 # include <unistd.h>
+# include <errno.h>
 # include "libft.h"
 
+# define PARSE_FILES 1
+# define PARSE_DIRS 2
+# define IS_FILE 2
+# define IS_DIR 1
+# define IS_ERR 0
 # define FOLLOW 0
 # define NOFOLLOW 1
 # define DIR_ERR_OPEN -1
@@ -48,11 +54,12 @@ typedef struct		s_opt
 	uint8_t			ldisp;
 	uint8_t			rev;
 	uint8_t			sort_mt;
+	uint8_t			multi_arg;
 }					t_opt;
 
 typedef union		u_opt
 {
-	uint8_t			opt_int[5];
+	uint8_t			opt_int[6];
 	t_opt			opt_struct;
 }					t_opt_u;
 
@@ -71,7 +78,7 @@ typedef struct		s_dirlist
 {
 	char			*name;
 	size_t			namlen;
-	size_t			depth;
+	uint8_t			is_container;
 	uint8_t			is_dev;
 	DIR				*dirp;
 	t_entry			*data;
@@ -127,11 +134,26 @@ typedef struct		s_printdata
 }					t_printdata;
 
 /*
+**	Args Parsing
+*/
+
+typedef struct		s_arg
+{
+	char			*path;
+	char			type;
+	int				errno_value;
+}					t_arg;
+
+/*
 **	Main Functions
 */
 
 int					get_options(t_opt_u *opt, int argc, char **argv);
-int8_t				display_dir(char *name, t_opt *opt, size_t depth);
+t_arg				*get_args(int argc, char **argv, int start, size_t *len);
+int8_t				parse_args(t_arg *args, size_t len, t_opt *opt);
+void				display_container(t_dirlist *container, t_opt *opt);
+int8_t				display_dir(char *name, t_opt *opt);
+int8_t				display_subdirs(t_dirlist *dir, t_entry *data, t_opt *opt);
 int8_t				get_dirlist(t_dirlist *dir, t_opt *opt);
 int8_t				sort_dir(t_dirlist *dir, t_opt *opt);
 int8_t				print_dirlist(t_dirlist *dir, t_opt *opt);
@@ -148,6 +170,8 @@ char				*path(t_dirlist *dir, char *to_add);
 int8_t				error_handler(char *arg, int8_t status);
 uint8_t				is_anchor(char *name);
 uint8_t				is_hidden(char *name, t_opt *opt);
+void				is_dir(t_arg *arg, t_opt *opt);
+char				is_dir_deep(t_entry *entry);
 
 int8_t				get_printdata(t_dirlist *dir, struct stat *stats,
 									t_printdata *data);

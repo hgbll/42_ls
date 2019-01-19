@@ -82,9 +82,7 @@ int8_t				get_padding(t_dirlist *dir, t_printdata *data)
 	while (i < dir->len)
 	{
 		ft_bzero(&stats, sizeof(struct stat));
-		ft_printf("Getting stats for %s\n", dir->data[i].path);
 		status = get_stats(dir->data[i].path, &stats, NOFOLLOW);
-		ft_printf("Stats OK%s\n", dir->data[i].path);
 		if (get_type(stats.st_mode) == 'b' || get_type(stats.st_mode) == 'c')
 			device_handler(dir, data, &stats);
 		update_padding(NULL, (uint64_t)stats.st_size, &(data->paddings.size));

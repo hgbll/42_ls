@@ -45,6 +45,9 @@ SRCS_RAW			:=	main.c 				\
 						get_stats.c			\
 						get_printdata.c		\
 						get_size.c			\
+						is_dir.c			\
+						get_args.c			\
+						parse_args.c		\
 						helpers.c
 
 SRCS				:=	$(SRCS_RAW:%.c=$(SRCSDIR)/%.c)

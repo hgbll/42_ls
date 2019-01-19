@@ -12,47 +12,25 @@
 
 #include "ls.h"
 
-int8_t					arg_handler(char *arg, t_opt *opt)
+int					main(int argc, char **argv)
 {
-	struct stat			stats;
-	struct stat			sym_stats;
+	int				index;
+	t_opt_u			opt;
+	t_arg			*args;
+	size_t			args_len;
 
-	if (lstat(arg, &stats) == -1)
-		return (error_handler(arg, DIR_ERR_OPEN));
+	index = get_options(&opt, argc, argv);
+	if (index == argc)
+		display_dir(".", &(opt.opt_struct));
 	else
 	{
-		if (get_type(stats.st_mode) == 'l')
+		args = get_args(argc, argv, index, &args_len);
+		if (args_len > 1)
+			opt.opt_struct.multi_arg = 1;
+		if (!args || parse_args(args, args_len, &(opt.opt_struct)))
 		{
-			sym_stats = stats;
-			if (stat(arg, &stats) == -1)
-				return (error_handler(arg, DIR_ERR_OPEN));
-			if (get_type(stats.st_mode) == 'd' && !opt->ldisp)
-				return (display_dir(arg, opt, 0));
-			else
-				return (ft_printf("TODO Disp symlink stats\n"));//
-		}
-		else if (get_type(stats.st_mode) == 'd')
-			return (display_dir(arg, opt, 0));
-		else
-			return (ft_printf("TODO Disp file\n"));//
-	}
-}
-
-int						main(int argc, char **argv)
-{
-	int					i;
-	t_opt_u				opt;
-
-	i = get_options(&opt, argc, argv);
-	if (i == argc)
-		display_dir(".", &(opt.opt_struct), 0);
-	else
-	{
-		while (i < argc)
-		{
-			if (arg_handler(argv[i], &(opt.opt_struct)) < DIR_ERR_OPEN)
-				exit(EXIT_FAILURE);
-			i++;
+			error_handler(NULL, 0);
+			exit(EXIT_FAILURE);
 		}
 	}
 	return (0);

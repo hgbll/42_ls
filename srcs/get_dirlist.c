@@ -12,32 +12,6 @@
 
 #include "ls.h"
 
-static uint8_t			is_dir(t_entry *entry)
-{
-	struct stat			stats;
-	DIR					*dirp;
-
-	if (!get_stats(entry->path, &stats, NOFOLLOW))
-	{
-		ft_printf("Looking at : %s\n", entry->path);
-		if ((dirp = opendir(entry->path)))
-			ft_printf("Can open %s\n", entry->name);
-		else
-			ft_printf("Can't open %s\n", entry->name);
-		if (get_type(stats.st_mode) != 'l')
-			ft_printf("%s is not a link\n", entry->name);
-		if (!is_anchor(entry->name))
-			ft_printf("%s is not an anchor\n", entry->name);
-		if ((dirp = opendir(entry->path)) &&
-			get_type(stats.st_mode) != 'l' &&
-			!is_anchor(entry->name))
-		{
-			return (1);
-		}
-	}
-	return (0);
-}
-
 static int8_t			get_dirlistlen(t_dirlist *dir, t_opt *opt)
 {
 	struct dirent			*entry;
@@ -65,7 +39,7 @@ static int8_t			fill_dirlist(t_dirlist *dir, t_entry *data, t_opt *opt)
 			if (!(data[i].path = mkpath(dir, entry->d_name)))
 				return (DIR_ERR_MALLOC);
 			data[i].name = ft_strrchr(data[i].path, '/') + 1;
-			data[i].is_subdir = is_dir(&(data[i]));
+			data[i].is_subdir = is_dir_deep(&(data[i])) || entry->d_type == DT_DIR;
 			i++;
 		}
 	}

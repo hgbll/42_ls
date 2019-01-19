@@ -39,23 +39,19 @@ static int8_t		print_dirlist_l(t_dirlist *dir)
 	//ft_printf("Entering print\n");//
 	ft_bzero(&printdata, sizeof(t_printdata));
 	get_padding(dir, &printdata);
-	if (ft_printf("total %llu\n", printdata.total_blocks) == -1)
-		return (DIR_ERR_PRINT);
+	if (!dir->is_container)
+		if (ft_printf("total %llu\n", printdata.total_blocks) == -1)
+			return (DIR_ERR_PRINT);
 	//ft_printf("Starting print loop\n");//
 	return (print_loop(dir, &printdata));
 }
 
 int8_t				print_dirlist(t_dirlist *dir, t_opt *opt)
 {
-	if (opt->ldisp)
+	if (opt->ldisp && dir->len > 0)
 		return (print_dirlist_l(dir));
 	else
-	{
-		if (dir->depth != 0)
-			if (ft_printf("\n%s:\n", dir->name) == -1)
-				return (DIR_ERR_PRINT);
 		return (print_loop(dir, NULL));
-	}
 }
 
 //int8_t				print_singleton(char *name); // TODO
