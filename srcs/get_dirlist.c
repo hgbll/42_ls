@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/14 16:19:00 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/16 19:49:58 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/19 21:11:14 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ static int8_t			fill_dirlist(t_dirlist *dir, t_entry *data, t_opt *opt)
 		{
 			if (!(data[i].path = mkpath(dir, entry->d_name)))
 				return (DIR_ERR_MALLOC);
-			data[i].name = entry->d_name;
+			data[i].name = ft_strrchr(data[i].path, '/') + 1;
 			if (!is_anchor(entry->d_name))
 				data[i].is_subdir = (is_dir_deep(&(data[i])) ||
 										entry->d_type == DT_DIR);
