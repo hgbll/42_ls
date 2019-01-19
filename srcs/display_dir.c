@@ -21,7 +21,7 @@ static int8_t		display_subdirs(t_dirlist *dir, t_entry *data, t_opt *opt)
 	status = 0;
 	while (i < dir->len)
 	{
-		if (data[i].subdir)
+		if (data[i].is_subdir)
 		{
 			status = display_dir(data[i].path, opt, dir->depth + 1);
 			if (status < DIR_ERR_OPEN)
@@ -37,6 +37,7 @@ int8_t				display_dir(char *name, t_opt *opt, size_t depth)
 	t_dirlist		dir;
 	int8_t			status;
 	
+	ft_printf("Entering %s\n", name);//
 	ft_bzero(&dir, sizeof(dir));
 	dir.name = name;
 	dir.namlen = (uint32_t)ft_strlen(name);

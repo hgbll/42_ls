@@ -64,7 +64,7 @@ typedef struct		s_entry
 {
 	char			*path;
 	char			*name;
-	uint8_t			subdir;
+	uint8_t			is_subdir;
 }					t_entry;
 
 typedef struct		s_dirlist
@@ -146,8 +146,6 @@ int8_t				exit_dir(t_dirlist *dir, char *name, int8_t status,
 char				*path(t_dirlist *dir, char *to_add);
 
 int8_t				error_handler(char *arg, int8_t status);
-uint8_t				is_symlink(uint16_t mode);
-uint8_t				is_dir(uint16_t mode);
 uint8_t				is_anchor(char *name);
 uint8_t				is_hidden(char *name, t_opt *opt);
 

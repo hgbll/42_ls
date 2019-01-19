@@ -36,6 +36,7 @@ static int8_t		print_dirlist_l(t_dirlist *dir)
 {
 	t_printdata		printdata;
 
+	ft_printf("Entering print\n");//
 	ft_bzero(&printdata, sizeof(t_printdata));
 	if (get_padding(dir, &printdata))
 		return (DIR_ERR_OPEN);
@@ -44,6 +45,7 @@ static int8_t		print_dirlist_l(t_dirlist *dir)
 			return (DIR_ERR_PRINT);
 	if (ft_printf("total %llu\n", printdata.total_blocks) == -1)
 		return (DIR_ERR_PRINT);
+	ft_printf("Starting print loop\n");//
 	return (print_loop(dir, &printdata));
 }
 

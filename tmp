@@ -1,0 +1,1322 @@
+Looking at : /dev/console
+console is not a link
+console is not an anchor
+Looking at : /dev/tty
+tty is not a link
+tty is not an anchor
+Looking at : /dev/null
+null is not a link
+null is not an anchor
+Looking at : /dev/zero
+zero is not a link
+zero is not an anchor
+Looking at : /dev/klog
+klog is not a link
+klog is not an anchor
+Looking at : /dev/oslog
+oslog is not a link
+oslog is not an anchor
+Looking at : /dev/oslog_stream
+oslog_stream is not a link
+oslog_stream is not an anchor
+Looking at : /dev/fd
+Can open fd
+fd is not a link
+fd is not an anchor
+Looking at : /dev/stdin
+stdin is not an anchor
+Looking at : /dev/stdout
+stdout is not an anchor
+Looking at : /dev/stderr
+stderr is not an anchor
+Looking at : /dev/auditsessions
+auditsessions is not a link
+auditsessions is not an anchor
+Looking at : /dev/auditpipe
+auditpipe is not a link
+auditpipe is not an anchor
+Looking at : /dev/pf
+pf is not a link
+pf is not an anchor
+Looking at : /dev/pfm
+pfm is not a link
+pfm is not an anchor
+Looking at : /dev/ttyp0
+ttyp0 is not a link
+ttyp0 is not an anchor
+Looking at : /dev/ptyp0
+ptyp0 is not a link
+ptyp0 is not an anchor
+Looking at : /dev/ttyp1
+ttyp1 is not a link
+ttyp1 is not an anchor
+Looking at : /dev/ptyp1
+ptyp1 is not a link
+ptyp1 is not an anchor
+Looking at : /dev/ttyp2
+ttyp2 is not a link
+ttyp2 is not an anchor
+Looking at : /dev/ptyp2
+ptyp2 is not a link
+ptyp2 is not an anchor
+Looking at : /dev/ttyp3
+ttyp3 is not a link
+ttyp3 is not an anchor
+Looking at : /dev/ptyp3
+ptyp3 is not a link
+ptyp3 is not an anchor
+Looking at : /dev/ttyp4
+ttyp4 is not a link
+ttyp4 is not an anchor
+Looking at : /dev/ptyp4
+ptyp4 is not a link
+ptyp4 is not an anchor
+Looking at : /dev/ttyp5
+ttyp5 is not a link
+ttyp5 is not an anchor
+Looking at : /dev/ptyp5
+ptyp5 is not a link
+ptyp5 is not an anchor
+Looking at : /dev/ttyp6
+ttyp6 is not a link
+ttyp6 is not an anchor
+Looking at : /dev/ptyp6
+ptyp6 is not a link
+ptyp6 is not an anchor
+Looking at : /dev/ttyp7
+ttyp7 is not a link
+ttyp7 is not an anchor
+Looking at : /dev/ptyp7
+ptyp7 is not a link
+ptyp7 is not an anchor
+Looking at : /dev/ttyp8
+ttyp8 is not a link
+ttyp8 is not an anchor
+Looking at : /dev/ptyp8
+ptyp8 is not a link
+ptyp8 is not an anchor
+Looking at : /dev/ttyp9
+ttyp9 is not a link
+ttyp9 is not an anchor
+Looking at : /dev/ptyp9
+ptyp9 is not a link
+ptyp9 is not an anchor
+Looking at : /dev/ttypa
+ttypa is not a link
+ttypa is not an anchor
+Looking at : /dev/ptypa
+ptypa is not a link
+ptypa is not an anchor
+Looking at : /dev/ttypb
+ttypb is not a link
+ttypb is not an anchor
+Looking at : /dev/ptypb
+ptypb is not a link
+ptypb is not an anchor
+Looking at : /dev/ttypc
+ttypc is not a link
+ttypc is not an anchor
+Looking at : /dev/ptypc
+ptypc is not a link
+ptypc is not an anchor
+Looking at : /dev/ttypd
+ttypd is not a link
+ttypd is not an anchor
+Looking at : /dev/ptypd
+ptypd is not a link
+ptypd is not an anchor
+Looking at : /dev/ttype
+ttype is not a link
+ttype is not an anchor
+Looking at : /dev/ptype
+ptype is not a link
+ptype is not an anchor
+Looking at : /dev/ttypf
+ttypf is not a link
+ttypf is not an anchor
+Looking at : /dev/ptypf
+ptypf is not a link
+ptypf is not an anchor
+Looking at : /dev/ttyq0
+ttyq0 is not a link
+ttyq0 is not an anchor
+Looking at : /dev/ptyq0
+ptyq0 is not a link
+ptyq0 is not an anchor
+Looking at : /dev/ttyq1
+ttyq1 is not a link
+ttyq1 is not an anchor
+Looking at : /dev/ptyq1
+ptyq1 is not a link
+ptyq1 is not an anchor
+Looking at : /dev/ttyq2
+ttyq2 is not a link
+ttyq2 is not an anchor
+Looking at : /dev/ptyq2
+ptyq2 is not a link
+ptyq2 is not an anchor
+Looking at : /dev/ttyq3
+ttyq3 is not a link
+ttyq3 is not an anchor
+Looking at : /dev/ptyq3
+ptyq3 is not a link
+ptyq3 is not an anchor
+Looking at : /dev/ttyq4
+ttyq4 is not a link
+ttyq4 is not an anchor
+Looking at : /dev/ptyq4
+ptyq4 is not a link
+ptyq4 is not an anchor
+Looking at : /dev/ttyq5
+ttyq5 is not a link
+ttyq5 is not an anchor
+Looking at : /dev/ptyq5
+ptyq5 is not a link
+ptyq5 is not an anchor
+Looking at : /dev/ttyq6
+ttyq6 is not a link
+ttyq6 is not an anchor
+Looking at : /dev/ptyq6
+ptyq6 is not a link
+ptyq6 is not an anchor
+Looking at : /dev/ttyq7
+ttyq7 is not a link
+ttyq7 is not an anchor
+Looking at : /dev/ptyq7
+ptyq7 is not a link
+ptyq7 is not an anchor
+Looking at : /dev/ttyq8
+ttyq8 is not a link
+ttyq8 is not an anchor
+Looking at : /dev/ptyq8
+ptyq8 is not a link
+ptyq8 is not an anchor
+Looking at : /dev/ttyq9
+ttyq9 is not a link
+ttyq9 is not an anchor
+Looking at : /dev/ptyq9
+ptyq9 is not a link
+ptyq9 is not an anchor
+Looking at : /dev/ttyqa
+ttyqa is not a link
+ttyqa is not an anchor
+Looking at : /dev/ptyqa
+ptyqa is not a link
+ptyqa is not an anchor
+Looking at : /dev/ttyqb
+ttyqb is not a link
+ttyqb is not an anchor
+Looking at : /dev/ptyqb
+ptyqb is not a link
+ptyqb is not an anchor
+Looking at : /dev/ttyqc
+ttyqc is not a link
+ttyqc is not an anchor
+Looking at : /dev/ptyqc
+ptyqc is not a link
+ptyqc is not an anchor
+Looking at : /dev/ttyqd
+ttyqd is not a link
+ttyqd is not an anchor
+Looking at : /dev/ptyqd
+ptyqd is not a link
+ptyqd is not an anchor
+Looking at : /dev/ttyqe
+ttyqe is not a link
+ttyqe is not an anchor
+Looking at : /dev/ptyqe
+ptyqe is not a link
+ptyqe is not an anchor
+Looking at : /dev/ttyqf
+ttyqf is not a link
+ttyqf is not an anchor
+Looking at : /dev/ptyqf
+ptyqf is not a link
+ptyqf is not an anchor
+Looking at : /dev/ttyr0
+ttyr0 is not a link
+ttyr0 is not an anchor
+Looking at : /dev/ptyr0
+ptyr0 is not a link
+ptyr0 is not an anchor
+Looking at : /dev/ttyr1
+ttyr1 is not a link
+ttyr1 is not an anchor
+Looking at : /dev/ptyr1
+ptyr1 is not a link
+ptyr1 is not an anchor
+Looking at : /dev/ttyr2
+ttyr2 is not a link
+ttyr2 is not an anchor
+Looking at : /dev/ptyr2
+ptyr2 is not a link
+ptyr2 is not an anchor
+Looking at : /dev/ttyr3
+ttyr3 is not a link
+ttyr3 is not an anchor
+Looking at : /dev/ptyr3
+ptyr3 is not a link
+ptyr3 is not an anchor
+Looking at : /dev/ttyr4
+ttyr4 is not a link
+ttyr4 is not an anchor
+Looking at : /dev/ptyr4
+ptyr4 is not a link
+ptyr4 is not an anchor
+Looking at : /dev/ttyr5
+ttyr5 is not a link
+ttyr5 is not an anchor
+Looking at : /dev/ptyr5
+ptyr5 is not a link
+ptyr5 is not an anchor
+Looking at : /dev/ttyr6
+ttyr6 is not a link
+ttyr6 is not an anchor
+Looking at : /dev/ptyr6
+ptyr6 is not a link
+ptyr6 is not an anchor
+Looking at : /dev/ttyr7
+ttyr7 is not a link
+ttyr7 is not an anchor
+Looking at : /dev/ptyr7
+ptyr7 is not a link
+ptyr7 is not an anchor
+Looking at : /dev/ttyr8
+ttyr8 is not a link
+ttyr8 is not an anchor
+Looking at : /dev/ptyr8
+ptyr8 is not a link
+ptyr8 is not an anchor
+Looking at : /dev/ttyr9
+ttyr9 is not a link
+ttyr9 is not an anchor
+Looking at : /dev/ptyr9
+ptyr9 is not a link
+ptyr9 is not an anchor
+Looking at : /dev/ttyra
+ttyra is not a link
+ttyra is not an anchor
+Looking at : /dev/ptyra
+ptyra is not a link
+ptyra is not an anchor
+Looking at : /dev/ttyrb
+ttyrb is not a link
+ttyrb is not an anchor
+Looking at : /dev/ptyrb
+ptyrb is not a link
+ptyrb is not an anchor
+Looking at : /dev/ttyrc
+ttyrc is not a link
+ttyrc is not an anchor
+Looking at : /dev/ptyrc
+ptyrc is not a link
+ptyrc is not an anchor
+Looking at : /dev/ttyrd
+ttyrd is not a link
+ttyrd is not an anchor
+Looking at : /dev/ptyrd
+ptyrd is not a link
+ptyrd is not an anchor
+Looking at : /dev/ttyre
+ttyre is not a link
+ttyre is not an anchor
+Looking at : /dev/ptyre
+ptyre is not a link
+ptyre is not an anchor
+Looking at : /dev/ttyrf
+ttyrf is not a link
+ttyrf is not an anchor
+Looking at : /dev/ptyrf
+ptyrf is not a link
+ptyrf is not an anchor
+Looking at : /dev/ttys0
+ttys0 is not a link
+ttys0 is not an anchor
+Looking at : /dev/ptys0
+ptys0 is not a link
+ptys0 is not an anchor
+Looking at : /dev/ttys1
+ttys1 is not a link
+ttys1 is not an anchor
+Looking at : /dev/ptys1
+ptys1 is not a link
+ptys1 is not an anchor
+Looking at : /dev/ttys2
+ttys2 is not a link
+ttys2 is not an anchor
+Looking at : /dev/ptys2
+ptys2 is not a link
+ptys2 is not an anchor
+Looking at : /dev/ttys3
+ttys3 is not a link
+ttys3 is not an anchor
+Looking at : /dev/ptys3
+ptys3 is not a link
+ptys3 is not an anchor
+Looking at : /dev/ttys4
+ttys4 is not a link
+ttys4 is not an anchor
+Looking at : /dev/ptys4
+ptys4 is not a link
+ptys4 is not an anchor
+Looking at : /dev/ttys5
+ttys5 is not a link
+ttys5 is not an anchor
+Looking at : /dev/ptys5
+ptys5 is not a link
+ptys5 is not an anchor
+Looking at : /dev/ttys6
+ttys6 is not a link
+ttys6 is not an anchor
+Looking at : /dev/ptys6
+ptys6 is not a link
+ptys6 is not an anchor
+Looking at : /dev/ttys7
+ttys7 is not a link
+ttys7 is not an anchor
+Looking at : /dev/ptys7
+ptys7 is not a link
+ptys7 is not an anchor
+Looking at : /dev/ttys8
+ttys8 is not a link
+ttys8 is not an anchor
+Looking at : /dev/ptys8
+ptys8 is not a link
+ptys8 is not an anchor
+Looking at : /dev/ttys9
+ttys9 is not a link
+ttys9 is not an anchor
+Looking at : /dev/ptys9
+ptys9 is not a link
+ptys9 is not an anchor
+Looking at : /dev/ttysa
+ttysa is not a link
+ttysa is not an anchor
+Looking at : /dev/ptysa
+ptysa is not a link
+ptysa is not an anchor
+Looking at : /dev/ttysb
+ttysb is not a link
+ttysb is not an anchor
+Looking at : /dev/ptysb
+ptysb is not a link
+ptysb is not an anchor
+Looking at : /dev/ttysc
+ttysc is not a link
+ttysc is not an anchor
+Looking at : /dev/ptysc
+ptysc is not a link
+ptysc is not an anchor
+Looking at : /dev/ttysd
+ttysd is not a link
+ttysd is not an anchor
+Looking at : /dev/ptysd
+ptysd is not a link
+ptysd is not an anchor
+Looking at : /dev/ttyse
+ttyse is not a link
+ttyse is not an anchor
+Looking at : /dev/ptyse
+ptyse is not a link
+ptyse is not an anchor
+Looking at : /dev/ttysf
+ttysf is not a link
+ttysf is not an anchor
+Looking at : /dev/ptysf
+ptysf is not a link
+ptysf is not an anchor
+Looking at : /dev/ttyt0
+ttyt0 is not a link
+ttyt0 is not an anchor
+Looking at : /dev/ptyt0
+ptyt0 is not a link
+ptyt0 is not an anchor
+Looking at : /dev/ttyt1
+ttyt1 is not a link
+ttyt1 is not an anchor
+Looking at : /dev/ptyt1
+ptyt1 is not a link
+ptyt1 is not an anchor
+Looking at : /dev/ttyt2
+ttyt2 is not a link
+ttyt2 is not an anchor
+Looking at : /dev/ptyt2
+ptyt2 is not a link
+ptyt2 is not an anchor
+Looking at : /dev/ttyt3
+ttyt3 is not a link
+ttyt3 is not an anchor
+Looking at : /dev/ptyt3
+ptyt3 is not a link
+ptyt3 is not an anchor
+Looking at : /dev/ttyt4
+ttyt4 is not a link
+ttyt4 is not an anchor
+Looking at : /dev/ptyt4
+ptyt4 is not a link
+ptyt4 is not an anchor
+Looking at : /dev/ttyt5
+ttyt5 is not a link
+ttyt5 is not an anchor
+Looking at : /dev/ptyt5
+ptyt5 is not a link
+ptyt5 is not an anchor
+Looking at : /dev/ttyt6
+ttyt6 is not a link
+ttyt6 is not an anchor
+Looking at : /dev/ptyt6
+ptyt6 is not a link
+ptyt6 is not an anchor
+Looking at : /dev/ttyt7
+ttyt7 is not a link
+ttyt7 is not an anchor
+Looking at : /dev/ptyt7
+ptyt7 is not a link
+ptyt7 is not an anchor
+Looking at : /dev/ttyt8
+ttyt8 is not a link
+ttyt8 is not an anchor
+Looking at : /dev/ptyt8
+ptyt8 is not a link
+ptyt8 is not an anchor
+Looking at : /dev/ttyt9
+ttyt9 is not a link
+ttyt9 is not an anchor
+Looking at : /dev/ptyt9
+ptyt9 is not a link
+ptyt9 is not an anchor
+Looking at : /dev/ttyta
+ttyta is not a link
+ttyta is not an anchor
+Looking at : /dev/ptyta
+ptyta is not a link
+ptyta is not an anchor
+Looking at : /dev/ttytb
+ttytb is not a link
+ttytb is not an anchor
+Looking at : /dev/ptytb
+ptytb is not a link
+ptytb is not an anchor
+Looking at : /dev/ttytc
+ttytc is not a link
+ttytc is not an anchor
+Looking at : /dev/ptytc
+ptytc is not a link
+ptytc is not an anchor
+Looking at : /dev/ttytd
+ttytd is not a link
+ttytd is not an anchor
+Looking at : /dev/ptytd
+ptytd is not a link
+ptytd is not an anchor
+Looking at : /dev/ttyte
+ttyte is not a link
+ttyte is not an anchor
+Looking at : /dev/ptyte
+ptyte is not a link
+ptyte is not an anchor
+Looking at : /dev/ttytf
+ttytf is not a link
+ttytf is not an anchor
+Looking at : /dev/ptytf
+ptytf is not a link
+ptytf is not an anchor
+Looking at : /dev/ttyu0
+ttyu0 is not a link
+ttyu0 is not an anchor
+Looking at : /dev/ptyu0
+ptyu0 is not a link
+ptyu0 is not an anchor
+Looking at : /dev/ttyu1
+ttyu1 is not a link
+ttyu1 is not an anchor
+Looking at : /dev/ptyu1
+ptyu1 is not a link
+ptyu1 is not an anchor
+Looking at : /dev/ttyu2
+ttyu2 is not a link
+ttyu2 is not an anchor
+Looking at : /dev/ptyu2
+ptyu2 is not a link
+ptyu2 is not an anchor
+Looking at : /dev/ttyu3
+ttyu3 is not a link
+ttyu3 is not an anchor
+Looking at : /dev/ptyu3
+ptyu3 is not a link
+ptyu3 is not an anchor
+Looking at : /dev/ttyu4
+ttyu4 is not a link
+ttyu4 is not an anchor
+Looking at : /dev/ptyu4
+ptyu4 is not a link
+ptyu4 is not an anchor
+Looking at : /dev/ttyu5
+ttyu5 is not a link
+ttyu5 is not an anchor
+Looking at : /dev/ptyu5
+ptyu5 is not a link
+ptyu5 is not an anchor
+Looking at : /dev/ttyu6
+ttyu6 is not a link
+ttyu6 is not an anchor
+Looking at : /dev/ptyu6
+ptyu6 is not a link
+ptyu6 is not an anchor
+Looking at : /dev/ttyu7
+ttyu7 is not a link
+ttyu7 is not an anchor
+Looking at : /dev/ptyu7
+ptyu7 is not a link
+ptyu7 is not an anchor
+Looking at : /dev/ttyu8
+ttyu8 is not a link
+ttyu8 is not an anchor
+Looking at : /dev/ptyu8
+ptyu8 is not a link
+ptyu8 is not an anchor
+Looking at : /dev/ttyu9
+ttyu9 is not a link
+ttyu9 is not an anchor
+Looking at : /dev/ptyu9
+ptyu9 is not a link
+ptyu9 is not an anchor
+Looking at : /dev/ttyua
+ttyua is not a link
+ttyua is not an anchor
+Looking at : /dev/ptyua
+ptyua is not a link
+ptyua is not an anchor
+Looking at : /dev/ttyub
+ttyub is not a link
+ttyub is not an anchor
+Looking at : /dev/ptyub
+ptyub is not a link
+ptyub is not an anchor
+Looking at : /dev/ttyuc
+ttyuc is not a link
+ttyuc is not an anchor
+Looking at : /dev/ptyuc
+ptyuc is not a link
+ptyuc is not an anchor
+Looking at : /dev/ttyud
+ttyud is not a link
+ttyud is not an anchor
+Looking at : /dev/ptyud
+ptyud is not a link
+ptyud is not an anchor
+Looking at : /dev/ttyue
+ttyue is not a link
+ttyue is not an anchor
+Looking at : /dev/ptyue
+ptyue is not a link
+ptyue is not an anchor
+Looking at : /dev/ttyuf
+ttyuf is not a link
+ttyuf is not an anchor
+Looking at : /dev/ptyuf
+ptyuf is not a link
+ptyuf is not an anchor
+Looking at : /dev/ttyv0
+ttyv0 is not a link
+ttyv0 is not an anchor
+Looking at : /dev/ptyv0
+ptyv0 is not a link
+ptyv0 is not an anchor
+Looking at : /dev/ttyv1
+ttyv1 is not a link
+ttyv1 is not an anchor
+Looking at : /dev/ptyv1
+ptyv1 is not a link
+ptyv1 is not an anchor
+Looking at : /dev/ttyv2
+ttyv2 is not a link
+ttyv2 is not an anchor
+Looking at : /dev/ptyv2
+ptyv2 is not a link
+ptyv2 is not an anchor
+Looking at : /dev/ttyv3
+ttyv3 is not a link
+ttyv3 is not an anchor
+Looking at : /dev/ptyv3
+ptyv3 is not a link
+ptyv3 is not an anchor
+Looking at : /dev/ttyv4
+ttyv4 is not a link
+ttyv4 is not an anchor
+Looking at : /dev/ptyv4
+ptyv4 is not a link
+ptyv4 is not an anchor
+Looking at : /dev/ttyv5
+ttyv5 is not a link
+ttyv5 is not an anchor
+Looking at : /dev/ptyv5
+ptyv5 is not a link
+ptyv5 is not an anchor
+Looking at : /dev/ttyv6
+ttyv6 is not a link
+ttyv6 is not an anchor
+Looking at : /dev/ptyv6
+ptyv6 is not a link
+ptyv6 is not an anchor
+Looking at : /dev/ttyv7
+ttyv7 is not a link
+ttyv7 is not an anchor
+Looking at : /dev/ptyv7
+ptyv7 is not a link
+ptyv7 is not an anchor
+Looking at : /dev/ttyv8
+ttyv8 is not a link
+ttyv8 is not an anchor
+Looking at : /dev/ptyv8
+ptyv8 is not a link
+ptyv8 is not an anchor
+Looking at : /dev/ttyv9
+ttyv9 is not a link
+ttyv9 is not an anchor
+Looking at : /dev/ptyv9
+ptyv9 is not a link
+ptyv9 is not an anchor
+Looking at : /dev/ttyva
+ttyva is not a link
+ttyva is not an anchor
+Looking at : /dev/ptyva
+ptyva is not a link
+ptyva is not an anchor
+Looking at : /dev/ttyvb
+ttyvb is not a link
+ttyvb is not an anchor
+Looking at : /dev/ptyvb
+ptyvb is not a link
+ptyvb is not an anchor
+Looking at : /dev/ttyvc
+ttyvc is not a link
+ttyvc is not an anchor
+Looking at : /dev/ptyvc
+ptyvc is not a link
+ptyvc is not an anchor
+Looking at : /dev/ttyvd
+ttyvd is not a link
+ttyvd is not an anchor
+Looking at : /dev/ptyvd
+ptyvd is not a link
+ptyvd is not an anchor
+Looking at : /dev/ttyve
+ttyve is not a link
+ttyve is not an anchor
+Looking at : /dev/ptyve
+ptyve is not a link
+ptyve is not an anchor
+Looking at : /dev/ttyvf
+ttyvf is not a link
+ttyvf is not an anchor
+Looking at : /dev/ptyvf
+ptyvf is not a link
+ptyvf is not an anchor
+Looking at : /dev/ttyw0
+ttyw0 is not a link
+ttyw0 is not an anchor
+Looking at : /dev/ptyw0
+ptyw0 is not a link
+ptyw0 is not an anchor
+Looking at : /dev/ttyw1
+ttyw1 is not a link
+ttyw1 is not an anchor
+Looking at : /dev/ptyw1
+ptyw1 is not a link
+ptyw1 is not an anchor
+Looking at : /dev/ttyw2
+ttyw2 is not a link
+ttyw2 is not an anchor
+Looking at : /dev/ptyw2
+ptyw2 is not a link
+ptyw2 is not an anchor
+Looking at : /dev/ttyw3
+ttyw3 is not a link
+ttyw3 is not an anchor
+Looking at : /dev/ptyw3
+ptyw3 is not a link
+ptyw3 is not an anchor
+Looking at : /dev/ttyw4
+ttyw4 is not a link
+ttyw4 is not an anchor
+Looking at : /dev/ptyw4
+ptyw4 is not a link
+ptyw4 is not an anchor
+Looking at : /dev/ttyw5
+ttyw5 is not a link
+ttyw5 is not an anchor
+Looking at : /dev/ptyw5
+ptyw5 is not a link
+ptyw5 is not an anchor
+Looking at : /dev/ttyw6
+ttyw6 is not a link
+ttyw6 is not an anchor
+Looking at : /dev/ptyw6
+ptyw6 is not a link
+ptyw6 is not an anchor
+Looking at : /dev/ttyw7
+ttyw7 is not a link
+ttyw7 is not an anchor
+Looking at : /dev/ptyw7
+ptyw7 is not a link
+ptyw7 is not an anchor
+Looking at : /dev/ttyw8
+ttyw8 is not a link
+ttyw8 is not an anchor
+Looking at : /dev/ptyw8
+ptyw8 is not a link
+ptyw8 is not an anchor
+Looking at : /dev/ttyw9
+ttyw9 is not a link
+ttyw9 is not an anchor
+Looking at : /dev/ptyw9
+ptyw9 is not a link
+ptyw9 is not an anchor
+Looking at : /dev/ttywa
+ttywa is not a link
+ttywa is not an anchor
+Looking at : /dev/ptywa
+ptywa is not a link
+ptywa is not an anchor
+Looking at : /dev/ttywb
+ttywb is not a link
+ttywb is not an anchor
+Looking at : /dev/ptywb
+ptywb is not a link
+ptywb is not an anchor
+Looking at : /dev/ttywc
+ttywc is not a link
+ttywc is not an anchor
+Looking at : /dev/ptywc
+ptywc is not a link
+ptywc is not an anchor
+Looking at : /dev/ttywd
+ttywd is not a link
+ttywd is not an anchor
+Looking at : /dev/ptywd
+ptywd is not a link
+ptywd is not an anchor
+Looking at : /dev/ttywe
+ttywe is not a link
+ttywe is not an anchor
+Looking at : /dev/ptywe
+ptywe is not a link
+ptywe is not an anchor
+Looking at : /dev/ttywf
+ttywf is not a link
+ttywf is not an anchor
+Looking at : /dev/ptywf
+ptywf is not a link
+ptywf is not an anchor
+Looking at : /dev/ptmx
+ptmx is not a link
+ptmx is not an anchor
+Looking at : /dev/bpf0
+bpf0 is not a link
+bpf0 is not an anchor
+Looking at : /dev/bpf1
+bpf1 is not a link
+bpf1 is not an anchor
+Looking at : /dev/bpf2
+bpf2 is not a link
+bpf2 is not an anchor
+Looking at : /dev/bpf3
+bpf3 is not a link
+bpf3 is not an anchor
+Looking at : /dev/fsevents
+fsevents is not a link
+fsevents is not an anchor
+Looking at : /dev/random
+random is not a link
+random is not an anchor
+Looking at : /dev/urandom
+urandom is not a link
+urandom is not an anchor
+Looking at : /dev/dtrace
+dtrace is not a link
+dtrace is not an anchor
+Looking at : /dev/dtracehelper
+dtracehelper is not a link
+dtracehelper is not an anchor
+Looking at : /dev/lockstat
+lockstat is not a link
+lockstat is not an anchor
+Looking at : /dev/sdt
+sdt is not a link
+sdt is not an anchor
+Looking at : /dev/systrace
+systrace is not a link
+systrace is not an anchor
+Looking at : /dev/machtrace
+machtrace is not a link
+machtrace is not an anchor
+Looking at : /dev/fbt
+fbt is not a link
+fbt is not an anchor
+Looking at : /dev/profile
+profile is not a link
+profile is not an anchor
+Looking at : /dev/afsc_type5
+afsc_type5 is not a link
+afsc_type5 is not an anchor
+Looking at : /dev/io8log
+io8log is not a link
+io8log is not an anchor
+Looking at : /dev/io8logmt
+io8logmt is not a link
+io8logmt is not an anchor
+Looking at : /dev/io8logtemp
+io8logtemp is not a link
+io8logtemp is not an anchor
+Looking at : /dev/disk0
+disk0 is not a link
+disk0 is not an anchor
+Looking at : /dev/rdisk0
+rdisk0 is not a link
+rdisk0 is not an anchor
+Looking at : /dev/disk0s1
+disk0s1 is not a link
+disk0s1 is not an anchor
+Looking at : /dev/rdisk0s1
+rdisk0s1 is not a link
+rdisk0s1 is not an anchor
+Looking at : /dev/disk0s2
+disk0s2 is not a link
+disk0s2 is not an anchor
+Looking at : /dev/rdisk0s2
+rdisk0s2 is not a link
+rdisk0s2 is not an anchor
+Looking at : /dev/disk1
+disk1 is not a link
+disk1 is not an anchor
+Looking at : /dev/rdisk1
+rdisk1 is not a link
+rdisk1 is not an anchor
+Looking at : /dev/disk1s1
+disk1s1 is not a link
+disk1s1 is not an anchor
+Looking at : /dev/rdisk1s1
+rdisk1s1 is not a link
+rdisk1s1 is not an anchor
+Looking at : /dev/disk1s3
+disk1s3 is not a link
+disk1s3 is not an anchor
+Looking at : /dev/rdisk1s3
+rdisk1s3 is not a link
+rdisk1s3 is not an anchor
+Looking at : /dev/disk1s4
+disk1s4 is not a link
+disk1s4 is not an anchor
+Looking at : /dev/rdisk1s4
+rdisk1s4 is not a link
+rdisk1s4 is not an anchor
+Looking at : /dev/disk1s2
+disk1s2 is not a link
+disk1s2 is not an anchor
+Looking at : /dev/rdisk1s2
+rdisk1s2 is not a link
+rdisk1s2 is not an anchor
+Looking at : /dev/xcpm
+xcpm is not a link
+xcpm is not an anchor
+Looking at : /dev/cu.Bluetooth-Incoming-Port
+cu.Bluetooth-Incoming-Port is not a link
+cu.Bluetooth-Incoming-Port is not an anchor
+Looking at : /dev/tty.Bluetooth-Incoming-Port
+tty.Bluetooth-Incoming-Port is not a link
+tty.Bluetooth-Incoming-Port is not an anchor
+Looking at : /dev/cu.iphonecb-WirelessiAP
+cu.iphonecb-WirelessiAP is not a link
+cu.iphonecb-WirelessiAP is not an anchor
+Looking at : /dev/tty.iphonecb-WirelessiAP
+tty.iphonecb-WirelessiAP is not a link
+tty.iphonecb-WirelessiAP is not an anchor
+Looking at : /dev/autofs
+autofs is not a link
+autofs is not an anchor
+Looking at : /dev/autofs_nowait
+autofs_nowait is not a link
+autofs_nowait is not an anchor
+Looking at : /dev/autofs_notrigger
+autofs_notrigger is not a link
+autofs_notrigger is not an anchor
+Looking at : /dev/autofs_homedirmounter
+autofs_homedirmounter is not a link
+autofs_homedirmounter is not an anchor
+Looking at : /dev/autofs_control
+autofs_control is not a link
+autofs_control is not an anchor
+Looking at : /dev/nsmb0
+nsmb0 is not a link
+nsmb0 is not an anchor
+Looking at : /dev/bpf4
+bpf4 is not a link
+bpf4 is not an anchor
+Looking at : /dev/ttys001
+ttys001 is not a link
+ttys001 is not an anchor
+Looking at : /dev/ttys006
+ttys006 is not a link
+ttys006 is not an anchor
+Looking at : /dev/ttys002
+ttys002 is not a link
+ttys002 is not an anchor
+Looking at : /dev/ttys004
+ttys004 is not a link
+ttys004 is not an anchor
+Looking at : /dev/ttys000
+ttys000 is not a link
+ttys000 is not an anchor
+Looking at : /dev/ttys003
+ttys003 is not a link
+ttys003 is not an anchor
+Looking at : /dev/ttys005
+ttys005 is not a link
+ttys005 is not an anchor
+total 0
+crw-------  1 root  wheel           19,     1 Nov 25 21:39 afsc_type5
+crw-------  1 root  wheel           10,     0 Nov 25 21:39 auditpipe
+crw-r--r--  1 root  wheel            9,     3 Nov 25 21:39 auditsessions
+crw-------  1 root  wheel           22,     0 Nov 25 21:40 autofs
+crw-------  1 root  wheel           34,     0 Nov 25 21:40 autofs_control
+crw-rw-rw-  1 root  wheel           33, 23030 Nov 25 21:40 autofs_homedirmounter
+crw-rw-rw-  1 root  wheel           32, 23030 Nov 25 21:40 autofs_notrigger
+crw-rw-rw-  1 root  wheel           31, 43936 Nov 25 21:40 autofs_nowait
+crw-------  1 root  wheel           23,     0 Nov 25 21:40 bpf0
+crw-------  1 root  wheel           23,     1 Nov 25 21:39 bpf1
+crw-------  1 root  wheel           23,     2 Jan 19 09:12 bpf2
+crw-------  1 root  wheel           23,     3 Jan 19 09:12 bpf3
+crw-------  1 root  wheel           23,     4 Nov 26 06:28 bpf4
+crw-------  1 Hugo  staff            0,     0 Nov 25 21:41 console
+crw-rw-rw-  1 root  wheel           18,     1 Nov 25 21:40 cu.Bluetooth-Incoming-Port
+crw-rw-rw-  1 root  wheel           18,     3 Nov 25 21:40 cu.iphonecb-WirelessiAP
+brw-r-----  1 root  operator         1,     0 Nov 25 21:39 disk0
+brw-r-----  1 root  operator         1,     1 Nov 25 21:39 disk0s1
+brw-r-----  1 root  operator         1,     2 Nov 25 21:39 disk0s2
+brw-r-----  1 root  operator         1,     3 Nov 25 21:39 disk1
+brw-r-----  1 root  operator         1,     4 Nov 25 21:39 disk1s1
+brw-r-----  1 root  operator         1,     7 Nov 25 21:39 disk1s2
+brw-r-----  1 root  operator         1,     5 Nov 25 21:39 disk1s3
+brw-r-----  1 root  operator         1,     6 Nov 25 21:39 disk1s4
+crw-rw-rw-  1 root  wheel           24,     3 Nov 25 21:39 dtrace
+crw-rw-rw-  1 root  wheel           25,     0 Nov 25 21:39 dtracehelper
+crw-rw-rw-  1 root  wheel            0,     0 Nov 25 21:39 fbt
+dr-xr-xr-x  1 root  wheel                   0 Nov 25 21:39 fd
+crw-r--r--  1 root  wheel           13,     0 Nov 25 21:39 fsevents
+crw-rw-rw-  1 root  wheel           20,    16 Jan 19 09:12 io8log
+cr--r--r--  1 root  wheel           20,    16 Nov 25 21:39 io8logmt
+crw-rw-rw-  1 root  wheel           20,    16 Jan 19 10:34 io8logtemp
+crw-------  1 root  wheel            6,     0 Nov 25 21:39 klog
+crw-rw-rw-  1 root  wheel            0,     0 Nov 25 21:39 lockstat
+crw-rw-rw-  1 root  wheel            0,     0 Nov 25 21:39 machtrace
+crw-rw-rw-  1 root  wheel           35,     0 Nov 25 21:42 nsmb0
+crw-rw-rw-  1 root  wheel            3,     2 Jan 19 10:38 null
+crw-------  1 root  wheel            7,     0 Nov 25 21:39 oslog
+crw-------  1 root  wheel            8,     0 Nov 25 21:39 oslog_stream
+crw-------  1 root  wheel           11,     0 Nov 25 21:39 pf
+crw-------  1 root  wheel           11,     1 Nov 25 21:39 pfm
+crw-rw-rw-  1 root  wheel            0,     0 Nov 25 21:39 profile
+crw-rw-rw-  1 root  tty             15,     7 Jan 19 10:38 ptmx
+crw-rw-rw-  1 root  wheel            5,     0 Nov 25 21:39 ptyp0
+crw-rw-rw-  1 root  wheel            5,     1 Nov 25 21:39 ptyp1
+crw-rw-rw-  1 root  wheel            5,     2 Nov 25 21:39 ptyp2
+crw-rw-rw-  1 root  wheel            5,     3 Nov 25 21:39 ptyp3
+crw-rw-rw-  1 root  wheel            5,     4 Nov 25 21:39 ptyp4
+crw-rw-rw-  1 root  wheel            5,     5 Nov 25 21:39 ptyp5
+crw-rw-rw-  1 root  wheel            5,     6 Nov 25 21:39 ptyp6
+crw-rw-rw-  1 root  wheel            5,     7 Nov 25 21:39 ptyp7
+crw-rw-rw-  1 root  wheel            5,     8 Nov 25 21:39 ptyp8
+crw-rw-rw-  1 root  wheel            5,     9 Nov 25 21:39 ptyp9
+crw-rw-rw-  1 root  wheel            5,    10 Nov 25 21:39 ptypa
+crw-rw-rw-  1 root  wheel            5,    11 Nov 25 21:39 ptypb
+crw-rw-rw-  1 root  wheel            5,    12 Nov 25 21:39 ptypc
+crw-rw-rw-  1 root  wheel            5,    13 Nov 25 21:39 ptypd
+crw-rw-rw-  1 root  wheel            5,    14 Nov 25 21:39 ptype
+crw-rw-rw-  1 root  wheel            5,    15 Nov 25 21:39 ptypf
+crw-rw-rw-  1 root  wheel            5,    16 Nov 25 21:39 ptyq0
+crw-rw-rw-  1 root  wheel            5,    17 Nov 25 21:39 ptyq1
+crw-rw-rw-  1 root  wheel            5,    18 Nov 25 21:39 ptyq2
+crw-rw-rw-  1 root  wheel            5,    19 Nov 25 21:39 ptyq3
+crw-rw-rw-  1 root  wheel            5,    20 Nov 25 21:39 ptyq4
+crw-rw-rw-  1 root  wheel            5,    21 Nov 25 21:39 ptyq5
+crw-rw-rw-  1 root  wheel            5,    22 Nov 25 21:39 ptyq6
+crw-rw-rw-  1 root  wheel            5,    23 Nov 25 21:39 ptyq7
+crw-rw-rw-  1 root  wheel            5,    24 Nov 25 21:39 ptyq8
+crw-rw-rw-  1 root  wheel            5,    25 Nov 25 21:39 ptyq9
+crw-rw-rw-  1 root  wheel            5,    26 Nov 25 21:39 ptyqa
+crw-rw-rw-  1 root  wheel            5,    27 Nov 25 21:39 ptyqb
+crw-rw-rw-  1 root  wheel            5,    28 Nov 25 21:39 ptyqc
+crw-rw-rw-  1 root  wheel            5,    29 Nov 25 21:39 ptyqd
+crw-rw-rw-  1 root  wheel            5,    30 Nov 25 21:39 ptyqe
+crw-rw-rw-  1 root  wheel            5,    31 Nov 25 21:39 ptyqf
+crw-rw-rw-  1 root  wheel            5,    32 Nov 25 21:39 ptyr0
+crw-rw-rw-  1 root  wheel            5,    33 Nov 25 21:39 ptyr1
+crw-rw-rw-  1 root  wheel            5,    34 Nov 25 21:39 ptyr2
+crw-rw-rw-  1 root  wheel            5,    35 Nov 25 21:39 ptyr3
+crw-rw-rw-  1 root  wheel            5,    36 Nov 25 21:39 ptyr4
+crw-rw-rw-  1 root  wheel            5,    37 Nov 25 21:39 ptyr5
+crw-rw-rw-  1 root  wheel            5,    38 Nov 25 21:39 ptyr6
+crw-rw-rw-  1 root  wheel            5,    39 Nov 25 21:39 ptyr7
+crw-rw-rw-  1 root  wheel            5,    40 Nov 25 21:39 ptyr8
+crw-rw-rw-  1 root  wheel            5,    41 Nov 25 21:39 ptyr9
+crw-rw-rw-  1 root  wheel            5,    42 Nov 25 21:39 ptyra
+crw-rw-rw-  1 root  wheel            5,    43 Nov 25 21:39 ptyrb
+crw-rw-rw-  1 root  wheel            5,    44 Nov 25 21:39 ptyrc
+crw-rw-rw-  1 root  wheel            5,    45 Nov 25 21:39 ptyrd
+crw-rw-rw-  1 root  wheel            5,    46 Nov 25 21:39 ptyre
+crw-rw-rw-  1 root  wheel            5,    47 Nov 25 21:39 ptyrf
+crw-rw-rw-  1 root  wheel            5,    48 Nov 25 21:39 ptys0
+crw-rw-rw-  1 root  wheel            5,    49 Nov 25 21:39 ptys1
+crw-rw-rw-  1 root  wheel            5,    50 Nov 25 21:39 ptys2
+crw-rw-rw-  1 root  wheel            5,    51 Nov 25 21:39 ptys3
+crw-rw-rw-  1 root  wheel            5,    52 Nov 25 21:39 ptys4
+crw-rw-rw-  1 root  wheel            5,    53 Nov 25 21:39 ptys5
+crw-rw-rw-  1 root  wheel            5,    54 Nov 25 21:39 ptys6
+crw-rw-rw-  1 root  wheel            5,    55 Nov 25 21:39 ptys7
+crw-rw-rw-  1 root  wheel            5,    56 Nov 25 21:39 ptys8
+crw-rw-rw-  1 root  wheel            5,    57 Nov 25 21:39 ptys9
+crw-rw-rw-  1 root  wheel            5,    58 Nov 25 21:39 ptysa
+crw-rw-rw-  1 root  wheel            5,    59 Nov 25 21:39 ptysb
+crw-rw-rw-  1 root  wheel            5,    60 Nov 25 21:39 ptysc
+crw-rw-rw-  1 root  wheel            5,    61 Nov 25 21:39 ptysd
+crw-rw-rw-  1 root  wheel            5,    62 Nov 25 21:39 ptyse
+crw-rw-rw-  1 root  wheel            5,    63 Nov 25 21:39 ptysf
+crw-rw-rw-  1 root  wheel            5,    64 Nov 25 21:39 ptyt0
+crw-rw-rw-  1 root  wheel            5,    65 Nov 25 21:39 ptyt1
+crw-rw-rw-  1 root  wheel            5,    66 Nov 25 21:39 ptyt2
+crw-rw-rw-  1 root  wheel            5,    67 Nov 25 21:39 ptyt3
+crw-rw-rw-  1 root  wheel            5,    68 Nov 25 21:39 ptyt4
+crw-rw-rw-  1 root  wheel            5,    69 Nov 25 21:39 ptyt5
+crw-rw-rw-  1 root  wheel            5,    70 Nov 25 21:39 ptyt6
+crw-rw-rw-  1 root  wheel            5,    71 Nov 25 21:39 ptyt7
+crw-rw-rw-  1 root  wheel            5,    72 Nov 25 21:39 ptyt8
+crw-rw-rw-  1 root  wheel            5,    73 Nov 25 21:39 ptyt9
+crw-rw-rw-  1 root  wheel            5,    74 Nov 25 21:39 ptyta
+crw-rw-rw-  1 root  wheel            5,    75 Nov 25 21:39 ptytb
+crw-rw-rw-  1 root  wheel            5,    76 Nov 25 21:39 ptytc
+crw-rw-rw-  1 root  wheel            5,    77 Nov 25 21:39 ptytd
+crw-rw-rw-  1 root  wheel            5,    78 Nov 25 21:39 ptyte
+crw-rw-rw-  1 root  wheel            5,    79 Nov 25 21:39 ptytf
+crw-rw-rw-  1 root  wheel            5,    80 Nov 25 21:39 ptyu0
+crw-rw-rw-  1 root  wheel            5,    81 Nov 25 21:39 ptyu1
+crw-rw-rw-  1 root  wheel            5,    82 Nov 25 21:39 ptyu2
+crw-rw-rw-  1 root  wheel            5,    83 Nov 25 21:39 ptyu3
+crw-rw-rw-  1 root  wheel            5,    84 Nov 25 21:39 ptyu4
+crw-rw-rw-  1 root  wheel            5,    85 Nov 25 21:39 ptyu5
+crw-rw-rw-  1 root  wheel            5,    86 Nov 25 21:39 ptyu6
+crw-rw-rw-  1 root  wheel            5,    87 Nov 25 21:39 ptyu7
+crw-rw-rw-  1 root  wheel            5,    88 Nov 25 21:39 ptyu8
+crw-rw-rw-  1 root  wheel            5,    89 Nov 25 21:39 ptyu9
+crw-rw-rw-  1 root  wheel            5,    90 Nov 25 21:39 ptyua
+crw-rw-rw-  1 root  wheel            5,    91 Nov 25 21:39 ptyub
+crw-rw-rw-  1 root  wheel            5,    92 Nov 25 21:39 ptyuc
+crw-rw-rw-  1 root  wheel            5,    93 Nov 25 21:39 ptyud
+crw-rw-rw-  1 root  wheel            5,    94 Nov 25 21:39 ptyue
+crw-rw-rw-  1 root  wheel            5,    95 Nov 25 21:39 ptyuf
+crw-rw-rw-  1 root  wheel            5,    96 Nov 25 21:39 ptyv0
+crw-rw-rw-  1 root  wheel            5,    97 Nov 25 21:39 ptyv1
+crw-rw-rw-  1 root  wheel            5,    98 Nov 25 21:39 ptyv2
+crw-rw-rw-  1 root  wheel            5,    99 Nov 25 21:39 ptyv3
+crw-rw-rw-  1 root  wheel            5,   100 Nov 25 21:39 ptyv4
+crw-rw-rw-  1 root  wheel            5,   101 Nov 25 21:39 ptyv5
+crw-rw-rw-  1 root  wheel            5,   102 Nov 25 21:39 ptyv6
+crw-rw-rw-  1 root  wheel            5,   103 Nov 25 21:39 ptyv7
+crw-rw-rw-  1 root  wheel            5,   104 Nov 25 21:39 ptyv8
+crw-rw-rw-  1 root  wheel            5,   105 Nov 25 21:39 ptyv9
+crw-rw-rw-  1 root  wheel            5,   106 Nov 25 21:39 ptyva
+crw-rw-rw-  1 root  wheel            5,   107 Nov 25 21:39 ptyvb
+crw-rw-rw-  1 root  wheel            5,   108 Nov 25 21:39 ptyvc
+crw-rw-rw-  1 root  wheel            5,   109 Nov 25 21:39 ptyvd
+crw-rw-rw-  1 root  wheel            5,   110 Nov 25 21:39 ptyve
+crw-rw-rw-  1 root  wheel            5,   111 Nov 25 21:39 ptyvf
+crw-rw-rw-  1 root  wheel            5,   112 Nov 25 21:39 ptyw0
+crw-rw-rw-  1 root  wheel            5,   113 Nov 25 21:39 ptyw1
+crw-rw-rw-  1 root  wheel            5,   114 Nov 25 21:39 ptyw2
+crw-rw-rw-  1 root  wheel            5,   115 Nov 25 21:39 ptyw3
+crw-rw-rw-  1 root  wheel            5,   116 Nov 25 21:39 ptyw4
+crw-rw-rw-  1 root  wheel            5,   117 Nov 25 21:39 ptyw5
+crw-rw-rw-  1 root  wheel            5,   118 Nov 25 21:39 ptyw6
+crw-rw-rw-  1 root  wheel            5,   119 Nov 25 21:39 ptyw7
+crw-rw-rw-  1 root  wheel            5,   120 Nov 25 21:39 ptyw8
+crw-rw-rw-  1 root  wheel            5,   121 Nov 25 21:39 ptyw9
+crw-rw-rw-  1 root  wheel            5,   122 Nov 25 21:39 ptywa
+crw-rw-rw-  1 root  wheel            5,   123 Nov 25 21:39 ptywb
+crw-rw-rw-  1 root  wheel            5,   124 Nov 25 21:39 ptywc
+crw-rw-rw-  1 root  wheel            5,   125 Nov 25 21:39 ptywd
+crw-rw-rw-  1 root  wheel            5,   126 Nov 25 21:39 ptywe
+crw-rw-rw-  1 root  wheel            5,   127 Nov 25 21:39 ptywf
+crw-rw-rw-  1 root  wheel           14,     0 Nov 25 21:39 random
+crw-r-----  1 root  operator         1,     0 Nov 25 21:39 rdisk0
+crw-r-----  1 root  operator         1,     1 Nov 25 21:39 rdisk0s1
+crw-r-----  1 root  operator         1,     2 Nov 25 21:39 rdisk0s2
+crw-r-----  1 root  operator         1,     3 Nov 25 21:39 rdisk1
+crw-r-----  1 root  operator         1,     4 Nov 25 21:39 rdisk1s1
+crw-r-----  1 root  operator         1,     7 Nov 25 21:39 rdisk1s2
+crw-r-----  1 root  operator         1,     5 Nov 25 21:39 rdisk1s3
+crw-r-----  1 root  operator         1,     6 Nov 25 21:39 rdisk1s4
+crw-rw-rw-  1 root  wheel            0,     0 Nov 25 21:39 sdt
+lr-xr-xr-x  1 root  wheel                   0 Nov 25 21:39 stderr -> fd/2
+lr-xr-xr-x  1 root  wheel                   0 Nov 25 21:39 stdin -> fd/0
+lr-xr-xr-x  1 root  wheel                   0 Nov 25 21:39 stdout -> fd/1
+crw-rw-rw-  1 root  wheel            0,     0 Nov 25 21:39 systrace
+crw-rw-rw-  1 root  wheel            2,     0 Jan 13 13:42 tty
+crw-rw-rw-  1 root  wheel           18,     0 Nov 25 21:40 tty.Bluetooth-Incoming-Port
+crw-rw-rw-  1 root  wheel           18,     2 Nov 25 21:40 tty.iphonecb-WirelessiAP
+crw-rw-rw-  1 root  wheel            4,     0 Nov 25 21:39 ttyp0
+crw-rw-rw-  1 root  wheel            4,     1 Nov 25 21:39 ttyp1
+crw-rw-rw-  1 root  wheel            4,     2 Nov 25 21:39 ttyp2
+crw-rw-rw-  1 root  wheel            4,     3 Nov 25 21:39 ttyp3
+crw-rw-rw-  1 root  wheel            4,     4 Nov 25 21:39 ttyp4
+crw-rw-rw-  1 root  wheel            4,     5 Nov 25 21:39 ttyp5
+crw-rw-rw-  1 root  wheel            4,     6 Nov 25 21:39 ttyp6
+crw-rw-rw-  1 root  wheel            4,     7 Nov 25 21:39 ttyp7
+crw-rw-rw-  1 root  wheel            4,     8 Nov 25 21:39 ttyp8
+crw-rw-rw-  1 root  wheel            4,     9 Nov 25 21:39 ttyp9
+crw-rw-rw-  1 root  wheel            4,    10 Nov 25 21:39 ttypa
+crw-rw-rw-  1 root  wheel            4,    11 Nov 25 21:39 ttypb
+crw-rw-rw-  1 root  wheel            4,    12 Nov 25 21:39 ttypc
+crw-rw-rw-  1 root  wheel            4,    13 Nov 25 21:39 ttypd
+crw-rw-rw-  1 root  wheel            4,    14 Nov 25 21:39 ttype
+crw-rw-rw-  1 root  wheel            4,    15 Nov 25 21:39 ttypf
+crw-rw-rw-  1 root  wheel            4,    16 Nov 25 21:39 ttyq0
+crw-rw-rw-  1 root  wheel            4,    17 Nov 25 21:39 ttyq1
+crw-rw-rw-  1 root  wheel            4,    18 Nov 25 21:39 ttyq2
+crw-rw-rw-  1 root  wheel            4,    19 Nov 25 21:39 ttyq3
+crw-rw-rw-  1 root  wheel            4,    20 Nov 25 21:39 ttyq4
+crw-rw-rw-  1 root  wheel            4,    21 Nov 25 21:39 ttyq5
+crw-rw-rw-  1 root  wheel            4,    22 Nov 25 21:39 ttyq6
+crw-rw-rw-  1 root  wheel            4,    23 Nov 25 21:39 ttyq7
+crw-rw-rw-  1 root  wheel            4,    24 Nov 25 21:39 ttyq8
+crw-rw-rw-  1 root  wheel            4,    25 Nov 25 21:39 ttyq9
+crw-rw-rw-  1 root  wheel            4,    26 Nov 25 21:39 ttyqa
+crw-rw-rw-  1 root  wheel            4,    27 Nov 25 21:39 ttyqb
+crw-rw-rw-  1 root  wheel            4,    28 Nov 25 21:39 ttyqc
+crw-rw-rw-  1 root  wheel            4,    29 Nov 25 21:39 ttyqd
+crw-rw-rw-  1 root  wheel            4,    30 Nov 25 21:39 ttyqe
+crw-rw-rw-  1 root  wheel            4,    31 Nov 25 21:39 ttyqf
+crw-rw-rw-  1 root  wheel            4,    32 Nov 25 21:39 ttyr0
+crw-rw-rw-  1 root  wheel            4,    33 Nov 25 21:39 ttyr1
+crw-rw-rw-  1 root  wheel            4,    34 Nov 25 21:39 ttyr2
+crw-rw-rw-  1 root  wheel            4,    35 Nov 25 21:39 ttyr3
+crw-rw-rw-  1 root  wheel            4,    36 Nov 25 21:39 ttyr4
+crw-rw-rw-  1 root  wheel            4,    37 Nov 25 21:39 ttyr5
+crw-rw-rw-  1 root  wheel            4,    38 Nov 25 21:39 ttyr6
+crw-rw-rw-  1 root  wheel            4,    39 Nov 25 21:39 ttyr7
+crw-rw-rw-  1 root  wheel            4,    40 Nov 25 21:39 ttyr8
+crw-rw-rw-  1 root  wheel            4,    41 Nov 25 21:39 ttyr9
+crw-rw-rw-  1 root  wheel            4,    42 Nov 25 21:39 ttyra
+crw-rw-rw-  1 root  wheel            4,    43 Nov 25 21:39 ttyrb
+crw-rw-rw-  1 root  wheel            4,    44 Nov 25 21:39 ttyrc
+crw-rw-rw-  1 root  wheel            4,    45 Nov 25 21:39 ttyrd
+crw-rw-rw-  1 root  wheel            4,    46 Nov 25 21:39 ttyre
+crw-rw-rw-  1 root  wheel            4,    47 Nov 25 21:39 ttyrf
+crw-rw-rw-  1 root  wheel            4,    48 Nov 25 21:39 ttys0
+crw--w----  1 Hugo  tty             16,     0 Jan 19 10:38 ttys000
+crw--w----  1 Hugo  tty             16,     1 Jan 19 10:38 ttys001
+crw--w----  1 Hugo  tty             16,     2 Jan 19 10:11 ttys002
+crw--w----  1 Hugo  tty             16,     3 Jan 19 10:22 ttys003
+crw--w----  1 Hugo  tty             16,     4 Jan 19 10:22 ttys004
+crw--w----  1 Hugo  tty             16,     5 Jan 19 10:23 ttys005
+crw--w----  1 Hugo  tty             16,     6 Jan 19 10:31 ttys006
+crw-rw-rw-  1 root  wheel            4,    49 Nov 25 21:39 ttys1
+crw-rw-rw-  1 root  wheel            4,    50 Nov 25 21:39 ttys2
+crw-rw-rw-  1 root  wheel            4,    51 Nov 25 21:39 ttys3
+crw-rw-rw-  1 root  wheel            4,    52 Nov 25 21:39 ttys4
+crw-rw-rw-  1 root  wheel            4,    53 Nov 25 21:39 ttys5
+crw-rw-rw-  1 root  wheel            4,    54 Nov 25 21:39 ttys6
+crw-rw-rw-  1 root  wheel            4,    55 Nov 25 21:39 ttys7
+crw-rw-rw-  1 root  wheel            4,    56 Nov 25 21:39 ttys8
+crw-rw-rw-  1 root  wheel            4,    57 Nov 25 21:39 ttys9
+crw-rw-rw-  1 root  wheel            4,    58 Nov 25 21:39 ttysa
+crw-rw-rw-  1 root  wheel            4,    59 Nov 25 21:39 ttysb
+crw-rw-rw-  1 root  wheel            4,    60 Nov 25 21:39 ttysc
+crw-rw-rw-  1 root  wheel            4,    61 Nov 25 21:39 ttysd
+crw-rw-rw-  1 root  wheel            4,    62 Nov 25 21:39 ttyse
+crw-rw-rw-  1 root  wheel            4,    63 Nov 25 21:39 ttysf
+crw-rw-rw-  1 root  wheel            4,    64 Nov 25 21:39 ttyt0
+crw-rw-rw-  1 root  wheel            4,    65 Nov 25 21:39 ttyt1
+crw-rw-rw-  1 root  wheel            4,    66 Nov 25 21:39 ttyt2
+crw-rw-rw-  1 root  wheel            4,    67 Nov 25 21:39 ttyt3
+crw-rw-rw-  1 root  wheel            4,    68 Nov 25 21:39 ttyt4
+crw-rw-rw-  1 root  wheel            4,    69 Nov 25 21:39 ttyt5
+crw-rw-rw-  1 root  wheel            4,    70 Nov 25 21:39 ttyt6
+crw-rw-rw-  1 root  wheel            4,    71 Nov 25 21:39 ttyt7
+crw-rw-rw-  1 root  wheel            4,    72 Nov 25 21:39 ttyt8
+crw-rw-rw-  1 root  wheel            4,    73 Nov 25 21:39 ttyt9
+crw-rw-rw-  1 root  wheel            4,    74 Nov 25 21:39 ttyta
+crw-rw-rw-  1 root  wheel            4,    75 Nov 25 21:39 ttytb
+crw-rw-rw-  1 root  wheel            4,    76 Nov 25 21:39 ttytc
+crw-rw-rw-  1 root  wheel            4,    77 Nov 25 21:39 ttytd
+crw-rw-rw-  1 root  wheel            4,    78 Nov 25 21:39 ttyte
+crw-rw-rw-  1 root  wheel            4,    79 Nov 25 21:39 ttytf
+crw-rw-rw-  1 root  wheel            4,    80 Nov 25 21:39 ttyu0
+crw-rw-rw-  1 root  wheel            4,    81 Nov 25 21:39 ttyu1
+crw-rw-rw-  1 root  wheel            4,    82 Nov 25 21:39 ttyu2
+crw-rw-rw-  1 root  wheel            4,    83 Nov 25 21:39 ttyu3
+crw-rw-rw-  1 root  wheel            4,    84 Nov 25 21:39 ttyu4
+crw-rw-rw-  1 root  wheel            4,    85 Nov 25 21:39 ttyu5
+crw-rw-rw-  1 root  wheel            4,    86 Nov 25 21:39 ttyu6
+crw-rw-rw-  1 root  wheel            4,    87 Nov 25 21:39 ttyu7
+crw-rw-rw-  1 root  wheel            4,    88 Nov 25 21:39 ttyu8
+crw-rw-rw-  1 root  wheel            4,    89 Nov 25 21:39 ttyu9
+crw-rw-rw-  1 root  wheel            4,    90 Nov 25 21:39 ttyua
+crw-rw-rw-  1 root  wheel            4,    91 Nov 25 21:39 ttyub
+crw-rw-rw-  1 root  wheel            4,    92 Nov 25 21:39 ttyuc
+crw-rw-rw-  1 root  wheel            4,    93 Nov 25 21:39 ttyud
+crw-rw-rw-  1 root  wheel            4,    94 Nov 25 21:39 ttyue
+crw-rw-rw-  1 root  wheel            4,    95 Nov 25 21:39 ttyuf
+crw-rw-rw-  1 root  wheel            4,    96 Nov 25 21:39 ttyv0
+crw-rw-rw-  1 root  wheel            4,    97 Nov 25 21:39 ttyv1
+crw-rw-rw-  1 root  wheel            4,    98 Nov 25 21:39 ttyv2
+crw-rw-rw-  1 root  wheel            4,    99 Nov 25 21:39 ttyv3
+crw-rw-rw-  1 root  wheel            4,   100 Nov 25 21:39 ttyv4
+crw-rw-rw-  1 root  wheel            4,   101 Nov 25 21:39 ttyv5
+crw-rw-rw-  1 root  wheel            4,   102 Nov 25 21:39 ttyv6
+crw-rw-rw-  1 root  wheel            4,   103 Nov 25 21:39 ttyv7
+crw-rw-rw-  1 root  wheel            4,   104 Nov 25 21:39 ttyv8
+crw-rw-rw-  1 root  wheel            4,   105 Nov 25 21:39 ttyv9
+crw-rw-rw-  1 root  wheel            4,   106 Nov 25 21:39 ttyva
+crw-rw-rw-  1 root  wheel            4,   107 Nov 25 21:39 ttyvb
+crw-rw-rw-  1 root  wheel            4,   108 Nov 25 21:39 ttyvc
+crw-rw-rw-  1 root  wheel            4,   109 Nov 25 21:39 ttyvd
+crw-rw-rw-  1 root  wheel            4,   110 Nov 25 21:39 ttyve
+crw-rw-rw-  1 root  wheel            4,   111 Nov 25 21:39 ttyvf
+crw-rw-rw-  1 root  wheel            4,   112 Nov 25 21:39 ttyw0
+crw-rw-rw-  1 root  wheel            4,   113 Nov 25 21:39 ttyw1
+crw-rw-rw-  1 root  wheel            4,   114 Nov 25 21:39 ttyw2
+crw-rw-rw-  1 root  wheel            4,   115 Nov 25 21:39 ttyw3
+crw-rw-rw-  1 root  wheel            4,   116 Nov 25 21:39 ttyw4
+crw-rw-rw-  1 root  wheel            4,   117 Nov 25 21:39 ttyw5
+crw-rw-rw-  1 root  wheel            4,   118 Nov 25 21:39 ttyw6
+crw-rw-rw-  1 root  wheel            4,   119 Nov 25 21:39 ttyw7
+crw-rw-rw-  1 root  wheel            4,   120 Nov 25 21:39 ttyw8
+crw-rw-rw-  1 root  wheel            4,   121 Nov 25 21:39 ttyw9
+crw-rw-rw-  1 root  wheel            4,   122 Nov 25 21:39 ttywa
+crw-rw-rw-  1 root  wheel            4,   123 Nov 25 21:39 ttywb
+crw-rw-rw-  1 root  wheel            4,   124 Nov 25 21:39 ttywc
+crw-rw-rw-  1 root  wheel            4,   125 Nov 25 21:39 ttywd
+crw-rw-rw-  1 root  wheel            4,   126 Nov 25 21:39 ttywe
+crw-rw-rw-  1 root  wheel            4,   127 Nov 25 21:39 ttywf
+crw-rw-rw-  1 root  wheel           14,     1 Nov 25 21:39 urandom
+crw-rw----  1 root  _windowserver   21,     0 Nov 25 21:39 xcpm
+crw-rw-rw-  1 root  wheel            3,     3 Nov 25 21:39 zero
+Looking at : /dev/fd/0
+0 is not a link
+0 is not an anchor
+Looking at : /dev/fd/1
+1 is not a link
+1 is not an anchor
+Looking at : /dev/fd/2
+2 is not a link
+2 is not an anchor
+Looking at : /dev/fd/3
+3 is not a link
+3 is not an anchor
+Looking at : /dev/fd/4
+4 is not a link
+4 is not an anchor
+Looking at : /dev/fd/5
+5 is not a link
+5 is not an anchor
+ft_ls: ft_ls: /dev/fd: ft_ls: /dev: 
