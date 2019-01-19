@@ -22,8 +22,7 @@ static int8_t		print_loop(t_dirlist *dir, t_printdata *printdata)
 	{
 		if (printdata)
 		{
-			if (!(printdata->path = mkpath(dir, dir->data[i].name)))
-				return (DIR_ERR_MALLOC);
+			printdata->path = dir->data[i].path;
 			printdata->name = dir->data[i].name;
 		}
 		if((status = print_entry(dir, dir->data[i].name, printdata)))

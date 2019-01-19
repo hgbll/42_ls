@@ -26,25 +26,23 @@ static int8_t			get_dirlistlen(t_dirlist *dir, t_opt *opt)
 	return (0);
 }
 
-static int8_t			fill_dirlist(t_dirlist *dir, t_opt *opt)
+static int8_t			fill_dirlist(t_dirlist *dir, t_entry *data, t_opt *opt)
 {
 	struct dirent		*entry;
-	size_t				index;
+	size_t				i;
 
-	index = 0;
-	while ((entry = readdir(dir->dirp)) && index < dir->len)
+	i = 0;
+	while ((entry = readdir(dir->dirp)) && i < dir->len)
 	{
 		if (!is_hidden(entry->d_name, opt))
 		{
-			if ((dir->data[index].name = ft_strnew(entry->d_namlen)) == NULL)
+			if (!(dir->data[i].path = mkpath(dir, entry->d_name)))
 				return (DIR_ERR_MALLOC);
-			ft_strcpy(dir->data[index].name, entry->d_name);
-			if (entry->d_type == DT_DIR && !is_anchor(entry->d_name))
-				dir->data[index].subdir = 1;
-			index++;
+			dir->data[i].name = ft_strrchr(data[i].path, '/') + 1;
+			i++;
 		}
 	}
-	if (index != dir->len)
+	if (i != dir->len)
 		return (DIR_ERR_OPEN);
 	return (0);
 }
@@ -60,7 +58,7 @@ int8_t					get_dirlist(t_dirlist *dir, t_opt *opt)
 	{
 		if (!(dir->dirp = opendir(dir->name)))
 			return (DIR_ERR_OPEN);
-		if ((status = fill_dirlist(dir, opt)) != 0)
+		if ((status = fill_dirlist(dir, dir->data, opt)) != 0)
 			return (status);
 		if (closedir(dir->dirp) == -1)
 			return (DIR_ERR_CLOSE);

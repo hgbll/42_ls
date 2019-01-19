@@ -62,6 +62,7 @@ typedef union		u_opt
 
 typedef struct		s_entry
 {
+	char			*path;
 	char			*name;
 	uint8_t			subdir;
 }					t_entry;
@@ -167,6 +168,6 @@ int8_t				get_stats_path(char *path, struct stat *stats,
 int8_t				get_symlink(t_printdata *data);
 
 char				*mkpath(t_dirlist *dir, char *to_add);
-typedef int8_t		(*cmp_ptr)(t_dirlist *dir, char*, char*, int8_t);
+typedef int8_t		(*cmp_ptr)(char*, char*, int8_t);
 
 #endif

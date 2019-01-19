@@ -23,7 +23,6 @@ TESTDIR				=	_test
 LIBDIR				=	.
 
 LIBSUBDIRS			:=	$(LIBDIR)/libft
-
 INCDIR				:=	$(LIBSUBDIRS:%=%/includes) \
 						includes
 

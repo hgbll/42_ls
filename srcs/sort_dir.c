@@ -12,8 +12,7 @@
 
 #include "ls.h"
 
-static int8_t		cmp_ascii(__attribute__((unused)) t_dirlist *dir,
-								char *name1, char *name2, int8_t rev)
+static int8_t		cmp_ascii(char *name1, char *name2, int8_t rev)
 {
 	int8_t			result;
 
@@ -21,20 +20,19 @@ static int8_t		cmp_ascii(__attribute__((unused)) t_dirlist *dir,
 	return (rev ? !result : result);
 }
 
-static int8_t		cmp_mtime(t_dirlist *dir, char *name1, char *name2, 
-								int8_t rev)
+static int8_t		cmp_mtime(char *path1, char *path2, int8_t rev)
 {
 	struct stat		stats;
 	int8_t			result;
-	time_t			name1_time;
+	time_t			path1_time;
 	int8_t			status;
 
-	if ((status = get_stats(dir, name1, &stats, NOFOLLOW)))
+	if ((status = get_stats_path(path1, &stats, NOFOLLOW)))
 		return (status);
-	name1_time = stats.st_mtimespec.tv_sec;
-	if ((status = get_stats(dir, name2, &stats, NOFOLLOW)))
+	path1_time = stats.st_mtimespec.tv_sec;
+	if ((status = get_stats_path(path2, &stats, NOFOLLOW)))
 		return (status);
-	result = name1_time < stats.st_mtimespec.tv_sec;
+	result = path1_time < stats.st_mtimespec.tv_sec;
 	return (rev ? !result : result);
 }
 
@@ -64,7 +62,7 @@ static int8_t		bubble_sort(t_dirlist *dir,
 		j = 0;
 		while (j < unsorted - 1)
 		{
-			cmp_ret = cmp(dir, data[j].name, data[j + 1].name, rev);
+			cmp_ret = cmp(data[j].path, data[j + 1].path, rev);
 			if (cmp_ret == -1)
 				return (DIR_ERR_OPEN);
 			if (cmp_ret)

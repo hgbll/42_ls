@@ -23,8 +23,7 @@ static int8_t		display_subdirs(t_dirlist *dir, t_entry *data, t_opt *opt)
 	{
 		if (data[i].subdir)
 		{
-			status = display_dir(mkpath(dir, data[i].name), opt,
-									dir->depth + 1);
+			status = display_dir(data[i].path, opt, dir->depth + 1);
 			if (status < DIR_ERR_OPEN)
 				return (status);
 		}

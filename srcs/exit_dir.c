@@ -21,8 +21,8 @@ static void				free_dirlist(t_dirlist *dir)
 		i = 0;
 		while (i < dir->len)
 		{
-			if (dir->data[i].name)
-				ft_memdel((void**)&(dir->data[i].name));
+			if (dir->data[i].path)
+				ft_memdel((void**)&(dir->data[i].path));
 			i++;
 		}
 		ft_memdel((void**)&(dir->data));
@@ -37,7 +37,5 @@ int8_t					exit_dir(t_dirlist *dir,
 	if (status < 0 && print == ERR_PRINT)
 		error_handler(name, status);
 	free_dirlist(dir);
-	if (dir->depth > 0)
-		ft_memdel((void**)&name);
 	return (status);
 }
