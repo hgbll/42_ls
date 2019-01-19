@@ -25,13 +25,11 @@ static int8_t		cmp_mtime(char *path1, char *path2, int8_t rev)
 	struct stat		stats;
 	int8_t			result;
 	time_t			path1_time;
-	int8_t			status;
 
-	if ((status = get_stats_path(path1, &stats, NOFOLLOW)))
-		return (status);
+	ft_bzero(&stats, sizeof(struct stat));
+	get_stats(path1, &stats, NOFOLLOW);
 	path1_time = stats.st_mtimespec.tv_sec;
-	if ((status = get_stats_path(path2, &stats, NOFOLLOW)))
-		return (status);
+	get_stats(path2, &stats, NOFOLLOW);
 	result = path1_time < stats.st_mtimespec.tv_sec;
 	return (rev ? !result : result);
 }

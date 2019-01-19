@@ -12,7 +12,7 @@
 
 #include "ls.h"
 
-int8_t			get_stats_path(char *path, struct stat *stats,
+int8_t			get_stats(char *path, struct stat *stats,
 								uint8_t nofollow)
 {
 	int8_t		status;
@@ -21,22 +21,5 @@ int8_t			get_stats_path(char *path, struct stat *stats,
 		status = lstat(path, stats);
 	else
 		status = stat(path, stats);
-	return (status);
-}
-
-int8_t			get_stats(t_dirlist *dir, char *name, struct stat *stats,
-							uint8_t nofollow)
-{
-	char		*path;
-	int8_t		status;
-
-	path = mkpath(dir, name);
-	if (!path)
-		return (DIR_ERR_MALLOC);
-	if (nofollow)
-		status = lstat(path, stats);
-	else
-		status = stat(path, stats);
-	ft_memdel((void**)&(path));
 	return (status);
 }

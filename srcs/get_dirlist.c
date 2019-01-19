@@ -17,7 +17,7 @@ static uint8_t			is_dir(t_entry *entry)
 	struct stat			stats;
 	DIR					*dirp;
 
-	if (!get_stats_path(entry->path, &stats, NOFOLLOW))
+	if (!get_stats(entry->path, &stats, NOFOLLOW))
 	{
 		ft_printf("Looking at : %s\n", entry->path);
 		if ((dirp = opendir(entry->path)))

@@ -159,9 +159,7 @@ int8_t				get_time(struct stat *stats, t_printdata *data);
 int8_t				get_size(t_dirlist *dir, struct stat *stats,
 								t_printdata *data);
 char				get_type(uint16_t mode);
-int8_t				get_stats(t_dirlist *dir, char *name, struct stat *stats,
-								uint8_t nofollow);
-int8_t				get_stats_path(char *path, struct stat *stats,
+int8_t				get_stats(char *path, struct stat *stats,
 								uint8_t nofollow);
 int8_t				get_symlink(t_printdata *data);
 
