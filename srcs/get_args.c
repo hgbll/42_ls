@@ -6,7 +6,10 @@ static t_arg	*fill_args(char **argv, size_t *len, int start, t_opt *opt)
 	t_arg		*args;
 
 	if (!(args = (t_arg*)ft_memalloc(sizeof(t_arg) * (*len))))
+	{
+		error_handler(NULL, 0);
 		return (NULL);
+	}
 	i = 0;
 	while (i < *len)
 	{
@@ -59,11 +62,15 @@ static void		show_errors(t_arg *args, size_t *len)
 	}
 }
 
-t_arg			*get_args(int argc, char **argv, int start, size_t *len)
+t_arg			*get_args(int argc, char **argv, t_opt_u *opt, size_t *len)
 {
 	t_arg		*args;
 	size_t		i;
-	
+	int			start;
+
+	start = get_options(opt, argc, argv);
+	if (start == argc)
+		return (NULL);
 	*len = 0;
 	i = start;
 	while (i < (size_t)argc)
@@ -71,8 +78,11 @@ t_arg			*get_args(int argc, char **argv, int start, size_t *len)
 		(*len)++;
 		i++;
 	}
-	args = fill_args(args, argv, len, start);
-	sort_args(args, len);
-	show_errors(args, len);
+	args = fill_args(argv, len, start, &(opt->opt_struct));
+	if (args)
+	{
+		sort_args(args, len);
+		show_errors(args, len);
+	}
 	return (args);
 }

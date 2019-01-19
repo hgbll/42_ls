@@ -4,10 +4,10 @@ char					is_dir_deep(t_entry *entry)
 {
 	struct stat			stats;
 
-	if (opendir(entry->path) && !is_anchor(entry->name))
+	if (opendir(entry->path))
 	{
 		if (!get_stats(entry->path, &stats, NOFOLLOW))
-			if (get_type(stats.st_mode) != 'l')
+			if (get_type(stats.st_mode) == 'l')
 				return (0);
 		return (1);
 	}

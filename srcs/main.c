@@ -14,24 +14,20 @@
 
 int					main(int argc, char **argv)
 {
-	int				index;
 	t_opt_u			opt;
 	t_arg			*args;
 	size_t			args_len;
 
-	index = get_options(&opt, argc, argv);
-	if (index == argc)
-		display_dir(".", &(opt.opt_struct));
-	else
+	args = get_args(argc, argv, &opt, &args_len);
+	if (!args)
 	{
-		args = get_args(argc, argv, index, &args_len);
-		if (args_len > 1)
-			opt.opt_struct.multi_arg = 1;
-		if (!args || parse_args(args, args_len, &(opt.opt_struct)))
-		{
-			error_handler(NULL, 0);
-			exit(EXIT_FAILURE);
-		}
+		display_dir(".", &(opt.opt_struct));
+		return (0);
 	}
+	if (args_len > 1)
+		opt.opt_struct.multi_arg = 1;
+	if (parse_args(args, args_len, &(opt.opt_struct)))
+		error_handler(NULL, 0);
+	ft_memdel((void**)&(args));
 	return (0);
 }

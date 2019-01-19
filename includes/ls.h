@@ -149,7 +149,7 @@ typedef struct		s_arg
 */
 
 int					get_options(t_opt_u *opt, int argc, char **argv);
-t_arg				*get_args(int argc, char **argv, int start, size_t *len);
+t_arg				*get_args(int argc, char **argv, t_opt_u *opt, size_t *len);
 int8_t				parse_args(t_arg *args, size_t len, t_opt *opt);
 void				display_container(t_dirlist *container, t_opt *opt);
 int8_t				display_dir(char *name, t_opt *opt);
