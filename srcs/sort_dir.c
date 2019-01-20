@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 18:35:37 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/20 15:35:21 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 16:37:44 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,12 +55,11 @@ static void			bubble_sort(t_dirlist *dir, t_entry *data, cmp_ptr cmp,
 									int8_t rev)
 {
 	size_t			i;
-	int8_t			cmp_ret;
 
 	i = 0;
 	while (i < dir->len - 1)
 	{
-		if ((cmp_ret = cmp(data[i].path, data[i + 1].path, rev)))
+		if ((cmp(data[i].path, data[i + 1].path, rev)))
 		{
 			entry_swap(data, i);
 			i = (i > 0) ? i - 1 : i;
@@ -78,6 +77,7 @@ int8_t				sort_dir(t_dirlist *dir, t_opt *opt)
 		cmp = &cmp_mtime;
 	else
 		cmp = &cmp_ascii;
-	bubble_sort(dir, dir->data, cmp, opt->rev);
+	if (dir->len > 0)
+		bubble_sort(dir, dir->data, cmp, opt->rev);
 	return (0);
 }
