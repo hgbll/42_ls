@@ -25,7 +25,8 @@ static int8_t		print_loop(t_dirlist *dir, t_printdata *printdata)
 			printdata->path = dir->data[i].path;
 			printdata->name = dir->data[i].name;
 		}
-		if((status = print_entry(dir, dir->data[i].name, printdata)))
+		status = print_entry(dir, dir->data[i].name, printdata);
+		if (status < DIR_ERR_OPEN)
 			return (status);
 		i++;
 	}

@@ -83,7 +83,8 @@ int8_t				get_padding(t_dirlist *dir, t_printdata *data)
 	{
 		ft_bzero(&stats, sizeof(struct stat));
 		status = get_stats(dir->data[i].path, &stats, NOFOLLOW);
-		if (get_type(stats.st_mode) == 'd' || status)
+		if (!is_anchor(dir->data[i].name) &&
+			(get_type(stats.st_mode) == 'd' || (status && dir->is_dev == 1)))
 			dir->data[i].is_subdir = 1;
 		if (get_type(stats.st_mode) == 'b' || get_type(stats.st_mode) == 'c')
 			device_handler(dir, data, &stats);

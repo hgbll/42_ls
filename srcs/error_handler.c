@@ -18,9 +18,9 @@ int8_t				error_handler(char *arg, int8_t status)
 
 	if (arg)
 	{
-		str = ft_strrchr(arg, '/') + 1;
+		str = ft_strrchr(arg, '/');
 		if (str)
-			ft_printf("ft_ls: %s: ", str);
+			ft_printf("ft_ls: %s: ", str + 1);
 		else
 			ft_printf("ft_ls: %s: ", arg);
 	}

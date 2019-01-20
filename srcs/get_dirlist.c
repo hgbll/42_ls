@@ -29,6 +29,7 @@ static int8_t			get_dirlistlen(t_dirlist *dir, t_opt *opt)
 static int8_t			fill_dirlist(t_dirlist *dir, t_entry *data, t_opt *opt)
 {
 	struct dirent		*entry;
+	char				*name;
 	size_t				i;
 
 	i = 0;
@@ -38,7 +39,8 @@ static int8_t			fill_dirlist(t_dirlist *dir, t_entry *data, t_opt *opt)
 		{
 			if (!(data[i].path = mkpath(dir, entry->d_name)))
 				return (DIR_ERR_MALLOC);
-			data[i].name = ft_strrchr(data[i].path, '/') + 1;
+			name = ft_strrchr(data[i].path, '/');
+			data[i].name = name ? name + 1 : data[i].path;
 			if (!is_anchor(entry->d_name))
 				data[i].is_subdir = (is_dir_deep(&(data[i])) ||
 										entry->d_type == DT_DIR);

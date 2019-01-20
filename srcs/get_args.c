@@ -40,6 +40,7 @@ static void		sort_args(t_arg *args, size_t *len)
 	t_arg		swap;
 
 	i = 0;
+
 	unsorted = *len;
 	while (i < *len)
 	{

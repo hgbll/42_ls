@@ -18,7 +18,8 @@ static int8_t		print_entry_l(t_dirlist *dir, char *name, t_printdata *data)
 	int8_t			status;
 
 	ft_bzero(&stats, sizeof(struct stat));
-	get_stats(data->path, &stats, NOFOLLOW);
+	if ((status = get_stats(data->path, &stats, NOFOLLOW)))
+		return (status);
 	get_printdata(dir, &stats, data);
 	status = ft_printf("%s %*d %-*s %-*s %s %s %s%s%s\n",
 						data->mode,
