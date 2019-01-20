@@ -6,11 +6,14 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 17:18:59 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/20 15:25:24 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:47:50 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <pwd.h>
+#include <grp.h>
 #include "ls.h"
+#include "libft.h"
 
 static void			update_padding(char *str, uint64_t n, uint16_t *current)
 {

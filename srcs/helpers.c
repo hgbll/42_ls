@@ -6,11 +6,12 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:05:45 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/19 21:06:07 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:51:38 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
+#include "libft.h"
 
 uint8_t					is_anchor(char *name)
 {

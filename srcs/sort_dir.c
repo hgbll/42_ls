@@ -6,11 +6,12 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 18:35:37 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/20 15:27:21 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:35:21 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
+#include "libft.h"
 
 static int8_t		cmp_ascii(char *name1, char *name2, int8_t rev)
 {

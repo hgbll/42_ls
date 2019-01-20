@@ -6,11 +6,13 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:04:36 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/16 18:39:37 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:56:31 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdlib.h>
 #include "ls.h"
+#include "libft.h"
 
 static void		exit_usage(void)
 {

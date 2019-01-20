@@ -6,11 +6,14 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 18:00:36 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 19:48:31 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:56:57 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <pwd.h>
+#include <grp.h>
 #include "ls.h"
+#include "libft.h"
 
 int8_t		get_names(struct stat *stats, t_printdata *data)
 {

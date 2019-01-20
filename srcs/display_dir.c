@@ -6,11 +6,12 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/14 16:19:39 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/20 15:23:57 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:34:49 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
+#include "libft.h"
 
 void				display_container(t_dirlist *container, t_opt *opt)
 {

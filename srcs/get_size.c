@@ -6,11 +6,12 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/18 14:58:51 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 21:01:04 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:50:14 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
+#include "libft.h"
 
 static int8_t	get_numbers(struct stat *stats, t_printdata *data)
 {

@@ -6,11 +6,12 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/14 16:19:00 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/20 15:14:18 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:38:59 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
+#include "libft.h"
 
 static int8_t			get_dirlistlen(t_dirlist *dir, t_opt *opt)
 {

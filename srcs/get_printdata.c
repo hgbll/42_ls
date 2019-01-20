@@ -6,11 +6,12 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/18 13:31:58 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/19 22:11:20 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:49:58 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
+#include "libft.h"
 
 int8_t		free_printdata(t_printdata *data, int8_t status)
 {

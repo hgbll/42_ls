@@ -6,11 +6,12 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:03:13 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/19 22:11:36 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:35:54 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
+#include "libft.h"
 
 static int8_t		print_loop(t_dirlist *dir, t_printdata *printdata)
 {

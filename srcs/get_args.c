@@ -6,11 +6,13 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/19 22:12:27 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/20 15:24:31 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:51:02 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <errno.h>
 #include "ls.h"
+#include "libft.h"
 
 static t_arg	*fill_args(char **argv, size_t *len, int start, t_opt *opt)
 {

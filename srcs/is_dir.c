@@ -6,11 +6,12 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/19 22:12:21 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/20 15:25:37 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:50:30 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
+#include <errno.h>
 
 int8_t					is_dir_deep(t_entry *entry)
 {

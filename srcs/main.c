@@ -6,11 +6,12 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:06:39 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/20 15:23:18 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:34:24 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
+#include "libft.h"
 
 int					main(int argc, char **argv)
 {

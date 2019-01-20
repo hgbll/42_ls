@@ -6,11 +6,12 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/19 22:12:31 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/20 15:26:49 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:51:19 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
+#include "libft.h"
 
 static uint8_t			check_type(char c, int parse_option)
 {

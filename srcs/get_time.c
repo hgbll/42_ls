@@ -6,11 +6,13 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 18:01:45 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 19:12:41 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:49:45 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <time.h>
 #include "ls.h"
+#include "libft.h"
 
 int8_t			get_time(struct stat *stats, t_printdata *data)
 {

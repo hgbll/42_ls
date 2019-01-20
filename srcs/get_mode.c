@@ -6,11 +6,14 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 18:02:10 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/20 15:25:10 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:56:46 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
+#include <sys/types.h>
+#include <sys/acl.h>
+#include <sys/xattr.h>
 
 char				get_type(uint16_t mode)
 {

@@ -6,41 +6,33 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:11:23 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/20 15:14:48 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:58:31 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LS_H
 # define LS_H
 
-# include <sys/stat.h>
-# include <sys/xattr.h>
-# include <sys/types.h>
-# include <sys/acl.h>
-# include <sys/syslimits.h>
 # include <stdint.h>
-# include <stdio.h>
-# include <stdlib.h>
 # include <string.h>
 # include <dirent.h>
-# include <pwd.h>
-# include <grp.h>
-# include <time.h>
-# include <unistd.h>
-# include <errno.h>
-# include "libft.h"
+# include <sys/stat.h>
 
 # define PARSE_FILES 1
 # define PARSE_DIRS 2
+
 # define IS_FILE 2
 # define IS_DIR 1
 # define IS_ERR 0
+
 # define FOLLOW 0
 # define NOFOLLOW 1
+
 # define DIR_ERR_OPEN -1
 # define DIR_ERR_CLOSE -2
 # define DIR_ERR_MALLOC -3
 # define DIR_ERR_PRINT -3
+
 # define ERR_PRINT 1
 # define ERR_NOPRINT 0
 
@@ -167,13 +159,11 @@ int8_t				exit_dir(t_dirlist *dir, char *name, int8_t status,
 */
 
 char				*path(t_dirlist *dir, char *to_add);
-
 int8_t				error_handler(char *arg, int8_t status);
 uint8_t				is_anchor(char *name);
 uint8_t				is_hidden(char *name, t_opt *opt);
 void				is_dir(t_arg *arg, t_opt *opt);
 int8_t				is_dir_deep(t_entry *entry);
-
 int8_t				get_printdata(t_dirlist *dir, struct stat *stats,
 									t_printdata *data);
 int8_t				free_printdata(t_printdata *data, int8_t status);
@@ -187,7 +177,6 @@ char				get_type(uint16_t mode);
 int8_t				get_stats(char *path, struct stat *stats,
 								uint8_t nofollow);
 int8_t				get_symlink(t_printdata *data);
-
 char				*mkpath(t_dirlist *dir, char *to_add);
 typedef int8_t		(*cmp_ptr)(char*, char*, int8_t);
 
