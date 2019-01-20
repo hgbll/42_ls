@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:11:23 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/20 17:06:48 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 17:57:38 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -136,6 +136,17 @@ typedef struct		s_arg
 	char			type;
 	int				errno_value;
 }					t_arg;
+
+/*
+**	Sorting
+*/
+
+typedef struct		s_pos
+{
+	int				hi;
+	int				lo;
+	int				max;
+}					t_pos;
 
 /*
 **	Main Functions
