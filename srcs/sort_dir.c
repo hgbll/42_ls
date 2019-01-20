@@ -6,41 +6,11 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 18:35:37 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/20 16:37:44 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 17:20:34 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
-#include "libft.h"
-
-static int8_t		cmp_ascii(char *name1, char *name2, int8_t rev)
-{
-	int8_t			result;
-
-	result = ft_strcmp(name1, name2) > 0;
-	return (rev ? !result : result);
-}
-
-static int8_t		cmp_mtime(char *path1, char *path2, int8_t rev)
-{
-	struct stat		stats;
-	int8_t			result;
-	struct timespec	t1;
-	struct timespec	t2;
-
-	ft_bzero(&stats, sizeof(struct stat));
-	get_stats(path1, &stats, NOFOLLOW);
-	t1 = stats.st_mtimespec;
-	get_stats(path2, &stats, NOFOLLOW);
-	t2 = stats.st_mtimespec;
-	if (t1.tv_sec != t2.tv_sec)
-		result = t1.tv_sec < t2.tv_sec;
-	else if (t1.tv_nsec != t2.tv_nsec)
-		result = t1.tv_nsec < t2.tv_nsec;
-	else
-		return (cmp_ascii(path1, path2, rev));
-	return (rev ? !result : result);
-}
 
 static void			entry_swap(t_entry *data, size_t index)
 {
@@ -69,10 +39,42 @@ static void			bubble_sort(t_dirlist *dir, t_entry *data, cmp_ptr cmp,
 	}
 }
 
+/*
+	algorithm quicksort(A, lo, hi) is
+		if lo < hi then
+			p := partition(A, lo, hi)
+				quicksort(A, lo, p)
+				quicksort(A, p + 1, hi)
+
+	algorithm partition(A, lo, hi) is
+		pivot := A[(lo + hi) / 2]
+		i := lo - 1
+		j := hi + 1
+		loop forever
+		do
+				i := i + 1
+			while A[i] < pivot
+
+		do
+				j := j - 1
+			while A[j] > pivot
+
+		if i >= j then
+		return j
+
+		swap A[i] with A[j]
+
+static void			quicksort(t_entry *data,
+								cmp_ptr cmp,
+								int8_t rev)
+{
+
+}
+*/
 int8_t				sort_dir(t_dirlist *dir, t_opt *opt)
 {
 	cmp_ptr			cmp;
-
+	
 	if (opt->sort_mt)
 		cmp = &cmp_mtime;
 	else

@@ -6,7 +6,7 @@
 #    By: hbally <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/15 17:12:52 by hbally            #+#    #+#              #
-#    Updated: 2019/01/20 14:52:36 by hbally           ###   ########.fr        #
+#    Updated: 2019/01/20 17:08:01 by hbally           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -31,6 +31,7 @@ INCDIR				:=	$(LIBSUBDIRS:%=%/includes) \
 SRCS_RAW			:=	main.c 				\
 						display_dir.c		\
 						sort_dir.c			\
+						cmp.c				\
 						print_dirlist.c		\
 						print_entry.c		\
 						exit_dir.c			\
