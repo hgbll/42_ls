@@ -25,52 +25,24 @@ static void			bubble_sort(t_dirlist *dir, t_entry *data, cmp_ptr cmp,
 									int8_t rev)
 {
 	size_t			i;
+	size_t			j;
+	size_t			unsorted;
 
+	unsorted = dir->len;
 	i = 0;
-	while (i < dir->len - 1)
+	while (i < dir->len)
 	{
-		if ((cmp(data[i].path, data[i + 1].path, rev)))
+		j = 0;
+		while (j < unsorted - 1)
 		{
-			entry_swap(data, i);
-			i = (i > 0) ? i - 1 : i;
+			if(cmp(data[j].path, data[j + 1].path, rev))
+				entry_swap(data, j);
+			j++;
 		}
-		else
-			i++;
+		i++;
 	}
 }
 
-/*
-	algorithm quicksort(A, lo, hi) is
-		if lo < hi then
-			p := partition(A, lo, hi)
-				quicksort(A, lo, p)
-				quicksort(A, p + 1, hi)
-
-	algorithm partition(A, lo, hi) is
-		pivot := A[(lo + hi) / 2]
-		i := lo - 1
-		j := hi + 1
-		loop forever
-		do
-				i := i + 1
-			while A[i] < pivot
-
-		do
-				j := j - 1
-			while A[j] > pivot
-
-		if i >= j then
-		return j
-
-		swap A[i] with A[j]
-
-static void			quicksort(t_entry *data,
-								cmp_ptr cmp,
-								int8_t rev)
-{
-
-}
-*/
 int8_t				sort_dir(t_dirlist *dir, t_opt *opt)
 {
 	cmp_ptr			cmp;
