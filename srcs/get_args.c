@@ -86,11 +86,8 @@ t_arg			*get_args(int argc, char **argv, t_opt_u *opt, size_t *len)
 		return (NULL);
 	*len = 0;
 	i = start;
-	while (i < (size_t)argc)
-	{
+	while (i++ < (size_t)argc)
 		(*len)++;
-		i++;
-	}
 	args = fill_args(argv, len, start, &(opt->opt_struct));
 	if (args)
 	{
