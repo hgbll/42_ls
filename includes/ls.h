@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:11:23 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 20:49:41 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:14:48 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <sys/stat.h>
 # include <sys/xattr.h>
 # include <sys/types.h>
+# include <sys/acl.h>
 # include <sys/syslimits.h>
 # include <stdint.h>
 # include <stdio.h>
@@ -171,7 +172,7 @@ int8_t				error_handler(char *arg, int8_t status);
 uint8_t				is_anchor(char *name);
 uint8_t				is_hidden(char *name, t_opt *opt);
 void				is_dir(t_arg *arg, t_opt *opt);
-char				is_dir_deep(t_entry *entry);
+int8_t				is_dir_deep(t_entry *entry);
 
 int8_t				get_printdata(t_dirlist *dir, struct stat *stats,
 									t_printdata *data);

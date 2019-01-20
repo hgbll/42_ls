@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/14 16:19:39 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/19 21:55:27 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:23:57 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ int8_t				display_dir(char *name, t_opt *opt)
 	t_dirlist		dir;
 	static uint64_t	counter;
 	int8_t			status;
-	
+
 	if (opt->multi_arg || (opt->deep && counter != 0))
 		ft_printf("%s%s:\n", counter > 0 ? "\n" : "", name);
 	counter++;

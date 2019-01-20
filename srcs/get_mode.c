@@ -6,23 +6,11 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 18:02:10 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 20:38:54 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:25:10 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
-
-static int8_t		get_xattr(t_printdata *data)
-{
-	ssize_t			status;
-
-	status = listxattr(data->path, NULL, 0, XATTR_NOFOLLOW);
-	if (status > 0)
-		data->mode[10] = '@';
-	else
-		data->mode[10] = ' ';
-	return (0);
-}
 
 char				get_type(uint16_t mode)
 {
@@ -47,6 +35,29 @@ char				get_type(uint16_t mode)
 		return ('-');
 }
 
+static int8_t		get_xattr(t_printdata *data)
+{
+	if (listxattr(data->path, NULL, 0, XATTR_NOFOLLOW) > 0)
+	{
+		data->mode[10] = '@';
+		return (1);
+	}
+	return (0);
+}
+
+static int8_t		get_acl(t_printdata *data)
+{
+	acl_t			acl;
+
+	if ((acl = acl_get_link_np(data->path, ACL_TYPE_EXTENDED)))
+	{
+		data->mode[10] = '+';
+		acl_free(acl);
+		return (1);
+	}
+	return (0);
+}
+
 static void			set_bit(t_printdata *data, size_t index, t_mode *mode)
 {
 	if ((index == 2 && (mode->bits.extra & 4)) ||
@@ -64,10 +75,9 @@ static void			set_bit(t_printdata *data, size_t index, t_mode *mode)
 
 int8_t				get_mode(struct stat *stats, t_printdata *data)
 {
-	uint16_t 		i;
+	uint16_t		i;
 	size_t			j;
 	t_mode			mode;
-	int8_t			status;
 
 	mode.raw = stats->st_mode;
 	data->type = get_type(mode.raw);
@@ -83,7 +93,9 @@ int8_t				get_mode(struct stat *stats, t_printdata *data)
 		i /= 2;
 		j++;
 	}
-	status = get_xattr(data);
+	if (!get_xattr(data))
+		if (!get_acl(data))
+			data->mode[10] = ' ';
 	data->mode[11] = '\0';
-	return (status);
+	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 17:18:59 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/19 21:06:31 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:25:24 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ static void			update_padding(char *str, uint64_t n, uint16_t *current)
 **	Get padding for device major and minor when in /dev
 */
 
-static void			device_handler(t_dirlist *dir, t_printdata *data, 
+static void			device_handler(t_dirlist *dir, t_printdata *data,
 									struct stat *stats)
 {
 	dir->is_dev = 1;

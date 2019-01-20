@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 16:52:54 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/18 12:14:48 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:24:15 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 static void				free_dirlist(t_dirlist *dir)
 {
-	size_t 				i;
+	size_t				i;
 
 	if (dir->data)
 	{

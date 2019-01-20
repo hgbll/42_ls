@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/19 22:12:31 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/19 22:12:32 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:26:49 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,8 @@ static uint8_t			check_type(char c, int parse_option)
 
 static size_t			get_datalen(t_arg *args, int option, size_t len)
 {
-	size_t 		i;
-	size_t		datalen;
+	size_t				i;
+	size_t				datalen;
 
 	i = 0;
 	datalen = 0;
@@ -42,10 +42,10 @@ static size_t			get_datalen(t_arg *args, int option, size_t len)
 static int8_t			to_dir(t_dirlist *container, t_arg *args,
 									size_t len, int parse_option)
 {
-	size_t		i;
-	size_t		j;
-	size_t		datalen;
-	char		*name;
+	size_t				i;
+	size_t				j;
+	size_t				datalen;
+	char				*name;
 
 	if ((datalen = get_datalen(args, parse_option, len)) == 0)
 		return (0);
@@ -71,8 +71,8 @@ static int8_t			to_dir(t_dirlist *container, t_arg *args,
 
 int8_t					parse_args(t_arg *args, size_t len, t_opt *opt)
 {
-	t_dirlist	container;
-	size_t		counter;
+	t_dirlist			container;
+	size_t				counter;
 
 	counter = 0;
 	container.is_container = 1;

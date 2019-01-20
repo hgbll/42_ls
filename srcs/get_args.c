@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/19 22:12:27 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/19 22:12:28 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 15:24:31 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,6 @@ static void		sort_args(t_arg *args, size_t *len)
 	t_arg		swap;
 
 	i = 0;
-
 	unsorted = *len;
 	while (i < *len)
 	{
