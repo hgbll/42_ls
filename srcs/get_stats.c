@@ -18,7 +18,7 @@ int8_t			get_stats(char *path, struct stat *stats,
 	int8_t		status;
 
 	if (nofollow)
-		status = lstat(path, stats);
+		status = stat(path, stats);
 	else
 		status = stat(path, stats);
 	return (status);
