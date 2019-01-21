@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:11:23 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/20 17:57:38 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/21 11:33:25 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,19 +99,19 @@ typedef union		u_mode
 **	Print Data
 */
 
-typedef struct		s_paddings
+typedef struct		s_pad
 {
 	uint16_t		links;
 	uint16_t		size;
-	uint16_t		ownername;
-	uint16_t		groupname;
+	uint16_t		oname;
+	uint16_t		gname;
 	uint16_t		major;
 	uint16_t		minor;
-}					t_paddings;
+}					t_pad;
 
 typedef struct		s_printdata
 {
-	t_paddings		paddings;
+	t_pad		pad;
 	blkcnt_t		total_blocks;
 	char			*name;
 	char			type;
@@ -120,10 +120,8 @@ typedef struct		s_printdata
 	char			*path;
 	char			*size;
 	char			*target;
-	char			*ownername;
-	int				no_ownername;
-	char			*groupname;
-	int				no_groupname;
+	char			*oname;
+	char			*gname;
 }					t_printdata;
 
 /*

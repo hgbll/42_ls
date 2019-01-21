@@ -23,8 +23,8 @@ int8_t		get_names(struct stat *stats, t_printdata *data)
 	pw = getpwuid(stats->st_uid);
 	grp = getgrgid(stats->st_gid);
 	if (pw && pw->pw_name)
-		data->ownername = pw->pw_name;
+		data->oname = pw->pw_name;
 	if (grp && grp->gr_name)
-		data->groupname = grp->gr_name;
+		data->gname = grp->gr_name;
 	return (0);
 }

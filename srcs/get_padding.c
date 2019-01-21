@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/16 17:18:59 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/20 15:47:50 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/21 11:19:58 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,19 +43,19 @@ static void			device_handler(t_dirlist *dir, t_printdata *data,
 {
 	dir->is_dev = 1;
 	update_padding(NULL, (stats->st_rdev & 0xFF000000) >> 24,
-						&(data->paddings.major));
-	update_padding(NULL, stats->st_rdev & 0x00FFFFFF, &(data->paddings.minor));
+						&(data->pad.major));
+	update_padding(NULL, stats->st_rdev & 0x00FFFFFF, &(data->pad.minor));
 }
 
 /*
 **	Note : get_padding also calculates total block count for -R option
 */
 
-static void			add_whitespace(t_paddings *paddings)
+static void			add_whitespace(t_pad *pad)
 {
-	paddings->ownername += 1;
-	paddings->size += 1;
-	paddings->major += 2;
+	pad->oname += 1;
+	pad->size += 1;
+	pad->major += 2;
 }
 
 static void			get_namepadding(t_printdata *data, struct stat *stats)
@@ -66,9 +66,13 @@ static void			get_namepadding(t_printdata *data, struct stat *stats)
 	pw = getpwuid(stats->st_uid);
 	grp = getgrgid(stats->st_gid);
 	if (pw && pw->pw_name)
-		update_padding(pw->pw_name, 0, &(data->paddings.ownername));
+		update_padding(pw->pw_name, 0, &(data->pad.oname));
+	else
+		update_padding(NULL, stats->st_uid, &(data->pad.oname));
 	if (grp && grp->gr_name)
-		update_padding(grp->gr_name, 0, &(data->paddings.groupname));
+		update_padding(grp->gr_name, 0, &(data->pad.gname));
+	else
+		update_padding(NULL, stats->st_gid, &(data->pad.gname));
 }
 
 int8_t				get_padding(t_dirlist *dir, t_printdata *data)
@@ -87,12 +91,12 @@ int8_t				get_padding(t_dirlist *dir, t_printdata *data)
 			dir->data[i].is_subdir = 1;
 		if (get_type(stats.st_mode) == 'b' || get_type(stats.st_mode) == 'c')
 			device_handler(dir, data, &stats);
-		update_padding(NULL, (uint64_t)stats.st_size, &(data->paddings.size));
-		update_padding(NULL, (uint64_t)stats.st_nlink, &(data->paddings.links));
+		update_padding(NULL, (uint64_t)stats.st_size, &(data->pad.size));
+		update_padding(NULL, (uint64_t)stats.st_nlink, &(data->pad.links));
 		get_namepadding(data, &stats);
 		data->total_blocks += stats.st_blocks;
 		i++;
 	}
-	add_whitespace(&(data->paddings));
+	add_whitespace(&(data->pad));
 	return (0);
 }

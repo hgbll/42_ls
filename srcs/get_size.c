@@ -19,12 +19,12 @@ static int8_t	get_numbers(struct stat *stats, t_printdata *data)
 
 	if (data->type == 'c' || data->type == 'b')
 		status = ft_asprintf(&(data->size), "%*d, %*d",
-					data->paddings.major,
+					data->pad.major,
 					(stats->st_rdev & 0xFF000000) >> 24,
-					data->paddings.minor, stats->st_rdev & 0x00FFFFFF);
+					data->pad.minor, stats->st_rdev & 0x00FFFFFF);
 	else
 		status = ft_asprintf(&(data->size), "%*d",
-					data->paddings.major + data->paddings.minor + 2,
+					data->pad.major + data->pad.minor + 2,
 					stats->st_rdev);
 	return (status);
 }
@@ -40,11 +40,11 @@ int8_t			get_size(t_dirlist *dir, struct stat *stats, t_printdata *data)
 	{
 		if (dir->is_dev)
 		{
-			data->paddings.size = data->paddings.major +
-									data->paddings.minor + 2;
+			data->pad.size = data->pad.major +
+									data->pad.minor + 2;
 		}
 		status = ft_asprintf(&(data->size), "%*llu",
-								data->paddings.size, stats->st_size);
+								data->pad.size, stats->st_size);
 	}
 	return (status != -1 ? 0 : DIR_ERR_MALLOC);
 }
