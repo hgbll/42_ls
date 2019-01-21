@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 18:35:37 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/20 19:25:48 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/21 11:55:29 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,7 @@ static int			partition(t_entry *data, int lo, int hi, cmp_ptr cmp)
 static void			quicksort(t_entry *data, int lo, int hi, cmp_ptr cmp)
 {
 	int				p;
-	
+
 	if (lo < hi)
 	{
 		p = partition(data, lo, hi, cmp);
@@ -76,7 +76,7 @@ static void			quicksort(t_entry *data, int lo, int hi, cmp_ptr cmp)
 int8_t				sort_dir(t_dirlist *dir, t_opt *opt)
 {
 	cmp_ptr			cmp;
-	
+
 	if (opt->sort_mt)
 		cmp = &cmp_mtime;
 	else
