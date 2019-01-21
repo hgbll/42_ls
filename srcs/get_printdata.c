@@ -19,10 +19,6 @@ int8_t		free_printdata(t_printdata *data, int8_t status)
 		ft_memdel((void**)&(data->target));
 	if (data->size)
 		ft_memdel((void**)&(data->size));
-	if (data->no_ownername)
-		ft_memdel((void**)&(data->ownername));
-	if (data->no_groupname)
-		ft_memdel((void**)&(data->groupname));
 	return (status);
 }
 

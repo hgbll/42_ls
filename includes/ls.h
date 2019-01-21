@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:11:23 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/20 17:06:48 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 17:57:38 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -178,8 +178,8 @@ int8_t				get_stats(char *path, struct stat *stats,
 								uint8_t nofollow);
 int8_t				get_symlink(t_printdata *data);
 char				*mkpath(t_dirlist *dir, char *to_add);
-int8_t				cmp_mtime(char *path1, char *path2, int8_t rev);
-int8_t				cmp_ascii(char *name1, char *name2, int8_t rev);
-typedef int8_t		(*cmp_ptr)(char*, char*, int8_t);
+int8_t				cmp_mtime(char *path1, char *path2);
+int8_t				cmp_ascii(char *path1, char *path2);
+typedef int8_t		(*cmp_ptr)(char*, char*);
 
 #endif

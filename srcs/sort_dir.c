@@ -6,40 +6,70 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 18:35:37 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/20 17:20:34 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/20 19:25:48 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ls.h"
 
-static void			entry_swap(t_entry *data, size_t index)
+static void			entry_swap(t_entry *data, int i1, int i2)
 {
 	t_entry			swap;
 
-	swap = data[index];
-	data[index] = data[index + 1];
-	data[index + 1] = swap;
+	swap = data[i1];
+	data[i1] = data[i2];
+	data[i2] = swap;
 }
 
-static void			bubble_sort(t_dirlist *dir, t_entry *data, cmp_ptr cmp,
-									int8_t rev)
+static void			reverse(t_entry *data, size_t len)
 {
 	size_t			i;
 	size_t			j;
-	size_t			unsorted;
+	size_t			mid;
 
-	unsorted = dir->len;
 	i = 0;
-	while (i < dir->len)
+	j = len - 1;
+	mid = len / 2;
+	while (i < mid)
 	{
-		j = 0;
-		while (j < unsorted - 1)
-		{
-			if(cmp(data[j].path, data[j + 1].path, rev))
-				entry_swap(data, j);
-			j++;
-		}
+		entry_swap(data, i, j);
 		i++;
+		j--;
+	}
+}
+
+static int			partition(t_entry *data, int lo, int hi, cmp_ptr cmp)
+{
+	t_entry			pivot;
+	int				i;
+	int				j;
+
+	pivot = data[(lo + hi) / 2];
+	i = lo - 1;
+	j = hi + 1;
+	while (1)
+	{
+		i++;
+		while (cmp(pivot.path, data[i].path))
+			i++;
+		j--;
+		while (cmp(data[j].path, pivot.path))
+			j--;
+		if (i >= j)
+			return (j);
+		entry_swap(data, i, j);
+	}
+}
+
+static void			quicksort(t_entry *data, int lo, int hi, cmp_ptr cmp)
+{
+	int				p;
+	
+	if (lo < hi)
+	{
+		p = partition(data, lo, hi, cmp);
+		quicksort(data, lo, p, cmp);
+		quicksort(data, p + 1, hi, cmp);
 	}
 }
 
@@ -52,6 +82,10 @@ int8_t				sort_dir(t_dirlist *dir, t_opt *opt)
 	else
 		cmp = &cmp_ascii;
 	if (dir->len > 0)
-		bubble_sort(dir, dir->data, cmp, opt->rev);
+	{
+		quicksort(dir->data, 0, (int)(dir->len - 1), cmp);
+		if (opt->rev)
+			reverse(dir->data, dir->len);
+	}
 	return (0);
 }

@@ -17,7 +17,7 @@ static void				free_dirlist(t_dirlist *dir)
 {
 	size_t				i;
 
-	if (dir->data)
+	if (dir->data && !dir->is_container)
 	{
 		i = 0;
 		while (i < dir->len)
