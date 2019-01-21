@@ -67,12 +67,8 @@ static void			get_namepadding(t_printdata *data, struct stat *stats)
 	grp = getgrgid(stats->st_gid);
 	if (pw && pw->pw_name)
 		update_padding(pw->pw_name, 0, &(data->paddings.ownername));
-	else
-		update_padding(NULL, stats->st_uid, &(data->paddings.ownername));
 	if (grp && grp->gr_name)
 		update_padding(grp->gr_name, 0, &(data->paddings.groupname));
-	else
-		update_padding(NULL, stats->st_gid, &(data->paddings.groupname));
 }
 
 int8_t				get_padding(t_dirlist *dir, t_printdata *data)

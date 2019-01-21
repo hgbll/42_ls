@@ -12,9 +12,6 @@
 
 #include "ls.h"
 
-#include "libft.h" //DEBUG
-#include "stdlib.h" //DEBUG
-
 static void			entry_swap(t_entry *data, int i1, int i2)
 {
 	t_entry			swap;
@@ -44,8 +41,6 @@ static int			partition(t_entry *data,
 		j--;
 		while (cmp(data[j].path, pivot.path, rev))
 			j--;
-//		if (pos.lo == 1 && pos.hi == 2)
-//			ft_printf("i = %d, j = %d\n", i, j);
 		if (i >= j)
 			return (j);
 		entry_swap(data, i, j);
@@ -65,11 +60,9 @@ static void			quicksort(t_entry *data,
 		p = partition(data, pos, cmp, rev);
 		new.lo = pos.lo;
 		new.hi = p;
-//		ft_printf("[1]Quicksorting from %d to %d\n", new.lo, new.hi);
 		quicksort(data, new, cmp, rev);
 		new.lo = p + 1;
 		new.hi = pos.hi;
-//		ft_printf("[2]Quicksorting from %d to %d\n", new.lo, new.hi);
 		quicksort(data, new, cmp, rev);
 	}
 }
@@ -90,6 +83,5 @@ int8_t				sort_dir(t_dirlist *dir, t_opt *opt)
 		pos.max = pos.hi;
 		quicksort(dir->data, pos, cmp, opt->rev);
 	}
-	exit(0);
 	return (0);
 }
