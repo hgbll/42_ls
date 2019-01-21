@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 17:11:23 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/21 11:33:25 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/21 12:06:03 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -111,7 +111,7 @@ typedef struct		s_pad
 
 typedef struct		s_printdata
 {
-	t_pad		pad;
+	t_pad			pad;
 	blkcnt_t		total_blocks;
 	char			*name;
 	char			type;
@@ -178,6 +178,5 @@ int8_t				get_symlink(t_printdata *data);
 char				*mkpath(t_dirlist *dir, char *to_add);
 int8_t				cmp_mtime(char *path1, char *path2);
 int8_t				cmp_ascii(char *path1, char *path2);
-typedef int8_t		(*cmp_ptr)(char*, char*);
 
 #endif

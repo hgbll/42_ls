@@ -6,7 +6,7 @@
 /*   By: hbally <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/15 18:35:37 by hbally            #+#    #+#             */
-/*   Updated: 2019/01/21 11:55:29 by hbally           ###   ########.fr       */
+/*   Updated: 2019/01/21 12:05:54 by hbally           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,8 @@ static void			reverse(t_entry *data, size_t len)
 	}
 }
 
-static int			partition(t_entry *data, int lo, int hi, cmp_ptr cmp)
+static int			partition(t_entry *data, int lo, int hi,
+								int8_t (*cmp)(char*, char*))
 {
 	t_entry			pivot;
 	int				i;
@@ -61,7 +62,8 @@ static int			partition(t_entry *data, int lo, int hi, cmp_ptr cmp)
 	}
 }
 
-static void			quicksort(t_entry *data, int lo, int hi, cmp_ptr cmp)
+static void			quicksort(t_entry *data, int lo, int hi,
+								int8_t (*cmp)(char*, char*))
 {
 	int				p;
 
@@ -75,7 +77,7 @@ static void			quicksort(t_entry *data, int lo, int hi, cmp_ptr cmp)
 
 int8_t				sort_dir(t_dirlist *dir, t_opt *opt)
 {
-	cmp_ptr			cmp;
+	int8_t			(*cmp)(char*, char*);
 
 	if (opt->sort_mt)
 		cmp = &cmp_mtime;
